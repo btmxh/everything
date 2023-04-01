@@ -1,0 +1,92 @@
+{
+  "main": {
+    "id": "e21ee2768821a123",
+    "type": "split",
+    "children": [
+      {
+        "id": "a42fbce17cae9804",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f366f6f81606f81b",
+    "type": "split",
+    "children": [
+      {
+        "id": "81e5f3388fc6606b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd9349628f37c85c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "55acd4f35babc256",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f1fb825814246907",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba67bd4969c5d563",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4baece6a639f018",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "a42fbce17cae9804",
+  "lastOpenFiles": [
+    "maths/calc.md",
+    "rfc/0000-rfc.md",
+    "rfc/0001-ai-embracement.md",
+    "rfc/0002-invest.md"
+  ]
+}
