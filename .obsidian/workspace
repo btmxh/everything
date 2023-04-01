@@ -7,8 +7,12 @@
         "id": "a42fbce17cae9804",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,6 +89,7 @@
   },
   "active": "a42fbce17cae9804",
   "lastOpenFiles": [
+    "README.md",
     "maths/calc.md",
     "rfc/0000-rfc.md",
     "rfc/0001-ai-embracement.md",
