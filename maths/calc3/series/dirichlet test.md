@@ -14,7 +14,7 @@ therefore we have qed
 ## uni conv.
 if $a_{n}$ uni conv. to 0, we can conclude that $S$ uni conv. too
 **proof**
-we prove that both $\sum_{k=1}^{n-1}\Delta a_{k} sb_{k}$ and $a_{n}sb_{n}$ uni conv. as $n\to \infty$, using cauchy criterion
+we prove that both $\sum_{k=1}^{n-1}\Delta a_{k} sb_{k}$ and $a_{n}sb_{n}$ uni conv. as $n\to \infty$, using [[cauchy]] criterion
 - let the first thing be $A_{n}=\sum_{k=1}^{n-1}\Delta a_{k}sb_{k}$, then
 	- $|A_{n}-A_{m}|=|\sum_{k=m}^{n-1}\Delta a_{k}sb_{k}|\le M|\sum_{k=m}^{n-1}\Delta a_{k}|\le M|a_{m}-a_{n}|$
 	- RHS $\to 0$ as $m,n\to\infty$
@@ -27,4 +27,7 @@ $a_{n}=f(n)= \frac{\ln(n)^{100}}{n}$ then $\lim_{ n \to \infty }a_{n}=0$ and $f'
 $b_{n}=\sin \frac{\pi n}{4}$ clearly satisfies $sb_{n}$ is bounded
 => conv using [[dirichlet test]]
 (another way is to split the series into 4 series by $n\ \text{mod}\ 4$)
+
+## [[paraim]]
+
 

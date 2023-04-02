@@ -10,3 +10,5 @@ we prove that $\lim_{ n \to \infty } \sqrt[n]{ |a_{n}| } = L$ and then proceed w
 $\forall \varepsilon>0, \exists n_{0}$ s.t. $L-\varepsilon<|\frac{a_{n+1}}{a_{n}}|<L+\varepsilon, \forall n\geq n_{0}$
 then $|a_{n_{0}}|(L-\varepsilon)^{n-n_{0}} < |a_{n}| < |a_{n_{0}}|(L+\varepsilon)^{n-n_{0}}$
 taking the nth-root => $L-\varepsilon\leq\lim_{ n \to \infty } \sqrt[n]{ |a_{n}| }\leq L+\varepsilon$ => qed
+
+## 

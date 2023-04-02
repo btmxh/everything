@@ -4,6 +4,15 @@ $\exists \lim_{ x \to x_{0} }f(x)$ iff $\lim_{ x_{1}, x_{2} \to x_{0}}|f(x_{1})-
 ## [[uniconv]]
 $f_{i}$ uniconv to some $f$ equivalent to $\lim_{i_1, i_2 \to i_0} \sup_{x\in S} |f_{i_1}(x)-f_{i_2}(x)| = 0$
 
+e.g. $\sum_{n=1}^{\infty}\arctan \frac{2x}{x^{2}+n^{2}}$/$\mathbb R$
+$|S_{2n}-S_{n}|=|\sum_{k=n+1}^{2n}\arctan \frac{2x}{x^{2}+n^{2}}|$
+letting $x=n$ then it's trivial to see RHS$>n\arctan \frac{2}{5n} \to \frac{2}{5}$ as $n\to\infty$
+=> not [[uniconv]]
+
+e.g. $\sum_{n=1}^{\infty}2^{n}\sin \frac{1}{3^{n}x}$/$\mathbb R^{+}$
+$|S_{n}-S_{n-1}|=|2^{n}\sin \frac{1}{3^{n}x}|$, letting $x=\frac{2}{3^{n}\pi}$, RHS -> $\infty$
+=> not [[uniconv]]
+
 e.g. $\sum_{n=1}^\infty \frac{\sin nx}n$ on $[\varepsilon, 2\pi-\varepsilon], [0, 2\pi]$
 - $[\varepsilon, 2\pi-\varepsilon]$
 	- use [[dirichlet test]] for uni conv.
@@ -12,7 +21,7 @@ e.g. $\sum_{n=1}^\infty \frac{\sin nx}n$ on $[\varepsilon, 2\pi-\varepsilon], [0
 	- $a_{n}$ monotonic and uni. conv. since it's a const fn
 	- => qed
 - $[0, 2\pi]$
-	- use cauchy criterion with $m=2n$
+	- use [[cauchy]] criterion with $m=2n$
 	- need to pick $x$ s.t. $\lim_{n\to\infty} |\sum_{k=n+1}^{2n} \frac{\sin kx}{k}| \ne 0$
 	- first pick $x$ small s.t. $\sin kx \geq 0 \forall k\in n+1..2n$, aka $x\leq \frac{\pi}{2n}$
 	- then the sum $> \frac{1}{2n}\sum_{k=n+1}^{2n} \sin kx$

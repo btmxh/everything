@@ -38,3 +38,10 @@ $$
 $$
 => split into 2 series: the first one conv. using [[leibnitz test]], the second one conv. iff $\alpha\beta+\alpha>1$
 **conclusion**: conv iff $\alpha\beta+\alpha>1$ and $\alpha,\beta>0$
+
+**NOTE: u can use this to prove [[uniconv]]**
+**proof**
+similar reasoning => $|S(x)-S_{n}(x))|\leq|f_{n+1}(x)|\to 0$ as $n\to\infty$
+=> the sup tends to 0 => qed
+
+e.g. $\sum_{n=1}^{\infty} \frac{(-1)^{n}}{x+n}$/$\mathbb R^{+}$
