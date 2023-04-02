@@ -1,0 +1,1 @@
+$\sum_{n=k}^\infty q^n=\frac{q^k}{1-q}$ (conv only when $|q|<1$)

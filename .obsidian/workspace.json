@@ -1,0 +1,516 @@
+{
+  "main": {
+    "id": "e21ee2768821a123",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c5d0c9850a96975",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a42fbce17cae9804",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/dgeom/normal.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "94b65fb0091c03b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/dgeom/normal.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4873a49621b23db3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/dgeom/curvature.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d63ea74d8ae85c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/dgeom/curvature.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e095255801ae9336",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/dgeom/osculating.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dbabe321cdc96662",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/dgeom/osculating.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "97c9a7f22ce32394",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/dgeom/evolute.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28d553d15ba73934",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/dgeom/evolute.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b65826512bbde698",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/dgeom/envelope.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0088c082479fc3fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/dgeom/curve.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f305661570058838",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/dgeom/envelope.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "50ea2d1abfe6fca0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/paraint/paraint.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7d5ca4445d96b5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/paraint/paraim.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ce9ce7de145581b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/paraint/uniconv.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "42245c473e2e7106",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/paraint/uniconv.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3d863b4c290a5852",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/paraint/uniconv.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "268bd1140be22f6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/paraint/cauchy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "287b9bacba94ed9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/paraint/uniconv.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "57f2e4e28f3640e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/paraint/uniconv.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "52c1954a7ec6073e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/paraint/weierstrass m-test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c325016dd6575451",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc3/series/series.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c0c1907fbc88ba11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc3/series/series.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c0765c7a4f41ab0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc3/series/series.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "706ee8df1423ead2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc3/series/geom series.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e951c04c37409308",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc3/series/int test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1a95806cf9ae1f25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc3/series/root test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "06610cc0164a5b45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc3/series/ratio test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f64875aa78b3ce45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc3/series/n term test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aea8052b7eec97db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/dgeom/osculating.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a94365d2e9e9b319",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/dgeom/osculating.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5f189d4f989d48fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc1/implicit fn theorem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3fda4c0e3944cf7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/dgeom/tangent.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 27
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f366f6f81606f81b",
+    "type": "split",
+    "children": [
+      {
+        "id": "81e5f3388fc6606b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd9349628f37c85c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "55acd4f35babc256",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f1fb825814246907",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba67bd4969c5d563",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4baece6a639f018",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "maths/calc3/series/n term test.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "f64875aa78b3ce45",
+  "lastOpenFiles": [
+    "maths/calc3/series/dirichlet test.md",
+    "maths/calc3/series/leibnitz test.md",
+    "maths/calc3/series/geom series.md",
+    "maths/calc3/series",
+    "maths/calc3/series/ratio test.md",
+    "maths/calc3/series/root test.md",
+    "maths/calc3/series/series.md",
+    "maths/calc3/Untitled.md",
+    "maths/calc2/paraint/weierstrass m-test.md",
+    "maths/calc2/paraint/paraim.md",
+    "maths/calc3/cauchy test.md",
+    "maths/calc3/series/int test.md",
+    "maths/calc3/series/n term test.md",
+    "maths/calc2/paraint/uniconv.md",
+    "maths/calc2/paraint/cauchy.md",
+    "maths/calc2/paraint/dct.md",
+    "maths/calc2/Untitled.md",
+    "maths/calc2/paraint/paraint.md",
+    "maths/calc2/dgeom/envelope.md",
+    "maths/calc2/paraint",
+    "maths/calc2/dgeom/evolute.md",
+    "maths/calc2/dgeom/osculating.md",
+    "maths/calc2/dgeom/curvature.md",
+    "maths/calc2/dgeom/frenet-serret formulas.md",
+    "maths/calc2/dgeom/curve.md",
+    "asset/Pasted image 20230401204147.png",
+    "asset",
+    "asset/Pasted image 20230401203721.png",
+    "maths/calc2/dgeom/surface.md",
+    "maths/calc2/dgeom/tangent.md",
+    "rfc/Untitled",
+    "maths/calc1"
+  ]
+}

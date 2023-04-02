@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "maths/calc2/dgeom/tangent.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "maths/calc2/dgeom/tangent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,10 +89,12 @@
   },
   "active": "a42fbce17cae9804",
   "lastOpenFiles": [
-    "README.md",
-    "maths/calc.md",
+    "maths/calc2/dgeom/tangent.md",
+    "maths/calc2/Untitled.md",
     "rfc/0000-rfc.md",
     "rfc/0001-ai-embracement.md",
-    "rfc/0002-invest.md"
+    "rfc/0002-invest.md",
+    "README.md",
+    "maths/calc.md"
   ]
 }
