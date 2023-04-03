@@ -16,9 +16,13 @@ However, all of this must stop before it was too late. If the nation keeps on be
 This has some relations with the [[0002-invest]] proposal. 
 
 ### AI researching
+The process of AI researching has not been executed much due to the lack of training data, applications, computing power and researching direction, etc.
+
 ### Cautious of hype trains
+The AI hype train is somewhat similar to previous hype trains such as NFTs, cryptocurrency, etc., which is basically a scam to take people's money. It's integral to be cautious of these potential hype trains that may be a problem of the nation in the future.
 
 ## Alternatives
-The alternative to 
+There is no sane alternative to this rfc since the embracement of AI technologies is inevitable if one's technological department wants to evolve during this era.
+
 ## FAQ
 

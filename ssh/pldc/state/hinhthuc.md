@@ -1,0 +1,21 @@
+ht of state
+- ht chính thể: cách thức tổ chức q lực nn
+	- chính thể quân chủ: 
+		- ql thuộc về 1 ng
+		- kế thừa ql thông qua kế thừa
+		- biến dạng
+			- qc tuyệt đối: h ko còn, e.g. vn pk
+			- qc lập hiến/hạn chế
+				- ql chia 2 phần, 1 phần của vua, 1 phần của nghị viện (do bầu cử bầu ra)
+				- e.g. uk
+	- chính thể cộng hòa:
+		- ql thuộc về nh ng
+		- kế thừa ql thông qua bầu cử
+			- cộng hòa tổng thống
+				- nghị viện do dân bầu
+				- nguyên thủ do dân bầu
+				- tổng thống: nguyên thủ + đứng đầu cp
+				- theo thuyết tam quyền phân lập (3 quyền hành tư lập chia cho 3 cơ quan khác nhau)
+				- e.g. usa
+			- cộng hòa
+			- cộng hòa

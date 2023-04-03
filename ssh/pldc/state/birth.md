@@ -1,0 +1,20 @@
+- h cảnh: cộng sản nguyên thủy
+	- nền [[k tế tự nhiên]]
+	- ko có [[tư hữu]]
+	- hình thức tổ chức xh: bộ lạc thị tộc
+	- => ko [[giai cấp]], [[bóc lột]]
+	- => mẫu hệ (vì hái lượm stable > săn bắt)
+- 3 lần phân công lđ
+	- chăn nuôi tách khỏi trồng trọt
+	- thủ công nghiệp tách khỏi nông nghiệp
+	- **thương nghiệp xh**
+- => sxvc dư thừa => [[k tế sản xuất]]
+	- tư hữu xh => csnt sụp đổ, xh giai cấp
+		- gc cao
+			- bảo vệ q lực của mình
+			- lấy thêm ccvc vào tư hữu
+		- gc thấp
+			- leo lên gc cao hơn
+			- kéo gc cao hơn xuống
+		- => xung đột gc => state ra đời
+	- 

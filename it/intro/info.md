@@ -1,0 +1,3 @@
+- abstract
+- bring upon knowledge to human about stuff
+- objective, can be created/destroyed/stored/modified/etc.

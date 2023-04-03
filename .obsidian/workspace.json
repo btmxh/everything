@@ -4,83 +4,155 @@
     "type": "split",
     "children": [
       {
-        "id": "8743e9d57ee6caef",
+        "id": "5de4aa18ca9cbb7d",
         "type": "tabs",
         "children": [
           {
-            "id": "e369cf40f450c68b",
+            "id": "cdf4b52ebecbfff3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/calc2/paraint/paraim.md",
+                "file": "ssh/pldc/state/source.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d9723407f8a13360",
+            "id": "b1d5b9bc4d6b6a9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/calc2/paraint/paraim.md",
+                "file": "ssh/pldc/state/source.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "709634db548a2421",
+            "id": "efb443eec71e35a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/calc2/paraint/paraint.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e4ab75c1bc9a297b",
+            "id": "c7e4cec800ec7185",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/calc2/paraint/paraint.md",
+                "file": "rfc/0002-invest.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0e10eb48733414e2",
+            "id": "a5260968a7f8e141",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/calc2/paraint/uniconv.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5b96f0a7c09bc01d",
+            "id": "5f5df52febcd6e56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/calc2/paraint/uniconv.md",
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "deae4bebbdbfe364",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6079dcc4442d9955",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "it/intro/op.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e50d2603ff0f702c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "it/intro/float.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54477be61da8d3c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ssh/pldc/state/birth.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0314ab1d58b2ef9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rfc/0002-invest.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fde1812c15a15a0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ssh/pldc/state/birth.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -138,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "maths/calc2/paraint/paraint.md",
+                "file": "it/intro/float.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,49 +230,59 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "709634db548a2421",
+  "active": "e50d2603ff0f702c",
   "lastOpenFiles": [
-    "maths/calc2/paraint/paraim.md",
-    "maths/calc2/paraint/uniconv.md",
-    "maths/calc2/paraint/paraint.md",
+    "Pasted image 20230403164918.png",
+    "Pasted image 20230403164909.png",
+    "Pasted image 20230403164849.png",
+    "it/intro/op.md",
+    "it/intro/float.md",
+    "Pasted image 20230403155247.png",
+    "Pasted image 20230403155229.png",
+    "it/intro/unsigned.md",
+    "it/intro/signed.md",
+    "it/intro/base 10.md",
     "Untitled.md",
-    "maths/calc3/series/weierstrass m-test.md",
-    "maths/calc2/paraint/cauchy.md",
-    "maths/calc3/series/fn series.md",
-    "maths/calc3/series/abel test.md",
-    "maths/calc3/series/leibnitz test.md",
-    "maths/calc3/series/dirichlet test.md",
-    "maths/calc3/series/abs conv.md",
-    "maths/calc3/series/comparison test.md",
-    "maths/calc3/series/n term test.md",
-    "maths/calc3/series/ratio test.md",
-    "maths/calc3/series/series.md",
-    "maths/calc2/dgeom/frenet-serret formulas.md",
+    "it/intro/unit.md",
+    "it/intro/repr.md",
+    "it/intro/program.md",
+    "it/intro/process.md",
+    "it/intro/numbering system.md",
+    "it/intro/knowledge.md",
+    "it/intro/it.md",
+    "it/intro/info system.md",
+    "it/intro/info.md",
+    "it/intro/data.md",
+    "it/intro/computer.md",
+    "it/intro/base b.md",
+    "Untitled 1.md",
+    "ssh/pldc/state/hinhthuc.md",
+    "it/intro",
+    "Untitled",
+    "it",
+    "rfc/0002-invest.md",
+    "ssh/pldc/state/đ trưng.md",
+    "ssh/pldc/state/source.md",
+    "rfc/0001-ai-embracement.md",
+    "rfc/0000-rfc.md",
+    "Pasted image 20230403122033.png",
+    "ssh/pldc/state",
+    "ssh/pldc",
+    "ssh/ktct",
+    "ssh",
     "assets/Pasted image 20230401203721.png",
-    "maths/calc1/implicit fn theorem.md",
-    "maths/calc3/series/convo.md",
-    "maths/calc3/series/cond conv.md",
-    "maths/calc2/dgeom/osculating.md",
-    "maths/calc3/series/rearrangement.md",
-    "maths/calc3/series/root test.md",
     "Untitled.canvas",
-    "maths/calc3/series/geom series.md",
     "maths/calc3/series",
-    "maths/calc3/Untitled.md",
-    "maths/calc3/cauchy test.md",
-    "maths/calc3/series/int test.md",
     "maths/calc2/paraint",
     "assets/Pasted image 20230401204147.png",
-    "assets",
-    "rfc/Untitled",
-    "maths/calc1"
+    "assets"
   ]
 }
