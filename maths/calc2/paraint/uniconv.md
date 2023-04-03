@@ -72,7 +72,9 @@ $$
 $$\leq (b-a)\lim_{ i \to i_{0} } \sup_{x\in[a,b]}|f_{i}(x)-f(x)| = 0
 $$
 
-### im. int.
-
-
 ### diff
+$f_{n},f'_{n}$ cont, $f'_{n}$ [[uniconv]] and $f_{n}$ conv to $f$ then $f'(x)=\lim_{ n \to \infty }f'_{n}(x)$
+**proof**
+let $f'_{n}$ [[uniconv]] to $g$ => $g$ cont and
+$\int_{a}^x g(t)dt=\lim_{ n \to \infty }\int _{a}^xf'_{n}(t)dt=\lim_{ n \to \infty }(f_{n}(x)-f_{n}(a))=f(x)-f(a)$
+taking the derv. of two sides => $g(x)=f'(x)$ => qed

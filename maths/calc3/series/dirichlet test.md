@@ -11,8 +11,8 @@ since $sb_{n} \leq M$, abs of RHS is le to $M\left( \sum_{k=1}^{n-1}|\Delta a_{k
 as $n\to \infty$, $Ma_{n} \to 0$ and since $a_{n}$ monotonic, we can extend the abs sign to the whole sum, giving us a nice telescoping sum which reduces to $M|a_{1}-a_{n}| \to Ma_{1}$
 therefore we have qed
 
-## uni conv.
-if $a_{n}$ uni conv. to 0, we can conclude that $S$ uni conv. too
+## [[uniconv]].
+if $a_{n}$ uni conv. to 0 + $sb_{n}$ uniformly bounded, we can conclude that $S$ uni conv. too
 **proof**
 we prove that both $\sum_{k=1}^{n-1}\Delta a_{k} sb_{k}$ and $a_{n}sb_{n}$ uni conv. as $n\to \infty$, using [[cauchy]] criterion
 - let the first thing be $A_{n}=\sum_{k=1}^{n-1}\Delta a_{k}sb_{k}$, then
@@ -29,5 +29,8 @@ $b_{n}=\sin \frac{\pi n}{4}$ clearly satisfies $sb_{n}$ is bounded
 (another way is to split the series into 4 series by $n\ \text{mod}\ 4$)
 
 ## [[paraim]]
-
+e.g. $\int _{0}^{+\infty} \frac{\sin{xt}}{\sqrt{ t }}dt$, $x\in[x_{0}>0,+\infty)$
+$b(t)=\sin xt$ => $\int _{0}^\beta b(t)dt=\frac{1-\cos\beta x}{x}$ uniformly bounded (note the existence of $x_{0}$)
+$a(t)=\frac{1}{\sqrt{ t }}$ monotonic dec lim = 0 as $t\to\infty$
+=> [[uniconv]] using [[dirichlet test]]
 

@@ -4,35 +4,83 @@
     "type": "split",
     "children": [
       {
-        "id": "818ee200b43c2dad",
+        "id": "8743e9d57ee6caef",
         "type": "tabs",
         "children": [
           {
-            "id": "806866dba1f03960",
+            "id": "e369cf40f450c68b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/calc3/series/fn series.md",
+                "file": "maths/calc2/paraint/paraim.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b2766176aee8d238",
+            "id": "d9723407f8a13360",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/calc3/series/dirichlet test.md",
+                "file": "maths/calc2/paraint/paraim.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "709634db548a2421",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/paraint/paraint.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e4ab75c1bc9a297b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/paraint/paraint.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0e10eb48733414e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/paraint/uniconv.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5b96f0a7c09bc01d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/paraint/uniconv.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "maths/calc3/series/dirichlet test.md",
+                "file": "maths/calc2/paraint/paraint.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,40 +166,40 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b2766176aee8d238",
+  "active": "709634db548a2421",
   "lastOpenFiles": [
     "maths/calc2/paraint/paraim.md",
-    "maths/calc2/paraint/paraint.md",
     "maths/calc2/paraint/uniconv.md",
-    "maths/calc3/series/fn series.md",
-    "maths/calc1/implicit fn theorem.md",
+    "maths/calc2/paraint/paraint.md",
+    "Untitled.md",
+    "maths/calc3/series/weierstrass m-test.md",
     "maths/calc2/paraint/cauchy.md",
-    "maths/calc3/series/leibnitz test.md",
-    "maths/calc2/paraint/weierstrass m-test.md",
-    "maths/calc3/series/dirichlet test.md",
-    "maths/calc3/series/ratio test.md",
-    "maths/calc3/series/comparison test.md",
+    "maths/calc3/series/fn series.md",
     "maths/calc3/series/abel test.md",
+    "maths/calc3/series/leibnitz test.md",
+    "maths/calc3/series/dirichlet test.md",
+    "maths/calc3/series/abs conv.md",
+    "maths/calc3/series/comparison test.md",
+    "maths/calc3/series/n term test.md",
+    "maths/calc3/series/ratio test.md",
+    "maths/calc3/series/series.md",
+    "maths/calc2/dgeom/frenet-serret formulas.md",
+    "assets/Pasted image 20230401203721.png",
+    "maths/calc1/implicit fn theorem.md",
     "maths/calc3/series/convo.md",
     "maths/calc3/series/cond conv.md",
     "maths/calc2/dgeom/osculating.md",
-    "maths/calc3/series/abs conv.md",
     "maths/calc3/series/rearrangement.md",
     "maths/calc3/series/root test.md",
-    "maths/calc3/series/series.md",
     "Untitled.canvas",
-    "maths/calc3/series/n term test.md",
     "maths/calc3/series/geom series.md",
     "maths/calc3/series",
     "maths/calc3/Untitled.md",
     "maths/calc3/cauchy test.md",
     "maths/calc3/series/int test.md",
-    "maths/calc2/paraint/dct.md",
-    "maths/calc2/Untitled.md",
     "maths/calc2/paraint",
-    "asset/Pasted image 20230401204147.png",
-    "asset",
-    "asset/Pasted image 20230401203721.png",
+    "assets/Pasted image 20230401204147.png",
+    "assets",
     "rfc/Untitled",
     "maths/calc1"
   ]

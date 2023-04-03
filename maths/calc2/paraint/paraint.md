@@ -16,6 +16,7 @@ s.t. $f$ R-int wrt $x\in[a,b], \forall y\in[c,d]$
 - $\alpha, \beta$ cont/y-space
 
 see [[dct]]
+**NOTE: not applicable for im.int.**, u need to use the [[uniconv]] cont condition
 
 **proof**
 $\alpha, \beta$ cont/y-space => $\alpha(y)=\alpha(y_0)+o(y-y_0), \beta(y)=\beta(y_0)+o(y-y_0)$
@@ -71,3 +72,8 @@ only applicable for $\alpha, \beta$ const, cond: same as cont.
 $$
 \int_c^d \int_\alpha^\beta f(x,y)dxdy=\int_\alpha^\beta \int_c^d f(x,y)dydx = \iint_{[\alpha,\beta]\times[c,d]} f(x,y)dr
 $$
+
+e.g. $\lim_{ \alpha \to 0 }\int _{\alpha}^{\alpha+1} \frac{dx}{1+x^{2}+\alpha^{2}}$
+- $L=\lim_{ \alpha \to 0 }\left(\int _{0}^{1} \frac{dx}{1+x^{2}+\alpha^{2}} - \int _{0}^\alpha  \frac{dx}{1+x^{2}+\alpha^{2}}+\int _{1}^{1+\alpha} \frac{dx}{1+x^{2}+\alpha^{2}}\right)$
+- the second and third integral tends to 0 (easily proven because the integrand is bounded)
+- the first one is cont => lim = $\frac{\pi}{2}$
