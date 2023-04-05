@@ -23,6 +23,7 @@ is the pl of $I_t(y)=\int_a^t g(x,y)dx$ as $t \to \infty$
 - [[weierstrass m-test]]
 - [[dirichlet test]]
 - [[leibnitz test]]
+- [[abel test]]
 
 e.g. $\sum_{n=1}^\infty x^n$/$[0,1-\varepsilon]$ and $[0,1]$
 $S_{n}=\frac{x-x^{n+1}}{1-x}$
@@ -58,7 +59,7 @@ $=(b-a)\lim_{ i \to i_{0} }\sup_{x\in S}|f(x)-f_{i}(x)| = 0$, qed
 - then to achieve $u\leq f\leq v$, one takes: $u=u_{n}-\varepsilon_{2}, v=v_{n}+\varepsilon_{2}$
 - now we have $\int _{a}^{b}|u(x)-v(x)|dx=\int _{a}^b (v_{n}(x)-u_{n}(x)+2\varepsilon_{2})dx$$<\varepsilon_{1}+4(b-a)\varepsilon_{2}$: arbitarily small => qed
 
-e.g. prove that if $f_{i}$ cont, [[uniconv]] to $f$, then
+e.g. prove that if $f_{i}$ cont, [[uniconv]] to $f$ ($S=[a,b]$), then
 $$
 \lim_{ i \to i_{0} } \int _{a}^b \left( \int _{a}^xf_{i}(t)dt\right)dx = \int _{a}^b\left( \int _{a}^x f(t)dt  \right) dx 
 $$
@@ -71,10 +72,19 @@ $$
 \leq \lim_{ i \to i_{0} } \sup_{x\in[a,b]}(x-a)\sup_{x'\in[x,a]}|f_{i}(x')-f(x')|$$
 $$\leq (b-a)\lim_{ i \to i_{0} } \sup_{x\in[a,b]}|f_{i}(x)-f(x)| = 0
 $$
+=> qed using the squeeze theorem
 
 ### diff
-$f_{n},f'_{n}$ cont, $f'_{n}$ [[uniconv]] and $f_{n}$ conv to $f$ then $f'(x)=\lim_{ n \to \infty }f'_{n}(x)$
+$S=(a,b)$, $f'_{i}$ cont, $f'_{i}$ [[uniconv]] and $f_{i}$ conv to $f$ then $f'(x)=\lim_{ i \to i_{0} }f'_{n}(x)$
 **proof**
-let $f'_{n}$ [[uniconv]] to $g$ => $g$ cont and
+let $f'_{i}$ [[uniconv]] to $g$ => $g$ cont and
 $\int_{a}^x g(t)dt=\lim_{ n \to \infty }\int _{a}^xf'_{n}(t)dt=\lim_{ n \to \infty }(f_{n}(x)-f_{n}(a))=f(x)-f(a)$
 taking the derv. of two sides => $g(x)=f'(x)$ => qed
+
+- e.g. $\sum_{n=1}^{\infty}(-1)^{n-1} \frac{1}{\sqrt{ n+1 }}\arctan \frac{x}{\sqrt{ n+1 }}$
+	- $f_{n}(x)=(-1)^{n-1} \frac{1}{\sqrt{ n+1 }}\arctan \frac{x}{\sqrt{ n+1 }}$
+	- then $f'_{n}(x)=(-1)^{n-1}\left( \frac{1}{n+1} \frac{1}{1+\frac{x^{2}}{n+1}} \right)=\frac{(-1)^{n-1}}{n+1+x^{2}}$ cont/$\mathbb R$
+	- $\sum_{n=1}^\infty f_{n}(x)$ conv due to [[leibnitz test]] (notice the sign of $f'_{n}(x)$)
+	- $\sum_{n=1}^\infty f'_{n}(x)$ [[uniconv]] yet again due to [[leibnitz test]]
+	- => $f'(x)=\sum_{n=1}^\infty \frac{(-1)^{n-1}}{n+1+x^{2}}$
+

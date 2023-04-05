@@ -1,0 +1,4 @@
+- nt svht trong mlh
+- nt svht trong t thai ko ngung vdbdptr
+- nt mth la dong luc ptr
+- nt ptr la stdvl -> stdvc

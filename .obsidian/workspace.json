@@ -4,155 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5de4aa18ca9cbb7d",
+        "id": "ec0c66bc25cc985e",
         "type": "tabs",
         "children": [
           {
-            "id": "cdf4b52ebecbfff3",
+            "id": "bdb129324ccda3bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ssh/pldc/state/source.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1d5b9bc4d6b6a9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ssh/pldc/state/source.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "efb443eec71e35a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c7e4cec800ec7185",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rfc/0002-invest.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5260968a7f8e141",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5f5df52febcd6e56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "deae4bebbdbfe364",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6079dcc4442d9955",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "it/intro/op.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e50d2603ff0f702c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "it/intro/float.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54477be61da8d3c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ssh/pldc/state/birth.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a0314ab1d58b2ef9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rfc/0002-invest.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fde1812c15a15a0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ssh/pldc/state/birth.md",
+                "file": "ssh/ktct/hang hoa.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "weierstrass",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -210,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "it/intro/float.md",
+                "file": "ssh/ktct/hang hoa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,41 +105,42 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e50d2603ff0f702c",
+  "active": "bdb129324ccda3bb",
   "lastOpenFiles": [
+    "maths/calc2/dgeom/envelope.md",
+    "ssh/ktct/ptsx.md",
+    "ssh/ktct/ppdvbc.md",
+    "ssh/ktct/pol eco.md",
+    "ssh/ktct/nen sxhh.md",
+    "ssh/ktct/missions.md",
+    "ssh/ktct/hang hoa.md",
+    "Untitled 2.md",
+    "maths/calc2/paraint/paraint.md",
+    "maths/calc2/paraint/paraim.md",
+    "maths/calc2/paraint/uniconv.md",
+    "maths/calc2/dgeom/tangent.md",
+    "maths/calc2/dgeom/vec fn.md",
+    "ssh/pldc/state/birth.md",
+    "maths/calc2/dgeom/frenet-serret formulas.md",
+    "maths/calc2/dgeom/evolute.md",
+    "maths/calc3/series/weierstrass m-test.md",
+    "rfc/0002-invest.md",
+    "maths/calc3/series/fn series.md",
+    "Untitled.md",
+    "it/intro/op.md",
+    "maths/calc3/series/dirichlet test.md",
+    "maths/calc3/series/abel test.md",
+    "maths/calc3/series/leibnitz test.md",
+    "it/intro/float.md",
     "Pasted image 20230403164918.png",
     "Pasted image 20230403164909.png",
     "Pasted image 20230403164849.png",
-    "it/intro/op.md",
-    "it/intro/float.md",
     "Pasted image 20230403155247.png",
     "Pasted image 20230403155229.png",
     "it/intro/unsigned.md",
-    "it/intro/signed.md",
-    "it/intro/base 10.md",
-    "Untitled.md",
-    "it/intro/unit.md",
-    "it/intro/repr.md",
-    "it/intro/program.md",
-    "it/intro/process.md",
-    "it/intro/numbering system.md",
-    "it/intro/knowledge.md",
-    "it/intro/it.md",
-    "it/intro/info system.md",
-    "it/intro/info.md",
-    "it/intro/data.md",
-    "it/intro/computer.md",
-    "it/intro/base b.md",
-    "Untitled 1.md",
-    "ssh/pldc/state/hinhthuc.md",
     "it/intro",
     "Untitled",
     "it",
-    "rfc/0002-invest.md",
-    "ssh/pldc/state/đ trưng.md",
-    "ssh/pldc/state/source.md",
-    "rfc/0001-ai-embracement.md",
-    "rfc/0000-rfc.md",
     "Pasted image 20230403122033.png",
     "ssh/pldc/state",
     "ssh/pldc",
