@@ -1,0 +1,1 @@
+a special class of [[frame of ref]] defined by the [[newton's law#first law|first law]] of [[newton's law]]

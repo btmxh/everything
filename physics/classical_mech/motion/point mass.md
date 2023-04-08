@@ -1,0 +1,13 @@
+vi: **chất điểm**
+- objects with size insignificant compared to the orbit
+- in many cases, one can consider non-point masses to be point masses
+- e.g.
+	- car travelling from city A to city B
+	- ball sliding down from a ramp => ball can be quite big, but it's ok to consider it to be a point mass in some cases
+- for point masses, it's can be assumed that all of the mass of the object is concentrated at a single point, its position
+- hence, point masses at a specific moment can be described as a pair $(m, \mathbf{r})$, where $m$ and $\mathbf{r}$ are the mass and the position of the object, respectively. to account for point masses that changes in time, $m$ and $\mathbf{r}$ can be considered functions of time ($m$ is usually a constant function).
+- by taking the dot product of $\mathbf{r}$ and the axis vectors (3D case: $\hat{i}, \hat{j}, \hat{k}$), one can decompose $\mathbf{r}$ into multiple components. in the 3D case, they are $x$, $y$ and $z$
+- then, one can get a motion equation for the object:
+	- general equation: $\mathbf{r}=\mathbf{r}(t)$
+	- component equation: $x=x(t), y=y(t), z=z(t)$
+- the motion equation also acts as the **parametric equation for the orbit**, in order to get the *actual* equation (aka the implicit equation in math terms), one must **eliminate $t$ in the above equations**.

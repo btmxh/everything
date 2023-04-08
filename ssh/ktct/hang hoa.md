@@ -7,9 +7,12 @@
 
 ## def
 - result of human's ldsx
-- 
+- **may** t/mãn nhu cầu con ng
+- đc sx ra nhằm trao đổi
+
+=> cơ sở chung duy nhất của hh là do ldxh
+
 ## props
-- giá trị (kinh tế)
 - giá trị sử dụng
 	- **def:** toàn bộ công năng ích lợi của hh, đáp ứng nhu cầu tiêu dùng của con ng trên 2 mặt: vc và tinh thần
 	- xh càng ptr => nhu cầu tinh thần ngày càng q trọng hơn => gtsd về tinh thần là y tố khiến hh có tính cạnh tranh
@@ -27,3 +30,61 @@
 		- chỉ thể hiện trong lĩnh vực tiêu dùng
 			- e.g. mua xe => gtsd chỉ có thể đc nt khi đã mua về rồi (có thể tưởng là thế này thế kia)
 		- mang trên mình 1 gt trao đổi
+		- e.g. 1 *xe máy* đổi đc 20 *tấn thóc* => 20/1: **gt trao đổi** của *xe máy* lấy *tấn thóc*
+			- => vì sao 2 gtsd khác nhau lại có thể quy về như nhau
+			- => vì **giá trị kinh tế** của *1 xe máy* gấp 20 lần *1 tấn thóc*
+- giá trị (kinh tế)
+	- nguyên nhân h thành: 
+		- do sự trao đổi hh => cần x định g trị của mỗi h hóa để xác lập gt trao đổi phù hợp
+		- e.g. trẻ con đòi đồ chơi => chỉ q tâm đến gtsd >< ta khi bị đòi => q tâm đến giá trị kinh tế: do sự trao đổi h hóa: đứa trẻ ko cần mua >< ta cần trao đổi với ng bán đồ chơi
+	- cái j làm nên giá trị? => 2 trg phái
+		- ích lợi:
+			- e.g. gà ta > gà công nghiệp vì ích lợi nhiều hơn (ngon hơn)
+			- => ko đúng trong thị trg lớn:
+				- e.g. air => ích lợi rất lớn >< giá trị kinh tế ~= 0
+				- lesson: nhiều ng cũng ích lợi lớn mà đồng lương bèo bọt
+			- => gt và gtsd ko là 1, có thể có nhiều khác biệt
+			- mặt khác, các gtsd ko thể quy đổi lẫn nhau (xe máy !== thóc) nên đây ko thể là lời lý giải vì sao 1 *xe máy* = 20 *tấn thóc*
+		- hao phí lao động
+			- def: là hao phí lđxh của nsx kết tinh trong [[hang hoa]]
+			- e.g.
+				- air => gtsd rất cao nhưng do abundant => gt = 0
+				- gà ta khó nuôi hơn gà cn
+				- "tiền nào của nấy" => đồng nhất gt với gtsd => sai
+	- đặc điểm:
+		- phạm trù lịch sử, chỉ tồn tại do sự trao đổi [[hang hoa]]
+			- => ko còn trong cn cs: ccvc dư thừa => giá trị gần bằng 0
+			- e.g. bố mẹ ko đong đếm ccvc để nuôi con do ko coi con là [[hang hoa]], nuôi con để bán
+		- đc thể hiện trong l vực lưu thông, trao đổi, mua bán
+		- giá trị là hình thức biểu hiện bằng tiền, gtsd là nội dung
+			- **giá cả:** giá trị của ccvc quy về tiền
+	- lượng giá trị lđ: lượng hao phí lđxh để sx [[hang hoa]]
+		- => đc đo = t gian lđxh cần thiết để sx ra nó, trong những đk trung bình của xh, ch hạn
+			- ng lao động có trình độ thành thạo trung bình
+			- trình độ kỹ thuật công nghệ, thiết bị trung bình
+			- đk ngoại cảnh trung bình: ko bất lợi, ko thuận lợi
+		- e.g. đồ cổ
+			- đồ cổ: công nghệ kém hơn => t gian lđxh cần thiết cao hơn, là sự kết tinh của:
+				- trầm tích thời gian
+				- số phận lịch sử
+		- **note:** việc đo tgian lđxh ít khả thi
+			- => giá trị thị trg [[hang hoa]] đc xđ bằng **giá trị sp cá biệt** của nhóm nsx **cung cấp đại bộ phận hh** trên thị trg
+			- => dựa trên ng tắc của b chứng: *lấy bộ phận chiếm phần lớn làm tiêu chuẩn của tổng thể*
+- gt và gtsd là 2 mđl của ccvc
+- => lđ tạo ra cả gt và gtsd, lđ càng cao thì gt càng cao, và **thường thì** gtsd cũng càng cao
+
+### các nhân tố ahg đến giá trị
+- năng suất lđ
+	- **def:** p trù pa khả năng, hiệu suất của qtr lđ
+	- thường đo bằng sản lượng/thời gian hoặc t gian sx/đơn vị sp
+	- => tỉ lệ nghịch với giá trị 1 đvị sp
+	- tác dụng: ko ahg đến giá trị tổng sp
+- cường độ lđ
+	- **def:** p trù pa mật độ làm việc trong 1 khoảng tg
+- mức độ p tạp của lđ
+	- **defs**
+		- 2 loại lđ
+			- lđ giản đơn: ko cần trải qua đào tạo chuyên sâu
+			- lđ phức tạp: phải trải qua đào tạo và tích lũy exp
+	- => lđ p tạp trong cùng 1 t gian tạo ra lượng giá trị gấp nhiều lần lđ giản đơn
+	- 

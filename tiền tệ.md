@@ -1,0 +1,10 @@
+- why?
+	- need for đo lường giá trị [[hang hoa]]
+		- hình thái giản đơn (ngẫu nhiên) (gà thóc etc.)
+		- hình thái toàn bộ (mở rộng) (1 gà = x thóc = y vải = z rìu = ...)
+			- => thử bừa, mông lung
+		- hình thái chung của giá trị
+			- => chọn lấy 1 vật chuẩn, quy đổi theo vật chuẩn chung
+			- => các vùng khác nhau dùng các vật chuẩn khác nhau
+		- hình thái tiền tệ
+			- => là vật chuẩn chung của nhân loại => vàng
