@@ -54,4 +54,13 @@ the fictitious force $\mathbf{F}_{fict}$ is
 - an imaginary force, only exists in non-[[inertial frame of ref]]
 - always have the opposite direction with the [[accel.]] vector $\mathbf{A}$
 - magnitude: $\|\mathbf{F}_{fict}\|=m\|\mathbf{A}\|$
-- 
+
+if $O'$ is moving in a circular motion wrt $O$, then in the simplest case (uniform motion), the fictitious force is called the **centrifugal force** (lực li tâm, lực quán tính li tâm), simply calculated using: $F_{ctr}=\frac{mv^{2}}{r}$
+
+e.g. classical elevator problem
+- if the elevetor is accelerating with [[accel.]] $\mathbf{A}$, then in the non-[[inertial frame of ref]] of the elevator, consider a point mass $m$, which was affected by the normal [[force]] and [[gravity]] we have: $m\mathbf{a'}=\mathbf{F_{g}}+\mathbf{F_{n}}+\mathbf{F_{fict}} \implies \mathbf{F_{n}}=m(\mathbf{a'}+\mathbf{A}-\mathbf{g})$
+- if the object is static in the elevator [[frame of ref]], i.e. $\mathbf{a'} = 0$, then $\mathbf{F_{n}}=m(\mathbf{A}-\mathbf{g})$
+- let $\mathbf{e_{1}}$ be the unit vector that points downwards, then $\mathbf{g}=g\mathbf{e_{1}}$
+	- if it was accelerated upwards, $\mathbf{A}=-A\mathbf{e_{1}}$, then $\mathbf{F_{n}}=-m(A+g)\mathbf{e_{1}}$, which points downwards and has higher magnitude than the usual normal force that's equal to $mg$ => $m$ felt heavier
+	- otherwise, we have $\mathbf{F_{n}}=-m(g-\mathbf{A})\mathbf{e_{1}}$, which means that bla bla bla $m$ felt lighter
+
