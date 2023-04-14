@@ -1,0 +1,7 @@
+- usage: transfer [[info]] between [[computer]] and the world
+- basic ops: input + output
+- components:
+	- peripheral devs
+	- io modules
+- e.g. USB (universal serial bus), VGA (v graphics adapter), HDMI (high-def media interface), Type-C, RT-45, etc.
+- iodevs are connected not directly to cpu but rather io modules (because of some technical purposes like differing $U, I$)óp

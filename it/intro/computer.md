@@ -34,3 +34,26 @@ clusters
 super com.
 embedded components
 
+## pc
+- cpu
+- main board
+- ram
+- disk drive
+- psu (power source unit)
+- screen
+- gpu
+- mouse, keyboard, speakers
+
+## all in one pc
+## gaming pc
+- cpu
+- main board
+- ram
+- gpu
+- hard disk drive
+- psu
+- cooling system
+- rgb led stripes
+- controllers
+- screen
+- etc.

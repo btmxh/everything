@@ -2,9 +2,12 @@
 let $f_i: I \to (S \to \mathbb C)$ be a seq. of fn that conv. pointwise to $f$ as $i \to i_0$
 (index set $I$ does not need to be a subset of $\mathbb Z$)
 then this conv. is uni iff $\forall \varepsilon > 0$ there exists a neighbor $N$ of $i_0$ s.t.
-$\forall i\in N, x\in S, |f_i(x)-f_{i_0}(x)| < \varepsilon$
+$\forall i\in N, x\in S, |f_i(x)-f(x)| < \varepsilon$
 
-or equivalently, $\lim_{i\to i_0} \sup_{x\in S}|f_i(x)-f_{i_0}(x)| = 0$
+or equivalently, $\lim_{i\to i_0} \sup_{x\in S}|f_i(x)-f(x)| = 0$
+**note:** in the case $i_{0}=\infty$, u can think of $N$ as something like $[a_{0}, \infty)$
+
+$\lim_{ x \to \infty } \sup_{y \in[c,d]}| \frac{1}{\sqrt{ x }}-0|=\lim_{ x \to \infty } \frac{1}{\sqrt{ x }}=0$
 
 ## [[series]]
 consider this series $f(x)=\sum_{n=1}^{\infty} g(n, x)$
@@ -30,7 +33,14 @@ is the pl of $I_t(y)=\int_a^t g(x,y)dx$ as $t \to \infty$
 e.g. $\sum_{n=1}^\infty x^n$/$[0,1-\varepsilon]$ and $[0,1]$
 $S_{n}=\frac{x-x^{n+1}}{1-x}$
 $S=\frac{x}{1-x}$
-then $|S_{n}-S|=\frac{x^{n+1}}{1-x}\to\infty$ as $x\to 1$, and bounded by $\frac{1}{1-\varepsilon}$ in the first case => conclusion: uni. conv and not uni. conv
+then $|S_{n}-S|=\frac{x^{n+1}}{1-x}\to\infty$ as $x\to 1$, and bounded by $\frac{(1-\varepsilon)^{n+1}}{\varepsilon}$ in the first case => conclusion: uni. conv and not uni. conv
+
+e.g. $I(y)=\int _{1}^{+\infty} x^{y}e^{-x} \, dx$/$[a,b]$
+- simple case: $[a,b]\subset \mathbb{R}^{0+}$
+	- let $f(x,y)=x^{y}e^{ -x }$, then $f'_{y}(x,y)=e^{ -x }(yx^{y-1}-x^{y})=x^{y-1}e^{ -x }(y-x)$
+	- => fix $y$, then one can see that $f$ peaked with $x=y, f=y^{y}e^{ -y }\leq b^{b}e^{ -y }$ => conv by [[weierstrass m-test]]
+- funny case
+	- if $y$ can be negative, than it surely won't be the peak value => one can use some shit like $f\leq \max \{b^{b},1 \}e^{ -y }$ or sth
 
 ## properties
 ### cont
@@ -50,7 +60,7 @@ then it's suffices to prove that
 $$
 \lim_{ i \to i_{0} } \left|\int _{a}^{b} f(x)-f_{i}(x)dx\right|=0
 $$
-LHS $\leq \lim_{ i \to i_{0} } \int _{a}^{b} |f(x)-f_{i}(x)|dx$
+$0\leq LHS\leq \lim_{ i \to i_{0} } \int _{a}^{b} |f(x)-f_{i}(x)|dx$
 $\leq \lim_{ i \to i_{0} } (b-a)\sup_{x\in S}|f(x)-f_{i}(x)|$
 $=(b-a)\lim_{ i \to i_{0} }\sup_{x\in S}|f(x)-f_{i}(x)| = 0$, qed
 

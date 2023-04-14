@@ -14,4 +14,9 @@ e.g. $\sum_{n=1}^{\infty} \frac{x^{n}}{n}$/$[-1,0]$
 - m1: [[dirichlet test]]
 	- $b_{n}=x^n$ => $sb_{n}$ bounded
 	- $a_{n}=\frac{1}{n}$ => $a_{n}$ mono. dec. conv. to 0
-- m2: 
+
+
+e.g. prove conv on $\mathbb{R}$
+- $\int _{0}^{\infty} \frac{\cos xy}{1+x^{2}+y^{2}} \, dx$ (abs integrand $\leq \frac{1}{1+x^{2}}$ conv to $\frac{\pi}{2}$)
+- $\int _{1}^{\infty} \frac{x^{3}}{x^{2}+y^{2}}e^{-x} \, dx$ (abs integrand $\leq xe^{ -x }$ conv to 1 (if the lower bound is 0 but whatever))
+- 

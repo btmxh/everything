@@ -22,4 +22,11 @@ e.g. $\sum_{n=2}^\infty \frac{1}{n(\ln n)^p(\ln \ln n)^q}$
 	- p=1
 		- the integral = $\int_{\ln \ln_{10}}^\infty \frac{1}{(\ln v)^q}dv$ => conv if q > 1
 - conclusion: conv iff either p > 1 or q>p=1
-- 
+
+**Q:** can one use this to prove [[uniconv]]?
+- if it has a [[uniconv]] variant, it should be $\sum_{n} f(n,x)$ [[uniconv]] iff $\int f(n,x) \, dx$
+- now we'll attempt to prove that ig
+- we have: $\sum_{n=2}^N f(n) \leq \int _{1}^N f(x)dx \leq \sum_{n=1}^N f(n)$
+- or equivalently $S_{N}(x)-C\leq I_{N}(x)\leq S_{N}(x)$ (wlog assume the series and integral starts at $n=x=1$)
+- use [[cauchy]]?
+- TODO

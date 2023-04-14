@@ -1,6 +1,6 @@
 $S = \sum_{n=1}^\infty a_{n}b_{n}$ ([[uniconv|uniformly]]) conv if
-- $sa_{n}$ ([[uniconv|uniformly]]) conv.
 - $b_{n}$ monotonic, (uniformly) bounded
+- $sa_{n}$ ([[uniconv|uniformly]]) conv.
 
 ## proof
 ### dbrr ver
@@ -35,5 +35,5 @@ e.g. $\int _{0}^\infty \frac{e^{ -tx }}{x^{2}+\sqrt{ t }} dt$, $x\in[x_{0}>0,+\i
 $a(t)=e^{ -tx }\leq e^{ -tx_{0} }$ and $\int _{0}^{\infty}e^{ -tx_{0} }dx=\frac{1}{x_{0}}$ conv => using [[weierstrass m-test]] "$sa(t)$" [[uniconv]]
 > alternatively, one can use the definition
 $\lim_{ b \to \infty } \sup_{x\in[x_{0},+\infty]}\int _{b}^\infty e^{-tx} dx=\lim_{ b \to \infty }\sup_{x\in[x_{0},+\infty]} \frac{1}{xe^{ bx }} = \lim_{ b \to \infty } \frac{1}{x_{0}e^{bx_{0}}} = 0$
-$b(t)=\frac{1}{x^{2}+\sqrt{ t }}$ => monotonic dec bounded in $\left[ 0, \frac{1}{x_{0}^{2}} \right]$
-=> uniconv
+
+- $b(t)=\frac{1}{x^{2}+\sqrt{ t }}$ => monotonic dec bounded in $\left[ 0, \frac{1}{x_{0}^{2}} \right]$ => uniconv

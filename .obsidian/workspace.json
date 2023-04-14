@@ -4,93 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "a6d89be79f57839b",
+        "id": "28742385ea8c0f89",
         "type": "tabs",
         "children": [
           {
-            "id": "f34573292aab4c7b",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-04-10 12.37.01.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "5bf26a620b59fc31",
+            "id": "8ec476eeec99acba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ssh/pldc/state/hinhthuc.md",
+                "file": "maths/calc2/paraint/paraim.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "aa2ae5facce15ecd",
+            "id": "0c7de59463387b32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physics/classical_mech/mech/newton's law.md",
+                "file": "maths/calc3/series/dirichlet test.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "dc2c36c151960ba5",
+            "id": "d0800b62a9457b61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physics/classical_mech/mech/momentum.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f3cb92c3da471043",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "it/intro/float.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "50003a3b4458d178",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "it/intro/ascii.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1d4277cf0987223",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "it/intro/unicode.md",
+                "file": "maths/calc3/series/abel test.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "it/intro/unicode.md",
+                "file": "maths/calc2/paraint/paraim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,45 +130,47 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b1d4277cf0987223",
+  "active": "bd9349628f37c85c",
   "lastOpenFiles": [
-    "it/intro/ascii.md",
-    "it/intro/unicode.md",
-    "it/intro/float.md",
-    "physics/classical_mech/mech/momentum.md",
     "impulse.md",
-    "physics/classical_mech/mech/newton's law.md",
+    "galilean transformation.md",
+    "rfc/0000-rfc.md",
+    "maths/calc3/series/abel test.md",
+    "maths/calc3/series/dirichlet test.md",
+    "maths/calc2/paraint/paraim.md",
+    "rfc/0004-socialism.md",
+    "ssh/ktct/hang hoa.md",
+    "ssh/ktct/tiền tệ.md",
+    "assets/Pasted image 20230412143845.png",
+    "assets/Pasted image 20230412143813.png",
+    "maths/calc2/paraint/uniconv.md",
+    "maths/calc2/paraint/applications.md",
+    "ssh/ktct/nen sxhh.md",
+    "ssh/ktct/ptsx.md",
+    "ssh/ktct/ppdvbc.md",
+    "ssh/ktct/pol eco.md",
+    "ssh/ktct/missions.md",
+    "the law of momx.md",
+    "maths/calc2/paraint/cauchy.md",
+    "maths/calc3/series/weierstrass m-test.md",
+    "maths/calc3/series/leibnitz test.md",
+    "maths/calc2/paraint/paraint.md",
+    "maths/calc3/series/power series.md",
     "Excalidraw/Drawing 2023-04-10 12.37.01.excalidraw.md",
-    "ssh/pldc/state/hinhthuc.md",
-    "physics/classical_mech/mech/inertial frame of ref.md",
-    "physics/classical_mech/mech/force.md",
+    "physics/classical_mech/mech/momentum.md",
+    "maths/calc3/series/int test.md",
+    "maths/calc3/series/series.md",
+    "assets/Pasted image 20230410161209.png",
+    "assets/Pasted image 20230410160224.png",
+    "physics/classical_mech/energy",
+    "assets/Pasted image 20230410154723.png",
+    "assets/Pasted image 20230410152158.png",
+    "assets/Pasted image 20230410151223.png",
+    "it/cp_sys",
     "assets/Pasted image 20230410125502.png",
     "assets/Pasted image 20230410125400.png",
-    "ssh/pldc/state/đ trưng.md",
-    "Untitled 3.md",
     "assets/Pasted image 20230410124342.png",
-    "ssh/pldc/state/birth.md",
-    "ssh/pldc/state/cond.md",
-    "Excalidraw/Drawing 2023-04-08 22.41.56.excalidraw.md",
-    "Excalidraw/Drawing 2023-04-08 21.50.05.excalidraw.md",
-    "Excalidraw/Drawing 2023-04-08 21.44.18.excalidraw.md",
-    "assets/Pasted image 20230408222127.png",
-    "assets/Pasted image 20230408214915.png",
-    "Excalidraw/Drawing 2023-04-08 21.10.04.excalidraw.md",
-    "assets/Pasted image 20230408211500.png",
-    "assets/Pasted image 20230408211452.png",
-    "assets/Pasted image 20230408211241.png",
-    "assets/Pasted image 20230408210750.png",
-    "assets/Pasted image 20230408210742.png",
-    "physics/classical_mech/mech/relative.md",
-    "Excalidraw/Drawing 2023-04-08 20.14.15.excalidraw.md",
     "Excalidraw",
-    "galilean transformation.md",
-    "physics/classical_mech/motion/frame of ref.md",
-    "physics/classical_mech/motion/angular velocity.md",
-    "physics/classical_mech/motion/arc length param..md",
-    "physics/classical_mech/motion/const accel motion.md",
-    "physics/classical_mech/motion/newton's law.md",
     "physics/classical_mech/mech",
     "physics/classical_mech/motion",
     "Untitled.canvas",
@@ -223,8 +178,6 @@
     "torani",
     "physics/intro",
     "physics/classical_mech",
-    "physics",
-    "it/intro",
-    "it"
+    "physics"
   ]
 }

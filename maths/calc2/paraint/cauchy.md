@@ -3,10 +3,12 @@ $\exists \lim_{ x \to x_{0} }f(x)$ iff $\lim_{ x_{1}, x_{2} \to x_{0}}|f(x_{1})-
 
 ## [[uniconv]]
 $f_{i}$ uniconv to some $f$ equivalent to $\lim_{i_1, i_2 \to i_0} \sup_{x\in S} |f_{i_1}(x)-f_{i_2}(x)| = 0$
-
+$$
+\lim_{ p,q \to \infty } \max_{x\in X} |S_{p}(x)-S_{q}(x)|=0
+$$
 ### [[fn series]]
 e.g. $\sum_{n=1}^{\infty}\arctan \frac{2x}{x^{2}+n^{2}}$/$\mathbb R$
-$|S_{2n}-S_{n}|=|\sum_{k=n+1}^{2n}\arctan \frac{2x}{x^{2}+n^{2}}|$
+$|S_{2n}-S_{n}|=|\sum_{k=n+1}^{2n}\arctan \frac{2x}{x^{2}+k^{2}}|$
 letting $x=n$ then it's trivial to see RHS$>n\arctan \frac{2}{5n} \to \frac{2}{5}$ as $n\to\infty$
 => not [[uniconv]]
 

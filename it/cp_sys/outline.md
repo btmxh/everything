@@ -1,0 +1,4 @@
+- hardware + organization of a computer
+- software
+- computer networks
+- OSes

@@ -1,6 +1,6 @@
 $S = \sum_{n=1}^\infty a_{n}b_{n}$ conv if
-- $a_{n}$ monotonic, conv. at 0
-- $sb_{n}$ bounded for all (large) n's
+- $a_{n}$ monotonic, (uniformly) conv. at 0
+- $sb_{n}$ (uniformly) bounded
 
 ## proof
 summation by parts
@@ -29,6 +29,15 @@ $b_{n}=\sin \frac{\pi n}{4}$ clearly satisfies $sb_{n}$ is bounded
 (another way is to split the series into 4 series by $n\ \text{mod}\ 4$)
 
 ## [[paraim]]
+$\int _{a}^{+\infty} a(x,y)b(x,y) \, dx$ uniconv if
+- $\int _{a}^{b} b(x,y) \, dx$ uniformly bounded wrt $y \in [c,d]$
+- $a(x,y)$ [[uniconv]] wrt $y \to 0$ as $x\to b_{0}$, also monotonic wrt x for all $y \in [c,d]$
+
+e.g. $\int _{0}^{+\infty} \frac{e^{ -xy }\sin x}{x} \, dx$
+- this is only [[paraim]] at $x=0$ (note that $\text{sinc}(0)=1$) => we change lower bound to avoid singular point
+- take $b(x,y)=\sin x$ => integral uniformly bounded
+- and $a(x,y)=\frac{e^{ -xy }}{x}$ => monotonic dec, uniform conv to 0 as $x\to \infty$ (numerator is bounded, denom -> infty)
+
 e.g. $\int _{0}^{+\infty} \frac{\sin{xt}}{\sqrt{ t }}dt$, $x\in[x_{0}>0,+\infty)$
 $b(t)=\sin xt$ => $\int _{0}^\beta b(t)dt=\frac{1-\cos\beta x}{x}$ uniformly bounded (note the existence of $x_{0}$)
 $a(t)=\frac{1}{\sqrt{ t }}$ monotonic dec lim = 0 as $t\to\infty$

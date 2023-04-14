@@ -1,16 +1,10 @@
 
-## ch02. hh, thi trg, vai tro cac chu the tham gia thi trg
-- nen sxhh
-- hh
-- tien te
-- thi trg, vai tro chu the tham gia thi trg
-
 ## def
-- result of human's ldsx
-- **may** t/mãn nhu cầu con ng
-- đc sx ra nhằm trao đổi
+- **kq của lđsx của con ng**
+- **CÓ THỂ** t/mãn nhu cầu con ng
+- đc sx để **trao đổi**/bán ra thị trg
 
-=> cơ sở chung duy nhất của hh là do ldxh
+=> cơ sở chung duy nhất của hh là **kq của lđxh**
 
 ## props
 - giá trị sử dụng
@@ -22,18 +16,18 @@
 		- e.g. nhà
 			- xưa => che mưa che nắng
 			- nay => đẹp, phong thủy, etc. etc.
-		- e.g. nước giải khát: pepsi, cola, đồ ăn nhanh: kfc, etc. thịnh hành toàn cầu
+		- e.g. nước giải khát: pepsi, cola, đồ ăn nhanh: kfc, etc. thịnh hành toàn cầu >< ăn theo vài năm là ded
 			- => là biểu tượng của đời sống trẻ trung, công nghiệp, năng động, etc. etc.
 		- => cần đổi mới sáng tạo, ko y nguyên bản gốc
 	- đặc điểm
-		- phạm trù vĩnh viễn, luôn tồn tại vs xh loài ng
-		- chỉ thể hiện trong lĩnh vực tiêu dùng
+		- **phạm trù vĩnh viễn**, luôn tồn tại vs xh loài ng
+		- chỉ thể hiện trong lĩnh vực **tiêu dùng**
 			- e.g. mua xe => gtsd chỉ có thể đc nt khi đã mua về rồi (có thể tưởng là thế này thế kia)
-		- mang trên mình 1 gt trao đổi
-		- e.g. 1 *xe máy* đổi đc 20 *tấn thóc* => 20/1: **gt trao đổi** của *xe máy* lấy *tấn thóc*
-			- => vì sao 2 gtsd khác nhau lại có thể quy về như nhau
-			- => vì **giá trị kinh tế** của *1 xe máy* gấp 20 lần *1 tấn thóc*
+		- => mang trên mình 1 gt trao đổi
 - giá trị (kinh tế)
+	- e.g. 1 *xe máy* đổi đc 20 *tấn thóc* => 20/1: **gt trao đổi** của *xe máy* lấy *tấn thóc*
+		- => vì sao 2 gtsd khác nhau lại có thể quy về như nhau
+		- => vì **giá trị kinh tế** của *1 xe máy* gấp 20 lần *1 tấn thóc*
 	- nguyên nhân h thành: 
 		- do sự trao đổi hh => cần x định g trị của mỗi h hóa để xác lập gt trao đổi phù hợp
 		- e.g. trẻ con đòi đồ chơi => chỉ q tâm đến gtsd >< ta khi bị đòi => q tâm đến giá trị kinh tế: do sự trao đổi h hóa: đứa trẻ ko cần mua >< ta cần trao đổi với ng bán đồ chơi

@@ -27,3 +27,6 @@ then the sum of all momentum (this uses einstein summation) $\frac{d\mathbf{p_{i
 ### conservation in an axis
 for a non-isolated system, if the outside force is 0 wrt to an axis $\vec{a}$, then one can use the same logic and therefore:
 => the **projection** of the sum of **momentum** of the system is conserved
+
+ e.g. gun-bullet system => after shooting, the gun was slightly *some verb* back with velocity $-\frac{m_{b}v_{b}}{m_{g}}$
+ 
