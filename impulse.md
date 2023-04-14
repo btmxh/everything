@@ -1,0 +1,3 @@
+- the impulse of a force in a period of time $\Delta t$ repr its influence in that period of time
+- huge force + short time => not big [[impulse]] => less effect than that huge force + long time
+- => the effect of a force is not just dependent on its magnitude, but also its time of effect

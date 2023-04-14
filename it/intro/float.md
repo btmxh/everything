@@ -32,3 +32,14 @@ e.g. $V=0.1$ (base 10)
 - => $m=1001\ 1001\ 1001\ 1001\ 1001 \ 1001 \ 100$
 - => `float` repr: `0b0_01111011_10011001100110011001100`
 
+**NOTE:** the value range of $E$ in a `float` is $[-127,128]$ != the value range of a `i8`: $[-128,127]$
+
+**special values**
+- if $e=00..00_{(2)}, m=00..00_{(2)}$, then $V$ is either **positive zero** or **negative zero** (the sign bit decides the sign of zero)
+- if $e=00..00_{(2)}, m\neq 00..00_{(2)}$, then $V$ is a [subnormal number](https://en.wikipedia.org/wiki/Subnormal_number)
+- if $e=11..11_{(2)}, m=00..00_{(2)}$, then $V$ is either **positive infinity** or **negative infinity**
+- if $e=11..11_{(2)}, m\neq 00..00_{(2)}$, then $V$ is `NaN`
+
+e.g. in a `f32`, the smallest positive non-zero, non-`NaN` value is $2^{-126}$
+
+## calc?

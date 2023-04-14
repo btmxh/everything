@@ -4,22 +4,93 @@
     "type": "split",
     "children": [
       {
-        "id": "ec0c66bc25cc985e",
+        "id": "a6d89be79f57839b",
         "type": "tabs",
         "children": [
           {
-            "id": "61e4a54ade13dbad",
+            "id": "f34573292aab4c7b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-04-10 12.37.01.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "5bf26a620b59fc31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physics/classical_mech/mech/relative.md",
+                "file": "ssh/pldc/state/hinhthuc.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa2ae5facce15ecd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "physics/classical_mech/mech/newton's law.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc2c36c151960ba5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "physics/classical_mech/mech/momentum.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f3cb92c3da471043",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "it/intro/float.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "50003a3b4458d178",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "it/intro/ascii.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1d4277cf0987223",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "it/intro/unicode.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -77,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "physics/classical_mech/mech/relative.md",
+                "file": "it/intro/unicode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,57 +173,58 @@
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "61e4a54ade13dbad",
+  "active": "b1d4277cf0987223",
   "lastOpenFiles": [
-    "physics/classical_mech/mech/inertial frame of ref.md",
+    "it/intro/ascii.md",
+    "it/intro/unicode.md",
+    "it/intro/float.md",
+    "physics/classical_mech/mech/momentum.md",
+    "impulse.md",
     "physics/classical_mech/mech/newton's law.md",
+    "Excalidraw/Drawing 2023-04-10 12.37.01.excalidraw.md",
+    "ssh/pldc/state/hinhthuc.md",
+    "physics/classical_mech/mech/inertial frame of ref.md",
+    "physics/classical_mech/mech/force.md",
+    "assets/Pasted image 20230410125502.png",
+    "assets/Pasted image 20230410125400.png",
+    "ssh/pldc/state/đ trưng.md",
+    "Untitled 3.md",
+    "assets/Pasted image 20230410124342.png",
+    "ssh/pldc/state/birth.md",
+    "ssh/pldc/state/cond.md",
+    "Excalidraw/Drawing 2023-04-08 22.41.56.excalidraw.md",
+    "Excalidraw/Drawing 2023-04-08 21.50.05.excalidraw.md",
+    "Excalidraw/Drawing 2023-04-08 21.44.18.excalidraw.md",
+    "assets/Pasted image 20230408222127.png",
+    "assets/Pasted image 20230408214915.png",
+    "Excalidraw/Drawing 2023-04-08 21.10.04.excalidraw.md",
+    "assets/Pasted image 20230408211500.png",
+    "assets/Pasted image 20230408211452.png",
+    "assets/Pasted image 20230408211241.png",
+    "assets/Pasted image 20230408210750.png",
+    "assets/Pasted image 20230408210742.png",
     "physics/classical_mech/mech/relative.md",
+    "Excalidraw/Drawing 2023-04-08 20.14.15.excalidraw.md",
+    "Excalidraw",
     "galilean transformation.md",
     "physics/classical_mech/motion/frame of ref.md",
     "physics/classical_mech/motion/angular velocity.md",
     "physics/classical_mech/motion/arc length param..md",
     "physics/classical_mech/motion/const accel motion.md",
-    "physics/classical_mech/mech/force.md",
     "physics/classical_mech/motion/newton's law.md",
-    "physics/classical_mech/Untitled.md",
     "physics/classical_mech/mech",
-    "physics/classical_mech/motion/accel..md",
     "physics/classical_mech/motion",
-    "assets/Pasted image 20230408105855.png",
-    "physics/classical_mech/motion/angular accel..md",
-    "tiền tệ.md",
-    "assets/Pasted image 20230408102926.png",
-    "physics/Untitled.md",
-    "physics/classical_mech/motion/velocity.md",
-    "arclen.md",
-    "physics/classical_mech/motion/point mass.md",
-    "physics/intro/measurement.md",
-    "physics/intro/error.md",
     "Untitled.canvas",
-    "ssh/ktct/hang hoa.md",
     "torani/albums",
     "torani",
     "physics/intro",
     "physics/classical_mech",
     "physics",
-    "ssh/ktct/nen sxhh.md",
-    "ssh/ktct/missions.md",
-    "maths/calc2/dgeom/envelope.md",
-    "ssh/ktct/ptsx.md",
-    "ssh/ktct/ppdvbc.md",
-    "assets/Pasted image 20230403164918.png",
-    "assets/Pasted image 20230403164909.png",
-    "assets/Pasted image 20230403164849.png",
-    "assets/Pasted image 20230403155247.png",
-    "assets/Pasted image 20230403155229.png",
     "it/intro",
-    "it",
-    "assets/Pasted image 20230403122033.png",
-    "ssh/pldc/state",
-    "assets/Pasted image 20230401203721.png",
-    "assets/Pasted image 20230401204147.png"
+    "it"
   ]
 }

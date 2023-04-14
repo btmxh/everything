@@ -27,3 +27,12 @@ $$
 - $L_{3}$: "when object A exert a force $\mathbf{F}$ to object B, object B would also exert another force $\mathbf{F'}=-\mathbf{F}$ on object A"
 - this law holds in all [[frame of ref]]
 - in a system of objects that's isolated (i.e. only inside forces are present), denote $\mathbf{F}_{i,j}$ be the interaction force between object $i$ and object $j$, then it follows from $L_{3}$ that: $\mathbf{F}_{i,j}=-\mathbf{F}_{j,i} \implies \sum_{i,j}\mathbf{F}_{i,j}=0$ => **the sum of all inside forces is zero**
+
+e.g. the rocket problem
+- consider a rocket in empty space (with no forces applied on it) moving with velocity $\mathbf{v}$. while it was burning fuel, its mass is dependent of time, which we will call $m(t)$
+- now let's assume the only factor affecting its mass is the combustion of fuel
+- let $\mathbf{q}$ be the velocity of thrown-out fuel wrt the rocket => the velocity in a [[inertial frame of ref]] is $\mathbf{q}+\mathbf{v}$
+- describe the motion pls
+
+- in an interval of $\Delta t$ (unit of time), the lost fuel mass is $m(t+\Delta t)-m(t)$ => the change in momentum of the fuel is $\Delta \mathbf{p}=(m(t)-m(t+\Delta t))\mathbf{q}$
+- => the change in momentum of the 

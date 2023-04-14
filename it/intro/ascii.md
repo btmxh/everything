@@ -1,0 +1,12 @@
+- designed by **ANSI** (**A**merican **N**ational **S**tandard **I**nstitute)
+- originally used only 7-bit, then was extended to include the extended 128 characters
+- structure
+	- control characters: 32 chars from `'\0' to '\1f'` + `DEL` (`'\7f'`)
+	- printable characters
+		- `' '=='\20'`: space
+		- `'0' == 0x30`
+		- `'a' == 0x61`
+		- `'A' == 0x41`
+		- lowercase, uppercase, digits are sequential
+		- remaining are symbols
+		- **note:** `'0' < 'A' < 'a'`
