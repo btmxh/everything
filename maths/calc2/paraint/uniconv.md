@@ -18,6 +18,8 @@ is the pl of $I_t(y)=\int_a^t g(x,y)dx$ as $t \to \infty$
 
 => the im.int. uni.conv. iff $\lim_{t\to\infty}\sup_{y\in S} |\int_t^\infty g(x,y)dx| = 0$
 
+**NOTE:** [[paraint]] DOES NOT automatically [[uniconv]]
+
 ## proving
 - [[cauchy]]
 - [[weierstrass m-test]]
