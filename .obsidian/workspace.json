@@ -8,36 +8,139 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8ec476eeec99acba",
+            "id": "63d54ebe651993cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/calc2/paraint/paraim.md",
+                "file": "physics/classical_mech/gravity/orbital speed.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0c7de59463387b32",
+            "id": "70a35a092ed3077f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/calc3/series/dirichlet test.md",
+                "file": "physics/classical_mech/gravity/escape velocity.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d0800b62a9457b61",
+            "id": "f3fa2683119b54da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/calc3/series/abel test.md",
+                "file": "maths/calc2/fields/field.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8293ac4aa134e6fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/fields/fréchet derivative.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2a6098cd6b39614e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/fields/field.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "79aa8f5b017db34c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/fields/jacobian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aad584c33bd5d220",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/fields/flux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c559705160c80ab0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/fields/circulation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bb86c98b7bae3f2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/fields/laplacian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "46a2fc667e290097",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/fields/field.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 6
+      },
+      {
+        "id": "b02f221a54303fe4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60f5817301156f50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ssh/pldc/state/type.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f1fb825814246907",
@@ -101,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "maths/calc2/paraint/paraim.md",
+                "file": "maths/calc2/fields/flux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,36 +234,40 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bd9349628f37c85c",
+  "active": "aad584c33bd5d220",
   "lastOpenFiles": [
-    "impulse.md",
-    "galilean transformation.md",
-    "rfc/0000-rfc.md",
-    "maths/calc3/series/abel test.md",
+    "maths/calc2/fields/field.md",
+    "maths/calc2/fields/fréchet derivative.md",
+    "maths/calc2/fields/jacobian.md",
+    "maths/calc2/fields/gradient.md",
+    "ssh/pldc/state/type.md",
+    "ssh/pldc/state/hinhthuc.md",
+    "maths/calc2/fields/directional.md",
+    "maths/calc2/fields/flux.md",
+    "maths/calc2/fields/laplacian.md",
+    "Excalidraw/Drawing 2023-04-08 21.50.05.excalidraw.md",
+    "maths/calc2/fields/ext derv.md",
+    "Excalidraw/Drawing 2023-04-17 12.37.52.excalidraw.md",
+    "maths/calc2/fields/circulation.md",
+    "maths/calc2/fields/scalar potential.md",
+    "assets/Pasted image 20230417103459.png",
+    "Excalidraw/Drawing 2023-04-08 21.10.04.excalidraw.md",
+    "Excalidraw/Drawing 2023-04-17 10.44.52.excalidraw.md",
+    "assets/Pasted Image 20230417104507_597.png",
+    "Excalidraw/Drawing 2023-04-08 20.14.15.excalidraw.md",
+    "Excalidraw/Drawing 2023-04-10 15.20.27.excalidraw.md",
+    "Excalidraw/Drawing 2023-04-10 15.45.09.excalidraw.md",
+    "Excalidraw/Drawing 2023-04-10 16.10.30.excalidraw.md",
+    "physics/classical_mech/gravity/orbital speed.md",
+    "assets/Drawing 2023-04-17 10.44.35.excalidraw.md",
+    "physics/classical_mech/gravity/newton grav.md",
+    "physics/classical_mech/mech/angular momentum.md",
     "maths/calc3/series/dirichlet test.md",
-    "maths/calc2/paraint/paraim.md",
-    "rfc/0004-socialism.md",
-    "ssh/ktct/hang hoa.md",
-    "ssh/ktct/tiền tệ.md",
+    "maths/calc3/series/abel test.md",
+    "maths/calc2/fields",
+    "physics/classical_mech/gravity",
     "assets/Pasted image 20230412143845.png",
     "assets/Pasted image 20230412143813.png",
-    "maths/calc2/paraint/uniconv.md",
-    "maths/calc2/paraint/applications.md",
-    "ssh/ktct/nen sxhh.md",
-    "ssh/ktct/ptsx.md",
-    "ssh/ktct/ppdvbc.md",
-    "ssh/ktct/pol eco.md",
-    "ssh/ktct/missions.md",
-    "the law of momx.md",
-    "maths/calc2/paraint/cauchy.md",
-    "maths/calc3/series/weierstrass m-test.md",
-    "maths/calc3/series/leibnitz test.md",
-    "maths/calc2/paraint/paraint.md",
-    "maths/calc3/series/power series.md",
-    "Excalidraw/Drawing 2023-04-10 12.37.01.excalidraw.md",
-    "physics/classical_mech/mech/momentum.md",
-    "maths/calc3/series/int test.md",
-    "maths/calc3/series/series.md",
     "assets/Pasted image 20230410161209.png",
     "assets/Pasted image 20230410160224.png",
     "physics/classical_mech/energy",
@@ -168,16 +276,12 @@
     "assets/Pasted image 20230410151223.png",
     "it/cp_sys",
     "assets/Pasted image 20230410125502.png",
-    "assets/Pasted image 20230410125400.png",
-    "assets/Pasted image 20230410124342.png",
     "Excalidraw",
     "physics/classical_mech/mech",
     "physics/classical_mech/motion",
     "Untitled.canvas",
     "torani/albums",
     "torani",
-    "physics/intro",
-    "physics/classical_mech",
-    "physics"
+    "physics/intro"
   ]
 }

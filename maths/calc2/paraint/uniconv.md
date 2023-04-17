@@ -22,6 +22,8 @@ is the pl of $I_t(y)=\int_a^t g(x,y)dx$ as $t \to \infty$
 => the im.int. uni.conv. iff $\lim_{t\to\infty}\sup_{y\in S} |\int_t^\infty g(x,y)dx| = 0$
 
 **NOTE:** [[paraint]] DOES NOT automatically [[uniconv]]
+e.g. $I(y)=\int _{0}^{1} e^{ y } \, dx=e^{ y }$
+but $\lim_{ b_{1} \to 0, b_{2}\to 1 }$
 
 ## proving
 - [[cauchy]]

@@ -1,4 +1,4 @@
-vi: **mômen động lượng**
+setvi: **mômen động lượng**
 
 ## motivation and def
 - angular momentum $L$ stems from [[angular velocity]] (however a certain university is pepega af :skull: does not talk about this), simply by $\mathbf{L}=m \vec{\omega}$ (or bivector whatever)
