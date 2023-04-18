@@ -1,0 +1,1 @@
+bij + cont. differentiable + inverse also cont. diff.

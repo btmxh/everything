@@ -6,7 +6,7 @@ to indicate how much fluid is flowing through a unit of surface, one can use **f
 e.g. $\mathbf{F}=(xy^{2}+z)\hat{i}+(x^{2}y+z)\hat{j}$, $S$ is the surface of $z=x^{2}+y^{2}, z\leq 1$, **direction of flux upwards**
 using the [[generalized stoke's theorem#divergence|div theorem]]:
 ![[Pasted image 20230417103459.png]]
-to make $S$ closed, we add the disk $x^{2}+y^{2}=z=1$ to the surface, then the flux is equal to the div integral - the added flux
+to make $S$ closed, we add the disk $x^{2}+y^{2}\leq z=1$ to the surface, then the flux is equal to the div integral - the added flux
 - div integral: $\iiint_{V}\nabla\cdot \mathbf{F}dV=\iiint_{V}(x^{2}+y^{2})dV=\int _{0}^{1}\iint_{C(z)}dCdz$
 	- ($C(z)$ is the disk $x^{2}+y^{2}=z$, which has area $\pi z$)
 	- hence, the integral evaluates to $\int _{0}^{1} \pi z \, dz=\frac{\pi}{2}$

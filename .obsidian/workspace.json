@@ -85,7 +85,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/calc2/fields/flux.md",
+                "file": "maths/calc2/fields/circulation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "663ad750a6d62133",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "generalized stoke's theorem.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +109,163 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/calc2/fields/circulation.md",
+                "file": "maths/calc2/integrals/surfaceint.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8f5958801aa85578",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/integrals/surfaceint.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "59e2e1309bf4ab25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "generalized stoke's theorem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a9e89d2e2779f01d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "manifold.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4111823a3fb8c907",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "generalized stoke's theorem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e24ba30d67d175e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/integrals/gamma.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8e882ae8b8ec537",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/integrals/beta.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "736446f44061ba26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc3/series/fourier/fourier.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "701bd9a7f249646a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc3/series/fourier/fourier.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa0a2d9c047662c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc3/series/fourier/trig series.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "66a8829ff0616265",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc3/series/fourier/intro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53df86044b7b982b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc3/series/fourier/fourier.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ee3ab824caeb3b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc3/series/fourier/fourier.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "456a8cf1ab716b48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc3/series/fourier/dirichlet condition.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,25 +296,7 @@
             }
           }
         ],
-        "currentTab": 6
-      },
-      {
-        "id": "b02f221a54303fe4",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "60f5817301156f50",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ssh/pldc/state/type.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
+        "currentTab": 21
       }
     ],
     "direction": "vertical"
@@ -175,7 +325,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "natural",
+                "query": "bivector",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -188,8 +338,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f1fb825814246907",
@@ -205,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "maths/calc2/fields/flux.md",
+                "file": "maths/calc3/series/fourier/dirichlet condition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,36 +383,39 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "aad584c33bd5d220",
+  "active": "456a8cf1ab716b48",
   "lastOpenFiles": [
-    "maths/calc2/fields/field.md",
-    "maths/calc2/fields/fréchet derivative.md",
-    "maths/calc2/fields/jacobian.md",
-    "maths/calc2/fields/gradient.md",
-    "ssh/pldc/state/type.md",
-    "ssh/pldc/state/hinhthuc.md",
-    "maths/calc2/fields/directional.md",
-    "maths/calc2/fields/flux.md",
+    "maths/calc2/paraint/paraim.md",
+    "maths/calc3/series/fourier/dirichlet condition.md",
+    "maths/calc3/series/fourier/fourier.md",
     "maths/calc2/fields/laplacian.md",
-    "Excalidraw/Drawing 2023-04-08 21.50.05.excalidraw.md",
-    "maths/calc2/fields/ext derv.md",
-    "Excalidraw/Drawing 2023-04-17 12.37.52.excalidraw.md",
-    "maths/calc2/fields/circulation.md",
-    "maths/calc2/fields/scalar potential.md",
+    "maths/calc2/fields/field.md",
+    "maths/calc3/series/fourier/intro.md",
+    "maths/calc3/series/fourier/trig series.md",
+    "maths/calc3/series/fourier",
+    "maths/calc2/integrals/beta.md",
+    "maths/calc2/integrals/gamma.md",
+    "maths/calc2/paraint/paraint.md",
+    "maths/calc2/paraint/uniconv.md",
+    "generalized stoke's theorem.md",
+    "manifold.md",
+    "assets/Pasted image 20230417222556.png",
+    "diffeomorphism.md",
+    "maths/calc2/smooth.md",
+    "maths/calc2/integrals/surfaceint.md",
+    "maths/calc2/integrals/multiint.md",
+    "Obsidian.md",
+    "maths/calc2/integrals/lineint.md",
+    "maths/geometric algebra.md",
+    "it/intro/network.md",
+    "maths/calc2/integrals/jordan content.md",
+    "it/intro/file.md",
+    "it/intro/os.md",
+    "it/intro/process.md",
+    "it/intro/program.md",
+    "maths/calc2/integrals",
     "assets/Pasted image 20230417103459.png",
-    "Excalidraw/Drawing 2023-04-08 21.10.04.excalidraw.md",
-    "Excalidraw/Drawing 2023-04-17 10.44.52.excalidraw.md",
     "assets/Pasted Image 20230417104507_597.png",
-    "Excalidraw/Drawing 2023-04-08 20.14.15.excalidraw.md",
-    "Excalidraw/Drawing 2023-04-10 15.20.27.excalidraw.md",
-    "Excalidraw/Drawing 2023-04-10 15.45.09.excalidraw.md",
-    "Excalidraw/Drawing 2023-04-10 16.10.30.excalidraw.md",
-    "physics/classical_mech/gravity/orbital speed.md",
-    "assets/Drawing 2023-04-17 10.44.35.excalidraw.md",
-    "physics/classical_mech/gravity/newton grav.md",
-    "physics/classical_mech/mech/angular momentum.md",
-    "maths/calc3/series/dirichlet test.md",
-    "maths/calc3/series/abel test.md",
     "maths/calc2/fields",
     "physics/classical_mech/gravity",
     "assets/Pasted image 20230412143845.png",
@@ -275,13 +427,10 @@
     "assets/Pasted image 20230410152158.png",
     "assets/Pasted image 20230410151223.png",
     "it/cp_sys",
-    "assets/Pasted image 20230410125502.png",
     "Excalidraw",
     "physics/classical_mech/mech",
     "physics/classical_mech/motion",
     "Untitled.canvas",
-    "torani/albums",
-    "torani",
-    "physics/intro"
+    "torani/albums"
   ]
 }

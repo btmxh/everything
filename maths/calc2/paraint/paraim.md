@@ -11,8 +11,16 @@ we need one additional cond: [[uniconv]]
 proof is at the [[uniconv#properties#cont]]
 
 ## int8
-cond: $f$ cont/$[a,b)\times$(y-space) + [[uniconv]]
+cond: $f$ cont/$[a,b_{0})\times$(y-space $Y$) + [[uniconv]]
+$$
+\int _{Y} I(y)\, dy =\int _{a}^{b_{0}} \int _{Y} f(x,y) \, dy  \, dx 
+$$
 TODO: nxt's corollary
+
+e.g. $\int _{0}^{+\infty} \frac{e^{ -ax }-e^{ -bx }}{x} \, dx$, for $a,b>0$
+- let $f(x,t)=e^{ -tx }$ ($t\geq a$), then $\int _{a}^{b} f(x,t) \, dt=\frac{e^{ -ax }-e^{ -bx }}{x}$, and $f$ cont on $[0,+\infty)\times[a,+\infty)$
+- to prove [[uniconv]], one use [[weierstrass m-test]] with $f(x,t)\leq e^{ -ax }$ conv to $\frac{1}{a}$
+- then $\int _{0}^{\infty} \frac{e^{ -ax }-e^{ -bx }}{x} \, dx=\int _{0}^{\infty}\int _{a}^{b}e^{ -tx } \, dt \, dx=\int _{a}^{b}\int _{0}^{\infty}e^{ -tx } \, dx \, dt$$=\int _{a}^{b} \frac{1}{t} \, dt=\ln(b)-\ln(a)$
 
 ## diff.
 cond: $f,f'_{y}$ cont/xy-space + $\int f'_{y}(x,y)dx$ [[uniconv]]  (+ ofc $\int f(x,y)dx$ cont)
