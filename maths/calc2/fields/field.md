@@ -1,4 +1,4 @@
-field is basically just a map (usually differentiable) from a vector set ($\mathbb{R}^{3}, \mathbb{R}^{4}$) to another scalar/vector set ($\mathbb{R}, \mathbb{R}^{3}, \mathbb{R}^{4}$)
+field is basically just a map (usually differentiable) from a (subset of a) vector set ($\mathbb{R}^{3}, \mathbb{R}^{4}$) to another scalar/vector set ($\mathbb{R}, \mathbb{R}^{3}, \mathbb{R}^{4}$)
 
 ## scalar field
 fields that maps to a scalar set like $\mathbb{R}$

@@ -4,5 +4,6 @@
   "promptDelete": false,
   "attachmentFolderPath": "assets",
   "alwaysUpdateLinks": true,
-  "mobilePullAction": "workspace:copy-url"
+  "mobilePullAction": "workspace:copy-url",
+  "defaultViewMode": "preview"
 }

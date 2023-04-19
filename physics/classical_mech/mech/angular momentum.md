@@ -7,7 +7,7 @@ setvi: **mômen động lượng**
 - is a vector
 	- **origin**: the point $O$
 	- p-dir: $\perp$ with the plane that contains $O$, $\mathbf{r}$ and $\mathbf{v}$ (i.e. $O+span \{ \mathbf{r}, \mathbf{p} \}$)
-	- c-dir: $(\mathbf{r}, \mathbf{p}, \mathbf{v})$ is positively-oriented
+	- c-dir: $(\mathbf{r}, \mathbf{p}, \mathbf{L})$ is positively-oriented
 
 ## theorem
 we have $\frac{d\mathbf{p}}{dt}=\mathbf{F}\implies \mathbf{r}\times \frac{d\mathbf{p}}{dt}=\mathbf{r}\times \mathbf{F}$

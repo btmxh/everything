@@ -43,3 +43,7 @@ $$
 - pulling out the limit and actually do the integral (reason provided later), one have $\Gamma(z)=\lim_{ n \to \infty } \frac{n!}{n^{n}}\prod_{k=0}^{n}(z+k)^{-1}n^{z+n}$, which can be rewritten as $\lim_{ n \to \infty } \frac{n^{z}}{z} \prod_{k=1}^{n} \frac{1}{1+\frac{z}{k}}$
 - this can be used to evaluate the LHS (as $-z\Gamma(z)\Gamma(-z)$) as $\lim_{ n \to \infty } \frac{1}{z} \prod_{k=1}^{n} \frac{1}{1-\frac{z^{2}}{k^{2}}}$
 - to prove that this expr equals RHS, it's outside of the scope, :tf: (you can prove that ig)
+
+e.g. $\int _{0}^{1} x^{20}(\ln x)^{30} \, dx$
+- let $t =\ln x$, $I=\int _{-\infty}^{0} e^{ 20t } t^{30}\,e^{ t }dt=\int _{-\infty}^{0}t^{30}e^{ 21t } \, dt=\int _{0}^{\infty} t^{30}e^{ -21t } \, dt$
+- let $u=21t$ => $I=\int _{0}^{\infty} \left( \frac{u}{21} \right)^{30} e^{ -u } \, \frac{du}{21}=\frac{1}{21^{31}}\Gamma(31)=\frac{30!}{21^{31}}$
