@@ -68,3 +68,8 @@ e.g. $\int _{0}^{\infty} \frac{dx}{(x^{2}+y)^{n+1}}$
 - let $n=0$, we have $I(0)=\int _{0}^{\infty} \frac{dx}{x^{2}+y} \, dx=\frac{\pi}{2\sqrt{ y }}$
 - **the rest is trivial and left as an exercise for my lecturers**
 
+e.g. $\int _{0}^{\infty} \left( \frac{e^{ -ax }-e^{ -bx }}{x} \right)^{2} \, dx$
+- $f(x,y)=\left( \frac{e^{ -ax }-e^{ -yx }}{x} \right)^{2}$, then $f'_{y}=\frac{2(e^{ -ax }-e^{ -yx })}{x}e^{ -yx }$ and $f''_{yy}=-2e^{ -(a+y)x }+4ye^{ -2yx }$
+- these things satisfy the conds ig ($f$ cont, asymp. to $e^{ -2(y+\varepsilon)x^{2} }$ conv, similar with $f'_{y}$ and $f''_{yy}$, [[uniconv]] via [[weierstrass m-test]])
+- then $I''(y)=\int _{0}^{\infty}(4ye^{ -2yx }-2e^{ -(a+y)x }) \, dx=2-\frac{1}{y+a}$
+- taking the integral => $I(y)=x^{2}+(y+a)\ln(y+a)-y+C$

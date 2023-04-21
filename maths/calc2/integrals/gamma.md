@@ -52,5 +52,6 @@ e.g. $\int _{0}^{1} x^{n-1}\ln(x)^{m} \, dx$
 - let $t=\ln x$, the int. evals to $\int _{-\infty}^{0} e^{ (n-1)t } t^{m} e^{ t } \, t=\int _{-\infty}^{0} t^{m}e^{ nt } \, dx$
 - swaping bounds: $\int _{\infty}^{0} (-t)^{m}e^{ -nt } \, (-dt)=(-1)^{m}\int _{0}^{\infty} t^{m}e^{ -nt } \, dx$
 - let $u=nt$, then the integral evals to $\int _{0}^{\infty} \left( \frac{u}{n} \right)^{m} e^{ -u } \, \frac{du}{n}$
-- => end result is $\frac{(-1)^{m}}{n^{m+1}}\Gamma(m+1)$
+- => end result is $\frac{(-1)^{m}}{n^{m+1}}\Gamma(m+1)=\frac{(-1)^{m}m!}{n^{m+1}}$
+
 
