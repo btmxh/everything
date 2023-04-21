@@ -10,4 +10,4 @@ instead, we use this inner product $\langle f,g \rangle=\frac{1}{\pi}\int _{-\pi
 	- $\|f_{0}\|=2$
 	- $\|f_{n}\|= \|g_{n}\|=1$
 
-=> the orthonormal basis is $\set{\frac{1}{2}, \cos x,\sin x, \cos 2x, \sin 2x, \dots}$, and if a fn $f$ has coords $(a_{0},a_{1},b_{1},a_{2},b_{2}, \dots)$, then one can write $f(x)=\frac{a_{0}}{2}+\sum_{n=1}^{\infty} (a_{n}\cos nx+b_{n}\sin nx)$, i.e. the [[fourier]] series repr of $f$
+=> the orthonormal basis is $\set{\frac{1}{\sqrt{ 2 }}, \cos x,\sin x, \cos 2x, \sin 2x, \dots}$, and if a fn $f$ has coords $(a_{0}\sqrt{ 2 },a_{1},b_{1},a_{2},b_{2}, \dots)$, then one can write $f(x)=\frac{a_{0}}{2}+\sum_{n=1}^{\infty} (a_{n}\cos nx+b_{n}\sin nx)$, i.e. the [[fourier]] series repr of $f$ (ik it's weird)

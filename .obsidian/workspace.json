@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/geometric algebra.md",
+                "file": "maths/calc2/paraint/paraim.md",
                 "mode": "source",
                 "source": false
               }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "maths/geometric algebra.md",
+                "file": "maths/calc2/paraint/paraim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,8 +122,13 @@
   },
   "active": "b35beb9cae27c189",
   "lastOpenFiles": [
-    "assets/Pasted image 20230419113713.png",
+    "maths/calc2/paraint/paraim.md",
+    "maths/calc2/integrals/gamma.md",
+    "maths/calc3/series/fourier/fourier.md",
     "physics/classical_mech/mech/torque.md",
+    "maths/calc3/series/fourier/intro.md",
+    "maths/geometric algebra.md",
+    "assets/Pasted image 20230419113713.png",
     "physics/rigid/rigid body.md",
     "physics/classical_mech/motion/angular velocity.md",
     "physics/classical_mech/motion/angular accel..md",
@@ -134,13 +139,9 @@
     "physics/rigid",
     "generalized stoke's theorem.md",
     "maths/calc2/fields/field.md",
-    "maths/calc2/paraint/paraim.md",
     "maths/calc2/fields/laplacian.md",
-    "maths/calc2/integrals/gamma.md",
-    "maths/calc3/series/fourier/fourier.md",
     "maths/calc2/paraint/paraint.md",
     "maths/calc3/series/fourier/dirichlet condition.md",
-    "maths/calc3/series/fourier/intro.md",
     "maths/calc3/series/fourier/trig series.md",
     "maths/calc3/series/fourier",
     "maths/calc2/integrals/beta.md",
@@ -163,7 +164,6 @@
     "physics/classical_mech/energy",
     "assets/Pasted image 20230410154723.png",
     "assets/Pasted image 20230410152158.png",
-    "assets/Pasted image 20230410151223.png",
     "it/cp_sys",
     "Excalidraw",
     "physics/classical_mech/mech",

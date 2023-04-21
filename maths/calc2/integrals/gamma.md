@@ -47,3 +47,10 @@ $$
 e.g. $\int _{0}^{1} x^{20}(\ln x)^{30} \, dx$
 - let $t =\ln x$, $I=\int _{-\infty}^{0} e^{ 20t } t^{30}\,e^{ t }dt=\int _{-\infty}^{0}t^{30}e^{ 21t } \, dt=\int _{0}^{\infty} t^{30}e^{ -21t } \, dt$
 - let $u=21t$ => $I=\int _{0}^{\infty} \left( \frac{u}{21} \right)^{30} e^{ -u } \, \frac{du}{21}=\frac{1}{21^{31}}\Gamma(31)=\frac{30!}{21^{31}}$
+
+e.g. $\int _{0}^{1} x^{n-1}\ln(x)^{m} \, dx$
+- let $t=\ln x$, the int. evals to $\int _{-\infty}^{0} e^{ (n-1)t } t^{m} e^{ t } \, t=\int _{-\infty}^{0} t^{m}e^{ nt } \, dx$
+- swaping bounds: $\int _{\infty}^{0} (-t)^{m}e^{ -nt } \, (-dt)=(-1)^{m}\int _{0}^{\infty} t^{m}e^{ -nt } \, dx$
+- let $u=nt$, then the integral evals to $\int _{0}^{\infty} \left( \frac{u}{n} \right)^{m} e^{ -u } \, \frac{du}{n}$
+- => end result is $\frac{(-1)^{m}}{n^{m+1}}\Gamma(m+1)$
+
