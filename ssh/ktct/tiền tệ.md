@@ -67,10 +67,28 @@
 		- là 1 hình thái chứng chỉ của giá trị
 		- do NN phát hành
 		- để dùng trong lưu thông để thay cho [[tiền tệ]]
-	- e.g. coin: ko là [[tiền tệ]], ko là tiền, nhưng vẫn có một giá trị nhất định nào đó
+	- e.g. coin: ko là [[tiền tệ]], ko là tiền cc, nhưng vẫn có một giá trị nhất định nào đó
 - ban đầu: tiền là **ngân phiếu vàng**, gắn liền với vàng
 	- => khi tổng giá trị ngân phiếu > tổng giá trị vàng (hàng luôn tăng, vàng gần như ko đổi), người đột nhiên đổ xô đến thì ded như modern bank
 	- => **solution**: ko gắn tiền vs vàng nữa, và ko vs ccvc luôn => tiền ko còn tồn tại kq, thích gọi j thì gọi (vd: tq: pk: quan => trung cộng: nd tệ, europe: euro, ...)
 	- kỉ nguyên bản vị vàng kết thúc vào 1971 (hệ thống bretton woods) ![[Pasted image 20230412143845.png]]
 - phương tiện cất trữ, lưu thông, thanh toán
+
+### phương tiện thanh toán
+- con ng có thể sử dụng tiền để chi trả trực tiếp cho các nghĩa vụ kinh tế của mình, thay cho việc trao đổi hàng lây hàng
+- => do tiền thực sự có giá trị kq => thanh toán chậm hơn hàng lấy hàng
+
+### tiền tệ tg
+- đến tk19, tiền để thanh toán q tế: vàng bạc
+	- remember "nhà nguyễn đền bù xxx lượng vàng cho pháp..."
+- tk19 => cm công nghiệp => communication giữa các q gia với nhau possible + sự liên thông kinh tế giữa các q gia ez hơn
+- => h nay dùng **hệ thống tỷ giá hối đoái toàn cầu** để ttqt
+- IMF tín nhiệm 5 đồng toàn cầu: USD, bảng anh, ,JPY, EURO, nd tệ
+	- vd: 1usd = 23kvnd => 25kvnd => tỉ giá của usd tăng, của vnd giảm, $e_{\frac{USD}{VND}}=23k, e_{\frac{VND}{USD}}=\frac{1}{23k}$
+	- tỉ giá giảm
+		- => giá hàng xk giảm => xk tăng => nền sx ptr, tăng trưởng
+		- => giá hàng nk tăng => nk giảm => nền sx cũng ptr tăng trg
+	- tỷ giá tăng => ... => nền sx suy thoái
+	- e.g. đồ made in china rẻ do nhân dân tệ có tỉ giá so vs usd thấp + china nhập nhiều usd
+	- e.g. 2008, vnd mất giá mạnh 1 cách chủ ý để đẩy mạnh xuất khẩu, vượt qua khkt
 - tiền tệ thế giới

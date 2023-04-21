@@ -16,8 +16,8 @@ RHS is the [[torque]] of force $\mathbf{F}$, denoted $\mu_{/O}(\mathbf{F})$
 LHS is $\frac{d(\mathbf{r}\times \mathbf{p})}{dt}-\frac{d\mathbf{r}}{dt}\times \mathbf{p}=\frac{d\mathbf{L}}{dt}-\mathbf{v}\times m\mathbf{v}=\frac{d\mathbf{L}}{dt}$
 => **the theorem of [[angular momentum]]:** the derv of [[angular momentum]] wrt time and origin $O$ is equal to the [[torque]] of the **net force** wrt origin $O$ on the [[point mass]]
 
-**corollary:** if either $\mathbf{F}=0$ or (weaker) $\mathbf{F}$ is a radial force (vi: lực xuyên tâm), i.e. $\mathbf{F}\perp$ plane of rotation, then $\mathbf{L}$ is conserved
+**corollary:** if either $\mathbf{F}=0$ or (stronger) $\mathbf{F}$ is a radial force (vi: lực xuyên tâm), i.e. $\mathbf{F}\parallel\mathbf{r}$ => the plane of rotation is conserved.
 
-e.g. circular motion => $L=mr^{2}\omega$, we denote $I=mr^{2}$ the **moment of inertia** of that [[point mass]] wrt $O$ then $L=I\omega$, or in vector form, $\mathbf{L}=\mathbf{I}\omega$
+e.g. circular motion => $L=mr^{2}\omega$, we denote $I=mr^{2}$ the **moment of inertia** of that [[point mass]] wrt $O$ then $L=I\omega$, or in vector form, $\mathbf{L}=I\vec{\omega}$
 
 > the **moment of inertia** $I$ is formally defined as $\mathbf{I}=\frac{\mathbf{L}}{\omega}$ on [wikipedia](https://en.wikipedia.org/wiki/Moment_of_inertia)

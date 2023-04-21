@@ -8,7 +8,7 @@ e.g. an object move from $A$ to $B$ under the effect of force $\mathbf{F}$, then
 => the **kinetic energy** of a [[point mass]] with mass $m$, velocity $v$ is $KE=\frac{1}{2}mv^{2}$
 
 ## theorem
-by the prev e.g, one can see that $KE_{2}-KE_{1}=W$, or alternatively **the rate of change in KE of a [[point mass]] in some path is equals to the outside [[force]] exerted on that [[point mass]] during that path**
+by the prev e.g, one can see that $KE_{2}-KE_{1}=W$, or alternatively **the change in KE of a [[point mass]] in some path is equals to the [[work]] caused by the outside [[force]] exerted on that [[point mass]] during that path**
 then, if $W>0, KE_{2}>KE_{1}$ => $\mathbf{F}$ give energy to the [[point mass]], and conversely etc.
 
 e.g. collision
