@@ -1,7 +1,7 @@
-setvi: **mômen động lượng**
+vi: **mômen động lượng**
 
 ## motivation and def
-- angular momentum $L$ stems from [[angular velocity]] (however a certain university is pepega af :skull: does not talk about this), simply by $\mathbf{L}=m \vec{\omega}$ (or bivector whatever)
+- angular momentum $L$ stems from [[angular velocity]] (however a certain university is pepega af :skull: does not talk about this), simply by $\mathbf{L}=m \frac{\vec{\omega}}{r^{2}}$ (or bivector whatever)
 - since $\mathbf{r}$ is dependent on an **origin**, the angular momentum is relative to an origin point $O$
 - formula: $\mathbf{L}=\mathbf{r}\times m\mathbf{v}=\mathbf{r}\times \mathbf{p}$
 - is a vector
