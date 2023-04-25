@@ -1,4 +1,4 @@
-digital thing do: input -> [[process]] according to a [[program]] -> output
+digital thing do: input -> [[it/intro/process]] according to a [[program]] -> output
 
 ## history
 gen 1: 50-58

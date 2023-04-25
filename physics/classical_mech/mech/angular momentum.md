@@ -18,6 +18,19 @@ LHS is $\frac{d(\mathbf{r}\times \mathbf{p})}{dt}-\frac{d\mathbf{r}}{dt}\times \
 
 **corollary:** if either $\mathbf{F}=0$ or (stronger) $\mathbf{F}$ is a radial force (vi: lực xuyên tâm), i.e. $\mathbf{F}\parallel\mathbf{r}$ => the plane of rotation is conserved.
 
-e.g. circular motion => $L=mr^{2}\omega$, we denote $I=mr^{2}$ the **moment of inertia** of that [[point mass]] wrt $O$ then $L=I\omega$, or in vector form, $\mathbf{L}=I\vec{\omega}$
+e.g. circular motion => $L=mr^{2}\omega$, we denote $I=mr^{2}$ the [[moment of inertia]] of that [[point mass]] wrt $O$ then $L=I\omega$, or in vector form, $\mathbf{L}=I\vec{\omega}$
 
-> the **moment of inertia** $I$ is formally defined as $\mathbf{I}=\frac{\mathbf{L}}{\omega}$ on [wikipedia](https://en.wikipedia.org/wiki/Moment_of_inertia)
+## [[rigid body]]
+for rigid body, we have $d\mathbf{L}=\vec{\omega} dI$, and to find the total $\mathbf{L}$ one can simply take the triple integral
+if the axis is fixed, the $I$ is const on the [[rigid body]], $\mathbf{L}=\vec{\omega}I$
+the above theorem also works since [[torque]] is additive: $\mu=\vec{\beta}I$, but $I$ needs to be const, i.e. const axis.
+
+### conservation
+if $\mu=0$, then $\frac{d\mathbf{L}}{dt}=0$, $\mathbf{L}$ is const
+=> conservation works for:
+- isolated system
+- system with net [[torque]] equals 0
+
+*applications*: since $\mathbf{L}$ is const, we have $I\omega$ const
+- to increase $\omega$, decrease $I$, (easiest via decreasing $r$) (ballet stuff)
+- bla bla bla 

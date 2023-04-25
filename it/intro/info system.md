@@ -1,2 +1,2 @@
 data -> info -> knowledge
-	->: [[process]]
+	->: [[it/intro/process]]

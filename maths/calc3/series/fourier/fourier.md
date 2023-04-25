@@ -1,7 +1,7 @@
 see [[intro]]
 
 we have: $f(x)=\frac{a_{0}}{2}+\sum_{n=1}^{\infty}(a_{n}\cos nx+b_{n}\sin nx)$, then to calc $a_{n},b_{n}$, one takes the **inner product** of $f(x)$ with the basis vectors
-- $a_{0}=\frac{1}{\sqrt{ 2 }}\left\langle  f, \frac{1}{\sqrt{ 2 }} \right\rangle=\langle f, \frac{1}{2}\rangle=\frac{1}{2\pi}\int _{-\pi}^{\pi} f(x) \, dx$
+- $a_{0}=\sqrt{ 2 }\left\langle  f, \frac{1}{\sqrt{ 2 }} \right\rangle=\langle f, 1\rangle=\frac{1}{\pi}\int _{-\pi}^{\pi} f(x) \, dx$
 - $a_{n}=\langle f,\cos nx\rangle=\frac{1}{\pi}\int _{-\pi}^{\pi} f(x)\cos nx \, dx$
 - $b_{n}=\langle f,\sin nx\rangle=\frac{1}{\pi}\int _{-\pi}^{\pi} f(x)\sin nx \, dx$
 

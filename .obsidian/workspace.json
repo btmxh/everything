@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "96d5ab6ae34d71fd",
+        "id": "bf0726125eb43450",
         "type": "tabs",
         "children": [
           {
-            "id": "52174c4314a80d00",
+            "id": "7a4fa82d31c975da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ssh/ktct/tiền tệ.md",
+                "file": "maths/geometric algebra.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "da1210d087468a28",
+            "id": "ca7b48eff2e0822e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/calc2/paraint/paraim.md",
+                "file": "maths/calc3/series/fourier/fourier.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "oriented",
+                "query": "\"moment of inertia\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "maths/calc2/paraint/paraim.md",
+                "file": "maths/calc3/series/fourier/fourier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,54 +108,65 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "02ad5e3b206d5da2",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "ca7b48eff2e0822e",
   "lastOpenFiles": [
-    "maths/calc2/integrals/gamma.md",
-    "maths/calc2/paraint/paraim.md",
-    "maths/calc3/series/fourier/fourier.md",
-    "physics/classical_mech/mech/torque.md",
     "maths/calc3/series/fourier/intro.md",
+    "maths/calc3/series/fourier/fourier.md",
+    "maths/calc3/de/de.md",
     "maths/geometric algebra.md",
-    "assets/Pasted image 20230419113713.png",
-    "physics/rigid/rigid body.md",
-    "physics/classical_mech/motion/angular velocity.md",
-    "physics/classical_mech/motion/angular accel..md",
-    "physics/rigid/center of mass.md",
-    "physics/classical_mech/mech/angular momentum.md",
-    "physics/classical_mech/motion/point mass.md",
-    "maths/calc2/fields/scalar potential.md",
+    "maths/calc3/de/Untitled",
+    "maths/calc3/de",
+    "physics/thermal/boltzmann dist.md",
+    "physics/thermal/maxwell dist..md",
+    "physics/thermal/gas.md",
+    "assets/Pasted image 20230425133208.png",
+    "physics/thermal/tprocess.md",
+    "assets/Pasted image 20230425130043.png",
+    "assets/Pasted image 20230425124522.png",
+    "assets/Pasted image 20230425124314.png",
+    "assets/Pasted image 20230425123705.png",
+    "rfc/0004-reayumu.md",
+    "physics/thermal/entropy.md",
+    "physics/thermal/thermo laws.md",
+    "physics/classical_mech/mech/momentum.md",
+    "maths/calc2/paraint/paraim.md",
+    "it/intro/info system.md",
+    "it/intro/computer.md",
+    "it/intro/program.md",
+    "it/intro/network.md",
+    "assets/Pasted image 20230424145644.png",
+    "assets/Pasted image 20230424145421.png",
+    "assets/Pasted image 20230424145331.png",
+    "assets/Pasted image 20230424142742.png",
+    "ssh/pldc/vn/vn.md",
+    "physics/thermal/ideal gas.md",
+    "physics/thermal/carnot.md",
+    "Untitled 7.md",
+    "Excalidraw/Drawing 2023-04-24 13.26.12.excalidraw.md",
+    "ssh/pldc/state/machine.md",
+    "ssh/pldc/vn",
+    "assets/Pasted image 20230424131503.png",
+    "physics/thermal/thermodynamic of matter.md",
+    "physics/thermal/balanced state.md",
+    "Untitled 6.md",
+    "physics/thermal",
+    "physics/harmonic",
     "physics/rigid",
-    "generalized stoke's theorem.md",
-    "maths/calc2/fields/field.md",
-    "maths/calc2/fields/laplacian.md",
-    "maths/calc2/paraint/paraint.md",
-    "maths/calc3/series/fourier/dirichlet condition.md",
-    "maths/calc3/series/fourier/trig series.md",
     "maths/calc3/series/fourier",
-    "maths/calc2/integrals/beta.md",
-    "maths/calc2/paraint/uniconv.md",
-    "manifold.md",
-    "assets/Pasted image 20230417222556.png",
-    "diffeomorphism.md",
-    "maths/calc2/smooth.md",
-    "maths/calc2/integrals/surfaceint.md",
-    "maths/calc2/integrals/multiint.md",
     "maths/calc2/integrals",
-    "assets/Pasted image 20230417103459.png",
-    "assets/Pasted Image 20230417104507_597.png",
     "maths/calc2/fields",
     "physics/classical_mech/gravity",
-    "assets/Pasted image 20230412143845.png",
-    "assets/Pasted image 20230412143813.png",
-    "assets/Pasted image 20230410161209.png",
-    "assets/Pasted image 20230410160224.png",
-    "physics/classical_mech/energy",
-    "assets/Pasted image 20230410154723.png",
-    "assets/Pasted image 20230410152158.png",
-    "it/cp_sys",
-    "Excalidraw",
-    "physics/classical_mech/mech",
-    "physics/classical_mech/motion",
     "Untitled.canvas"
   ]
 }
