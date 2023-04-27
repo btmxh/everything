@@ -4,18 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "b2cc1dbbf94d04a7",
+        "id": "b3156373cb6e602e",
         "type": "tabs",
         "children": [
           {
-            "id": "08adb4c99dadddd4",
+            "id": "8c81b825808b92c0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ssh/ktct/kttt.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6050ce13af2609f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "physics/classical_mech/gravity/newton grav.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ead7dc5d8b1eb2b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc3/de/ode/1st order.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -57,7 +86,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f1fb825814246907",
@@ -73,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "maths/calc3/de/ode/1st order.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,8 +133,28 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "08adb4c99dadddd4",
+  "active": "ead7dc5d8b1eb2b7",
   "lastOpenFiles": [
+    "maths/calc3/de/ode.md",
+    "maths/calc3/de/de.md",
+    "physics/rigid/rigid body.md",
+    "physics/classical_mech/energy/ke.md",
+    "maths/calc2/fields/scalar potential.md",
+    "physics/classical_mech/gravity/orbital speed.md",
+    "physics/classical_mech/gravity/newton grav.md",
+    "ssh/ktct/kttt.md",
+    "maths/calc2/paraint/applications.md",
+    "maths/calc2/integrals/multiint.md",
+    "maths/calc2/integrals/dirichlet.md",
+    "maths/calc2/integrals/beta.md",
+    "maths/calc3/series/dirichlet test.md",
+    "maths/calc2/paraint/paraim.md",
+    "maths/calc2/paraint/paraint.md",
+    "maths/calc2/integrals/gamma.md",
+    "maths/calc3/de/ode/1st order.md",
+    "maths/calc3/de/ode",
+    "maths/calc3/series/fourier/fourier.md",
+    "maths/calc3/series/fourier/dirichlet condition.md",
     "push.md",
     "maths/calc2/gstoke/generalized stoke's theorem.md",
     "serenity",
@@ -111,45 +162,25 @@
     "maths/calc2/gstoke/manifold.md",
     "maths/calc2/gstoke",
     "maths/geometric algebra.md",
-    "maths/calc3/series/fourier/fourier.md",
     "maths/calc3/series/fourier/intro.md",
-    "maths/calc3/de/de.md",
     "maths/calc3/de/Untitled",
     "maths/calc3/de",
     "physics/thermal/boltzmann dist.md",
     "physics/thermal/maxwell dist..md",
-    "physics/thermal/gas.md",
     "assets/Pasted image 20230425133208.png",
-    "physics/thermal/tprocess.md",
     "assets/Pasted image 20230425130043.png",
     "assets/Pasted image 20230425124522.png",
     "assets/Pasted image 20230425124314.png",
     "assets/Pasted image 20230425123705.png",
-    "rfc/0004-reayumu.md",
-    "physics/thermal/entropy.md",
-    "physics/thermal/thermo laws.md",
-    "physics/classical_mech/mech/momentum.md",
-    "maths/calc2/paraint/paraim.md",
-    "it/intro/info system.md",
-    "it/intro/computer.md",
-    "it/intro/program.md",
-    "it/intro/network.md",
     "assets/Pasted image 20230424145644.png",
     "assets/Pasted image 20230424145421.png",
     "assets/Pasted image 20230424145331.png",
     "assets/Pasted image 20230424142742.png",
-    "ssh/pldc/vn/vn.md",
-    "physics/thermal/ideal gas.md",
-    "physics/thermal/carnot.md",
-    "Untitled 7.md",
-    "Excalidraw/Drawing 2023-04-24 13.26.12.excalidraw.md",
-    "ssh/pldc/state/machine.md",
     "ssh/pldc/vn",
     "assets/Pasted image 20230424131503.png",
     "physics/thermal",
     "physics/harmonic",
     "physics/rigid",
-    "maths/calc3/series/fourier",
     "Untitled.canvas"
   ]
 }

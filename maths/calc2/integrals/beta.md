@@ -1,5 +1,7 @@
 the minase inori function is defined as $B(z_{1},z_{2})=\int _{0}^{1} t^{z_{1}-1}(1-t)^{z_{2}-1} \, dt$, for positive $z_{1},z_{2}>0$
 
+(should be obv that $B(x,y)=B(y,x)$)
+
 ## forms
 $B(z_{1},z_{2})$ can be rewritten in a number of forms
 ### sin cos
@@ -22,4 +24,12 @@ $$
 ## [[gamma]]
 **theorem:** $B(z_{1},z_{2})=\frac{\Gamma(z_{1})\Gamma(z_{2})}{\Gamma(z_{1}+z_{2})}$
 **proof**
-- we have 
+- we have $$
+\begin{align}
+\Gamma(z_{1})\Gamma(z_{2})&=\int _{0}^{\infty} u^{z_{1}-1}e^{ -u } \, du\int _{0}^{\infty} v^{z_{2}-1}e^{ -v } \, dv \\
+&=\int _{0}^{\infty} \int _{0}^{\infty} u^{z_{1}-1}v^{z_{2}-1}e^{ -u-v } \, dv \, du 
+\end{align}
+$$
+- let $u=st$, $v=s(1-t)$ => $RHS=\int _{s=0}^{\infty} \int _{t=0}^{1} e^{ -s } s^{z_{1}+z_{2}-1}t^{z_{1}-1}(1-t)^{z_{2}-1} \, dt \, ds$$=\Gamma(z_{1}+z_{2})B(z_{1},z_{2})$
+- [[uniconv]] because [[weierstrass m-test]] with the $e^{ -\dots }$ things bla bla
+- using this, we can derive properties of the beta fn like $B(x+1,y)=\frac{x}{x+y}B(x,y)$, $B(x,1-x)=\frac{\pi}{\sin \pi x}$, ...

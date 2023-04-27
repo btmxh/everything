@@ -120,7 +120,7 @@ e.g. $I_{n}(a)=\int _{0}^{1} x^{a}\ln(x)^{n}dx$
 - if $a\leq-1$ then the integral diverges (integrand > $\frac{1}{x^{1+\varepsilon}}$ div in the $a<-1$ case, > $\ln(x)$ which div to $\frac{\ln(x)^{2}}{2}$ in the $a=-1$ case)
 - if $a>-1$ then the integral conv. (integrand < $\frac{1}{x^{1-\varepsilon}}$ conv)
 - 
-- if $a<0$ then $|x^{a}\ln(x)^{n}| > |\ln(x)^{n}| > $ as $x \to 0$ => 
+- if $a<0$ then $|x^{a}\ln(x)^{n}| > |\ln(x)^{n}| > k$ as $x \to 0$ => 
 - integral conv iff $\lim_{ x \to 0 } x^{a}\ln(x)^{n}=0$ iff $a>0$ => $I_{n}$ is only defined on $\mathbb R^{+}$
 - then this is no longer [[paraim]] since 
 

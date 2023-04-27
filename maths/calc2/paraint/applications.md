@@ -43,4 +43,14 @@ e.g. $I(n,m)=\int _{0}^{1}x^{n-1}\ln(x)^{m} \, dx$
 	- first, the derv $mt^{m-1}e^{ nt }$ is cont on $\mathbb{R}^{2}$, so that's done
 	- secondly, $\int _{-\infty}^{0} t^{m}e^{nt} \, dx$ conv iff bla bla conditions
 	- 
-	- 
+
+
+e.g. $\int _{0}^{1} \frac{\ln(1-a^{2}x^{2})}{x^{2}\sqrt{ 1-x^{2} }} \, dx$, for $a\in[-1,1]$
+to differentiate the thing, one would need $f(x,a)=\frac{\ln(1-a^{2}x^{2})}{x^{2}\sqrt{ 1-x^{2} }}$, $f'_{a}(x,a)=\frac{-2a}{(1-a^{2}x^{2})\sqrt{ 1-x^{2} }}$
+- $f,f'_{a}$ cont on $(0,1)\times[-1+\varepsilon,1-\varepsilon]$ (not cont at $a=\pm 1$ tho)
+- original paraim conv: the numerator is bounded as $b\in [-1+\varepsilon,1-\varepsilon]$ and since $\int _0^{1} \frac{1}{x^{2}\sqrt{ 1-x^{2} }}\,dx$ conv => the original integral conv
+- the derv paraim [[uniconv]]: $-\frac{2a}{1-a^{2}x^{2}}$ is bounded => [[weierstrass m-test]]
+=> $I'(a)=\int _{0}^{1} -\frac{2a}{(1-a^{2}x^{2})\sqrt{ 1-x^{2} }} \, dx=-2a\int _{0}^{\pi/2} \frac{1}{1-a^{2}\sin ^{2}t} \, dt$$=-2a\int _{0}^{\infty} \frac{1}{\frac{1}{\sin ^{2}t}-a^{2}} \, d(\cot t)=-2a\int _{0}^{\infty} \frac{1}{u^{2}-a^{2}+1}\, du=-\frac{2a}{\sqrt{ 1-a^{2} }}$
+=> $I(a)=2\sqrt{ 1-a^{2} }$
+
+- for $a=\pm 1$

@@ -14,7 +14,7 @@ $$
 the series on the RHS is called a fourier series of $f(x)$
 now given seqs $a_{n},b_{n}$, the fourier series MAY NOT converge, and even if one calc $a_{n},b_{n}$ from a $f(x)$, the fourier series still MAY NOT converge, and if it converge, it MAY NOT converges to $f(x)$
 
-**def**: a fn $f(x)$ is said to be "able to be expressed as a fourier series" if its [[fourier series]] conv to $f(x)$, with no exceptions
+**def**: a fn $f(x)$ is said to be "able to be expressed as a fourier series" if its [[fourier]] series conv to $f(x)$, with no exceptions
 
 so when does it conv?
 see [[dirichlet condition]]
@@ -60,3 +60,9 @@ we try stuff
 - to get the traditional result, one can easily prove that the even+odd sum is conv using the odd sum, and if it conv to $S$, one have $\frac{\pi^{4}}{96}=S-\frac{S}{16}\implies S=\frac{\pi^{4}}{90}$, qed
 
 - TODO: can one generalize this, i.e. calc $\sum_{n=1}^{\infty} \frac{1}{n^{k}}$ for all $k$ (at least for even $k's$) (probably not tbh)
+
+## arbitary fn at some interval
+the [[fourier]] series of an arbitary fn (must satisfy dirichlet cond, so $f$ piecewise monotonic, bounded) $f$ wrt some interval $[a,b]$, one find periodic $g$ with period $b-a$ s.t. $f=g$ on $[a,b]$ and simply find the [[fourier]] series of $g$
+
+e.g. $f(x)=x$ has fourier series $F(x)$ wrt $[1.5, 3.5]$, calc $F(-0.5)$
+we have $g(x)=x$ on $[1.5, 3.5]$ => $g(-0.5^{+})=g(1.5^{+})=1.5$ and $g(-0.5^{-})=g(1.5^{-})=g(3.5^{-})=3.5$ => $F(-0.5)=\frac{1}{2}(1.5+3.5)=2.5$
