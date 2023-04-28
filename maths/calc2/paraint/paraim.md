@@ -23,7 +23,7 @@ e.g. $\int _{0}^{+\infty} \frac{e^{ -ax }-e^{ -bx }}{x} \, dx$, for $a,b>0$
 - then $\int _{0}^{\infty} \frac{e^{ -ax }-e^{ -bx }}{x} \, dx=\int _{0}^{\infty}\int _{a}^{b}e^{ -tx } \, dt \, dx=\int _{a}^{b}\int _{0}^{\infty}e^{ -tx } \, dx \, dt$$=\int _{a}^{b} \frac{1}{t} \, dt=\ln(b)-\ln(a)$
 
 ## diff.
-cond: $f,f'_{y}$ cont/xy-space (excluding limit point of $x$) + $\int f'_{y}(x,y)dx$ [[uniconv]]  (+ ofc $\int f(x,y)dx$ cont)
+cond: $f,f'_{y}$ cont/xy-space + $\int f'_{y}(x,y)dx$ [[uniconv]]  (+ ofc $\int f(x,y)dx$ cont)
 
 e.g. $I(y)=\int _{0}^{\infty} ye^{ -yx } \, dx$ on $[y_{0},+\infty)$, $(0,+\infty)$
 - have: $\int _{b}^{\infty} ye^{ -xy } \, dx=e^{ -by }$, then
@@ -72,26 +72,4 @@ e.g. $\int _{0}^{\infty} \left( \frac{e^{ -ax }-e^{ -bx }}{x} \right)^{2} \, dx$
 - $f(x,y)=\left( \frac{e^{ -ax }-e^{ -yx }}{x} \right)^{2}$, then $f'_{y}=\frac{2(e^{ -ax }-e^{ -yx })}{x}e^{ -yx }$ and $f''_{yy}=-2e^{ -(a+y)x }+4ye^{ -2yx }$
 - these things satisfy the conds ig ($f$ cont, asymp. to $e^{ -2(y+\varepsilon)x^{2} }$ conv, similar with $f'_{y}$ and $f''_{yy}$, [[uniconv]] via [[weierstrass m-test]])
 - then $I''(y)=\int _{0}^{\infty}(4ye^{ -2yx }-2e^{ -(a+y)x }) \, dx=2-\frac{1}{y+a}$
-- taking the integral => $I(y)=x^{2}+(y+a)\ln(y+a)-y+C$
-alternatively, one can do
-$$
-\begin{align}
-
-&\int _{0}^{\infty} \left( \frac{e^{ -ax }-e^{ -bx }}{x} \right)^{2} \, dx \\
-=&\int _{0}^{\infty} \frac{e^{ -ax }-e^{ -bx }}{x} \int _{a}^{b} e^{ -yx } \, dy  \, dx  \\
-=& \int _{0}^{\infty} \int _{a}^{b} \frac{e^{ -(a+y)x } - e^{ -(b+y)x }}{x} \, dy  \, dx  \\
-=& \int _{a}^{b} \int _{0}^{\infty} \frac{e^{ -(a+y)x } - e^{ -(b+y)x }}{x} \, dx  \, dy \text{ (1)}  \\
-=& \int _{a}^{b} \int _{0}^{\infty} \int _{a+y}^{b+y} e^{ -zx } \, dz  \, dx  \, dy \\
-= & \int _{a}^{b} \int _{a+y}^{b+y} \int _{0}^{\infty} e^{ -zx } \, dz  \, dx  \, dy \text{ (2)}  \\
-=& \int _{a}^{b} \int _{a+y}^{b+y} \frac{1}{x} \, dx  \, dy \\
-=&\dots 
-\end{align}
-$$
-- we switch the integrating order twice at $(1)$ and $(2)$, here's the clarification (both using [[weierstrass m-test]])
-	- 1: we need $\int _{0}^{\infty} \frac{e^{ -(a+y)x }-e^{ -(b+y)x }}{x} \, dx$ to be [[uniconv]] for $y\in [a,b]$, this is true because the (abs) numerator. is less than $e^{ -2ax }$
-	- 2: we need $\int _{0}^{\infty} e^{ -zx } \, dx$ to be [[uniconv]] for $z\in [a+y,b+y] \subset[2a,2b]$, this is true because $e^{ -zx } \leq e^{ -2ax }$
-
-e.g. $\int _{0}^{\infty} \frac{e^{ -ax }-e^{ -bx }}{x}\sin mx \, dx$
-- use the above trick, integrand = $\int _{a}^{b} e^{ -yx }\sin mx \, dy$
-- to change order, we need $\int _{0}^{\infty} e^{ -yx }\sin mx \, dx$ uniconv as $y\in[a,b]$, true by [[weierstrass m-test]]: $\left|\int _{0}^{\infty} e^{ -yx }\sin mx \, dx\right|\leq \int _{0}^{\infty} e^{ -ax } \, dx=\frac{1}{a}$
-- then $I=\int _{a}^{b} \int _{0}^{\infty} e^{ -yx }\sin mx \, dx \, dy=\int _{a}^{b} \frac{m}{y^{2}+m^{2}} \, dy$$=\ln \sqrt{ y^{2}+m^{2} }$
+- taking the integral => $I(y)=y^{2}+(y+a)\ln(y+a)-y+C$

@@ -6,8 +6,6 @@ $$
 $$
 in L bozo terms, $F=\frac{Gm_{1}m_{2}}{\|r_{1}-r_{2}\|^{2}}$
 
-present: two [[point mass]] with $m_{1},m_{2}$ with distance $r$ away from each other will pull each other with forces with the p-dir being the line that connects two [[point mass]], with intensity propto the two masses $m_{1}$ and $m_{2}$ and invpropto distance $r$ squared.
-
 (*we will use einstein summation extensively here*)
 now consider a system of $n$ masses $(m_{k},\mathbf{r_{k}})$, then one can define the grav field to be $\mathbf{G}(\mathbf{r})=Gm_{k}\frac{\mathbf{r_{k}}-\mathbf{r}}{\|\mathbf{r_{k}}-\mathbf{r}\|^{3}}$, is the gravity force per unit of mass asserted to some point at $\mathbf{r}$
 
@@ -20,21 +18,11 @@ let $C=0$, which is equivalent to letting the [[scalar potential]] at infinity (
 in the general case, since integrals and gradient operators are linear operators (they are even linear maps in some weird functional vector space), we can just sum it up: $V=- \frac{Gm}{\|\mathbf{r_{k}}-\mathbf{r}\|}$
 
 ## [[pe]]
-- the NGF (newton's gravitational field) is the field that exists everywhere around some objects with mass
-- every object with mass in NGF will be affected by this field (bla bla bla relativity stuff is not relevant here)
 the gravitational potential, $V=-\frac{Gm}{r} + C$ repr the [[pe]] of a point at $\mathbf{r}$, where $C$ is the grav [[pe]] at the point infinity $\mathbf{r}=\infty$
 
 ## [[const grav]]
 the $g$ in [[const grav]] can be calculated from this thing as
 $g(r)=\frac{GM}{r^{2}}=g(r_{0})\cdot\left( \frac{r}{r_{0}} \right)^{2}$
-- if one consider $M$ to be some star/planet with radius $R$, then $r=R+h$ ($h$ is the elevation wrt the surface of the object), then $g=\frac{GM}{r^{2}} \propto \frac{1}{r^{2}}=\frac{1}{(R+h)^{2}}$
-- we can estimate $g = \frac{g_{0}}{\left( 1+\frac{h}{R} \right)^{2}} \approx g_{0}\left( 1-\frac{2h}{R} \right)$
-
-## calc masses
-- using the value of $G$, one can trivially calc $M$ as $M=\frac{g(r)r^{2}}{G}=\frac{g_{0}R^{2}}{G}$
-- to calc the masses of celestial objects (not earth) like the sun, one consider the strength of the grav force between the sun and the earth, calculated using the distance $d=1.5\cdot 10^{11}m$ and the period $T=1$ year:
-	- velocity of earth: $v=d \frac{\tau}{T}$
-	- centripedal force: $F_{c}=\frac{M_{earth}v^{2}}{d}=F_{grav}=\frac{GM_{sun}M_{earth}}{d^{2}}$ => $M_{sun}=\frac{v^{2}d}{G}$
 
 ## [[angular momentum]] conservation
 if one puts a [[point mass]] at $O$ and do some [[angular momentum]] wrt to that point $O$ (denoted $\vec{\vec{L}}$), one would see that since $\mathbf{r}$ and $\mathbf{F_{g}}$ are parallel, its outer product is zero. hence, the [[torque]] $\mu_{/O}(\mathbf{F_{g}})$ is conserved, and objects will continue to move in a plane represented as the bivector $\vec{\vec{L}}$

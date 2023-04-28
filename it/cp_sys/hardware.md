@@ -1,17 +1,17 @@
 ## computer
 - an electronic device that do:
 	- recv input data
-	- [[it/intro/process]] [[info]] accordingly to [[program]] stored in [[memory]]
+	- [[process]] [[info]] accordingly to [[program]] stored in [[memory]]
 	- send output data
 - structure ![[Pasted image 20230410151223.png]]
 - (model by von neumann, 1954)
 
 - uses:
-	- [[it/intro/process]] data
+	- [[process]] data
 		- most important use
 		- data may have multiple types and have different instructions
 	- store data
-			- [[data]] can be immediately [[it/intro/process]]ed or stored in memory
+			- [[data]] can be immediately [[process]]ed or stored in memory
 			- when info is needed, it will be pulled out from memory to be processed
 		- two types of memory
 			- ram: data lost if power is lost

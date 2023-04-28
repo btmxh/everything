@@ -15,5 +15,3 @@ $$
 
 the unit of [[work]] is jules (J)
 the rate of change for [[work]] is called [[power]]
-
-for a rotating rigid body, we have $dW=\mathbf{F}\cdot d\mathbf{s}=F_{t}rd\theta=\mu d\theta$, with $\mu$ being the [[torque]] of $\mathbf{F}$

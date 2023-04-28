@@ -12,6 +12,6 @@ the torque is a pseudovector, with
 ## geometric algebra approach
 
 - one can define [[torque]] as [[work]] per unit angle, i.e. $\frac{dW}{d\theta}$
-- consider a 3d rotation on a 2d plane: $\mathbf{r}=r(\mathbf{\hat{u}}\cos \theta+\mathbf{\hat{v}}\sin \theta)=r\mathbf{\hat{u}}(\cos \theta+\mathbf{i}\sin \theta)=r\mathbf{\hat{u}}e^{ \mathbf{i}\theta }$, where $\mathbf{i}=\mathbf{\hat{u}}\mathbf{\hat{v}}$ is an unit bivector that repr the plane of rotation
+- consider a 3d rotation on a 2d plane: $\mathbf{r}=r(\mathbf{\hat{u}}\cos \theta+\mathbf{\hat{v}}\sin \theta)=r\mathbf{\hat{u}}(\cos \theta+\mathbf{i}\sin \theta)=r\mathbf{\hat{u}}e^{ \mathbf{i}\theta }$, where $\mathbf{i}=\mathbf{\hat{u}}\mathbf{\hat{v}}$ is a bivector that repr the plane of rotation
 - then $\tau=\frac{dW}{d\theta}=\frac{\mathbf{F}\cdot d\mathbf{r}}{d\theta}=\mathbf{F}\cdot(r\mathbf{\hat{u}}\mathbf{i}e^{ \mathbf{i}\theta })=\mathbf{F\cdot(\mathbf{ri})}$
-- in general, $\mathbf{F}$ may not lie on $\mathbf{i}$ => we need to replace $\mathbf{F}$ in the above expr by its projection onto $\mathbf{i}$, i.e. 
+- in general, $\mathbf{F}$ may not lie on $\mathbf{i}$ => we need to replace $\mathbf{F}$ in the above expr by 
