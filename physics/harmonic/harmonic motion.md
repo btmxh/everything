@@ -19,12 +19,12 @@ the [[de]]: $m\ddot{x}+r\dot{x}+kx=0$
 we already solved the [[de]] in the [[2nd order#const coeffs]], and considering only the two roots $\lambda_{1} \neq \lambda_{2}$ case:
 $x=A_{1}e^{ \lambda_{1}t }+A_{2}e^{ \lambda_{2}t }$
 the problem here is that $A_{1},A_{2},\lambda_{1}, \lambda_{2}$ may be complex, so one must make it real
-first, we split: $\lambda_{1,2}=\beta+\omega j$ ($\beta, \omega$ are real, $j\in\{ 1,i \}$) then
+first, we split: $\lambda_{1,2}=-\beta+\omega j$ ($\beta, \omega$ are real, $j\in\{ 1,i \}$) then
 $x=e^{ -\beta t }(A_{1}e^{ \omega j }+A_{2}e^{ -\omega j })$
-- in the $j=i$ case, taking the conjugate, we have $x=\bar{x} \iff A_{1}=\bar{A_{2}}$, then if $A_{1}=\frac{1}{2}Ae^{ i\phi }, A_{2}=\frac{1}{2}Ae^{ -i\phi }$, we have $x=Ae^{ \beta t }\cos(\omega t+\phi)$, or $\boxed{x=\mathrm{Re}(z), z=Ae^{ \beta t+i\phi }e^{ i\omega t }=Ce^{ i\omega t }, C=Ae^{ \beta t+i\phi }}$
+- in the $j=i$ case, taking the conjugate, we have $x=\bar{x} \iff A_{1}=\bar{A_{2}}$, then if $A_{1}=\frac{1}{2}Ae^{ i\phi }, A_{2}=\frac{1}{2}Ae^{ -i\phi }$, we have $x=Ae^{ -\beta t }\cos(\omega t+\phi)$, or $\boxed{x=\mathrm{Re}(z), z=Ae^{ -\beta t+i\phi }e^{ i\omega t }=Ce^{ i\omega t }, C=Ae^{ -\beta t+i\phi }}$
 
 - using the quadratic formula, $\beta=\frac{r}{2m}$, $\omega j$ is a sqrt of $\frac{r^{2}-4mk}{4m^{2}}=\beta^{2}-\frac{k}{m}=\beta^{2}-\omega_{0}^{2}$, with $\omega_{0}$ being the [[angular velocity]] if $r=0$
-- even if $m,r,k>0$, $\lambda_{1,2}$ still can be real (ofc lmfao $x^{2}+5x+6=0$) => the motion will not even reach the balance point (xd) => not a osc. motion (:skull:). this is the case when $\beta ^{2}-\omega_{0}^{2}\geq0 \iff |\beta|\geq|\omega_{0}|$
+- even if $m,r,k>0$, $\lambda_{1,2}$ still can be real (ofc lmfao $x^{2}+5x+6=0$) => the motion will not even reach the balance point (xd) => not a osc. motion (:skull:). this is the case when $\beta ^{2}-\omega_{0}^{2}\geq0 \iff |\beta|\geq|\omega_{0}|$ ($j=1$)
 
 when $r=0$, we have $\omega j$ is sqrt of $-\frac{k}{m}$ and one can also define $\omega_{0}$ as the [[angular velocity]] if $r=0$ => $\omega^{2}j^{2}=\beta^{2}-\omega_{0}^{2}j^{2} \implies \omega=\sqrt{ \omega_{0}^{2}-\beta^{2} }$ if $j=i$
 

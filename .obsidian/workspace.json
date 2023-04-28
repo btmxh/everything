@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/calc3/de/ode/1st order.md",
+                "file": "physics/harmonic/harmonic motion.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "maths/calc3/de/ode/1st order.md",
+                "file": "physics/harmonic/harmonic motion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,6 +135,7 @@
   },
   "active": "ead7dc5d8b1eb2b7",
   "lastOpenFiles": [
+    "maths/calc3/de/ode/1st order.md",
     "maths/calc3/de/ode.md",
     "maths/calc3/de/de.md",
     "physics/rigid/rigid body.md",
@@ -151,7 +152,6 @@
     "maths/calc2/paraint/paraim.md",
     "maths/calc2/paraint/paraint.md",
     "maths/calc2/integrals/gamma.md",
-    "maths/calc3/de/ode/1st order.md",
     "maths/calc3/de/ode",
     "maths/calc3/series/fourier/fourier.md",
     "maths/calc3/series/fourier/dirichlet condition.md",
