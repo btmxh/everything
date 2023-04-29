@@ -20,7 +20,7 @@ e.g. calc $s$ for $\mathbf{v_{0}}=5\mathbf{\hat{x}}e^{ i\pi/6 },\mathbf{g}=-10\m
 - verify: $s=\frac{5^{2}\sin\frac{\pi}{3}}{10}=\frac{5\sqrt{ 3 }}{4}$ true
 
 e.g. when is the range max? ($v_{0}$ fixed)
-we have $2(\mathbf{v_{0}\wedge\mathbf{\hat{s}}})(\mathbf{v_{0}}\wedge\mathbf{g})=v_{0}^{2}\mathbf{g}\cdot \mathbf{\hat{s}}-\mathbf{g}\cdot(\mathbf{v_{0}\mathbf{\hat{s}}\mathbf{v_{0}}})$
+we have $2(\mathbf{v_{0}\wedge\mathbf{\hat{s}}})(\mathbf{v_{0}}\wedge\mathbf{g})=v_{0}^{2}\mathbf{g}\cdot \mathbf{\hat{s}}-\mathbf{g}\cdot(\mathbf{v_{0}\mathbf{\hat{s}}\mathbf{v_{0}}})$ (don't ask why)
 - the first term is const, but the second term is the inner product between $\mathbf{g}$ and $\mathbf{v_{0}}\mathbf{\hat{s}}\mathbf{v_{0}}$, which is the reflection of $\mathbf{\hat{s}}$ along $\mathbf{v_{0}}$
 - to make the range max, one needs $\mathbf{g}$ and the reflection vector to have opposing direction, this only happens when $\mathbf{v_{0}}$ is the angle bisector of the angle made of 2 vectors $\mathbf{\hat{s}}$ and $-\mathbf{g}$
 ![[Pasted image 20230419113713.png]]

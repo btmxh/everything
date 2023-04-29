@@ -18,6 +18,26 @@ apps
 - must be installed after some OS (or one can provide the OS along with the program idk)
 - u get these from package managers, app stores, etc.
 
+### utilities
+- antivirus
+- (cloud) storage
+- matlab, octave, scilab
+
+### office
+- ms office
+
+### apps
+aidhfjsf
+
+### e-commerce
+- lazada, shopee, tiki, ebay,e tc. kdiajdkahdna
+
+
+- X2Y
+	- B: business
+	- C: consumer
+	- G: government
+
 ## programming
 to make the computer do stuff, one must instruct it to do something, via either using some applications or make your own ones via **programming**
 **programming language**: is the language one'd need to know in order to **program**

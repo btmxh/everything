@@ -2,7 +2,7 @@
 - sx tự cung tự cấp: de **tự tiêu dùng** => nền kt tự nhiên
 	- ng tiêu dùng là ng sx
 	- => qtr k tế khép kín, nền sx bị chi phối bởi 1 ca nhan => bảo thủ trì trệ
-- => ccvc dư thừa => có thể dùng để trao đổi =>**nền sx [[hang hoa]]**: de **trao đổi + mua bán** => nền kt [[hang hoa]], ptr cao hơn nữa => nền k tế thị trg
+- => ccvc dư thừa => có thể dùng để trao đổi =>**nền sx [[hang hoa]]**: de **trao đổi + mua bán** => nền kt [[hang hoa]], ptr cao hơn nữa => nền [[kttt]]
 	- => ng sx != ng tiêu dùng
 	- => qtr kinh tế đc xh hóa, dần dần mất đi bảo thủ trì trệ khép kín => có sản lg lớn hơn => là nền sx ptr hơn so vs sx tctc
 

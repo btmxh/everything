@@ -1,7 +1,7 @@
 control the computer (no other thing can do this, including GPU, etc.)
 
 - the brain of the system: control everything of the computer system
-- [[process]] [[data]]
+- [[it/intro/process]] [[data]]
 - operations
 	- recv instruction from main [[memory]]
 	- translate the instruction into microcode/etc.

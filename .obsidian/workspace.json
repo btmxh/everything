@@ -4,35 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "4464002a05462aeb",
+        "id": "b3156373cb6e602e",
         "type": "tabs",
         "children": [
           {
-            "id": "111117defe86bd8e",
+            "id": "8c81b825808b92c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physics/classical_mech/mech/torque.md",
+                "file": "ssh/ktct/kttt.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b35beb9cae27c189",
+            "id": "6050ce13af2609f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/calc2/paraint/paraim.md",
+                "file": "physics/classical_mech/gravity/newton grav.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ead7dc5d8b1eb2b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "physics/harmonic/harmonic motion.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "oriented",
+                "query": "\"moment of inertia\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,12 +82,12 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f1fb825814246907",
@@ -91,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "maths/calc2/paraint/paraim.md",
+                "file": "physics/harmonic/harmonic motion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,57 +129,58 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "janitor:Janitor: scan vault": false
     }
   },
-  "active": "b35beb9cae27c189",
+  "active": "ead7dc5d8b1eb2b7",
   "lastOpenFiles": [
-    "maths/calc2/integrals/gamma.md",
-    "maths/calc2/paraint/paraim.md",
-    "maths/calc3/series/fourier/fourier.md",
-    "physics/classical_mech/mech/torque.md",
-    "maths/calc3/series/fourier/intro.md",
-    "maths/geometric algebra.md",
-    "assets/Pasted image 20230419113713.png",
+    "maths/calc3/de/ode/1st order.md",
+    "maths/calc3/de/ode.md",
+    "maths/calc3/de/de.md",
     "physics/rigid/rigid body.md",
-    "physics/classical_mech/motion/angular velocity.md",
-    "physics/classical_mech/motion/angular accel..md",
-    "physics/rigid/center of mass.md",
-    "physics/classical_mech/mech/angular momentum.md",
-    "physics/classical_mech/motion/point mass.md",
+    "physics/classical_mech/energy/ke.md",
     "maths/calc2/fields/scalar potential.md",
-    "physics/rigid",
-    "generalized stoke's theorem.md",
-    "maths/calc2/fields/field.md",
-    "maths/calc2/fields/laplacian.md",
-    "maths/calc2/paraint/paraint.md",
-    "maths/calc3/series/fourier/dirichlet condition.md",
-    "maths/calc3/series/fourier/trig series.md",
-    "maths/calc3/series/fourier",
-    "maths/calc2/integrals/beta.md",
-    "maths/calc2/paraint/uniconv.md",
-    "manifold.md",
-    "assets/Pasted image 20230417222556.png",
-    "diffeomorphism.md",
-    "maths/calc2/smooth.md",
-    "maths/calc2/integrals/surfaceint.md",
+    "physics/classical_mech/gravity/orbital speed.md",
+    "physics/classical_mech/gravity/newton grav.md",
+    "ssh/ktct/kttt.md",
+    "maths/calc2/paraint/applications.md",
     "maths/calc2/integrals/multiint.md",
-    "maths/calc2/integrals",
-    "assets/Pasted image 20230417103459.png",
-    "assets/Pasted Image 20230417104507_597.png",
-    "maths/calc2/fields",
-    "physics/classical_mech/gravity",
-    "assets/Pasted image 20230412143845.png",
-    "assets/Pasted image 20230412143813.png",
-    "assets/Pasted image 20230410161209.png",
-    "assets/Pasted image 20230410160224.png",
-    "physics/classical_mech/energy",
-    "assets/Pasted image 20230410154723.png",
-    "assets/Pasted image 20230410152158.png",
-    "it/cp_sys",
-    "Excalidraw",
-    "physics/classical_mech/mech",
-    "physics/classical_mech/motion",
+    "maths/calc2/integrals/dirichlet.md",
+    "maths/calc2/integrals/beta.md",
+    "maths/calc3/series/dirichlet test.md",
+    "maths/calc2/paraint/paraim.md",
+    "maths/calc2/paraint/paraint.md",
+    "maths/calc2/integrals/gamma.md",
+    "maths/calc3/de/ode",
+    "maths/calc3/series/fourier/fourier.md",
+    "maths/calc3/series/fourier/dirichlet condition.md",
+    "push.md",
+    "maths/calc2/gstoke/generalized stoke's theorem.md",
+    "serenity",
+    "Untitled",
+    "maths/calc2/gstoke/manifold.md",
+    "maths/calc2/gstoke",
+    "maths/geometric algebra.md",
+    "maths/calc3/series/fourier/intro.md",
+    "maths/calc3/de/Untitled",
+    "maths/calc3/de",
+    "physics/thermal/boltzmann dist.md",
+    "physics/thermal/maxwell dist..md",
+    "assets/Pasted image 20230425133208.png",
+    "assets/Pasted image 20230425130043.png",
+    "assets/Pasted image 20230425124522.png",
+    "assets/Pasted image 20230425124314.png",
+    "assets/Pasted image 20230425123705.png",
+    "assets/Pasted image 20230424145644.png",
+    "assets/Pasted image 20230424145421.png",
+    "assets/Pasted image 20230424145331.png",
+    "assets/Pasted image 20230424142742.png",
+    "ssh/pldc/vn",
+    "assets/Pasted image 20230424131503.png",
+    "physics/thermal",
+    "physics/harmonic",
+    "physics/rigid",
     "Untitled.canvas"
   ]
 }
