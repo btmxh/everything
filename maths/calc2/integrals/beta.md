@@ -21,7 +21,7 @@ $$
 B(z_{1},z_{2})=\int _{0}^{\infty} \frac{u^{z_{1}-1}}{(1+u)^{z_{1}+z_{2}}} \, du 
 $$
 
-## [[gamma]]
+## [[maths/calc2/integrals/gamma]]
 **theorem:** $B(z_{1},z_{2})=\frac{\Gamma(z_{1})\Gamma(z_{2})}{\Gamma(z_{1}+z_{2})}$
 **proof**
 - we have $$

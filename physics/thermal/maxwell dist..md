@@ -1,4 +1,4 @@
-the maxwell distribution is a distribution used to model the molecular velocities of a certain [[gas]]
+the maxwell [[dist]] is a distribution used to model the molecular velocities of a certain [[gas]]
 
 ## formula
 $\frac{dn}{n}=\left( \frac{m}{2\pi kT} \right)^{3/2}e^{ -mv^{2}/2kT }d^{3}v$ is the probability of a molecule's velocity is in the box desc. by $v$ and $d^{3}v$

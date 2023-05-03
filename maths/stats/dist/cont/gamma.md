@@ -1,0 +1,2 @@
+- gamma [[dist]] is a [[cont]] [[dist]] with *shape param* $\alpha$ and *scale param* $\beta$
+- the pdf is 

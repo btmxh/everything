@@ -1,4 +1,4 @@
-the [[ode]] of 1st order is the [[ode]] in the form $F(x,y,y')=0$
+ the [[ode]] of 1st order is the [[ode]] in the form $F(x,y,y')=0$
 
 its other form is $y'=f(x,y)$
 
