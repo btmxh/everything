@@ -8,7 +8,7 @@ trivial
 e.g. $\frac{x^2}{a^2}-\frac{y^2}{b^2} = 1$
 param: $\mathbf r(t)=(a\cosh t, b\sinh t) = \mathbf r''(t)$
 $r'(t)=(a\sinh t, b\cosh t)$
-$\|r'\|= a^2\sinh(t)^2+b^2\cosh(t)^2$
+$\|r'\|^{2}= a^2\sinh(t)^2+b^2\cosh(t)^2$
 $\mathbf r' \times \mathbf r'' = ab$
 =>evo.: $r(t) = (a\cosh t, b\sinh t) + \frac{(a^2\sinh(t)^2+b^2\cosh(t)^2)(-b\cosh t, a\sinh t)}{ab}$
 simplifying, we get: $x(t)=\frac{a^2+b^2}{a}\cosh(t)^3$, $y(t)=-\frac{a^2+b^2}{b}\sinh(t)^3$

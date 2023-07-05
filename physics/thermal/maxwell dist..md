@@ -9,7 +9,9 @@ now, one can find the PDF wrt v
 
 the CDF is related to the error function, so yay we don't need to care about that.
 
-PDF max when $v^{2}e^{ -v^{2}/2a^{2} }$ max, calcing the derv yields $v^{2}=\frac{1}{2a^{2}}=\frac{2kT}{m} \implies v_{xs}=a\sqrt{ \frac{2}{\pi} }$
+PDF max when $v^{2}e^{ -v^{2}/2a^{2} }$ max, calcing the derv yields $v^{2}=\frac{1}{2a^{2}}=\frac{2kT}{m} \implies v_{xs}=a\sqrt{ 2 }$
+
+one can rewrite the PDF as $f(u)=\frac{4}{\sqrt{ \pi }} u^{2}e^{ -u^{2} }$ with $u=\frac{v}{v_{xs}}=\frac{v}{a\sqrt{ 2 }}$
 
 ## derivation
 TODO
@@ -18,7 +20,7 @@ TODO
 the mean velocity is $\bar{v}=E[v]=\int _{0}^{\infty} \sqrt{ \frac{2}{\pi} } \frac{v^{3}e^{ -v^{2}/2a^{2} }}{a^{3}} \, dx=a\sqrt{ \frac{8}{\pi} }$
 the mean velocity squared is $E[v^{2}]=3a^{2}$ (gaussian integral bullshit)
 => avg [[ke]]: $\bar{W}=\frac{m \bar{v^{2}}}{2}=\frac{3kT}{2}$
-- "vận tốc căn quân phương": $v_{c}=\sqrt{ \bar{v^{2}} }=a\sqrt{ \frac{3}{\pi} }$
+- "vận tốc căn quân phương": $v_{c}=\sqrt{ \bar{v^{2}} }=a\sqrt{ 3 }$
 
 => we have $\bar{v},v_{c}, v_{xs} \propto a$ and $v_{xs}<v_{c}<\bar{v}$
 ![[Pasted image 20230423214612.png]]

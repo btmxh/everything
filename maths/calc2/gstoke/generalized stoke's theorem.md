@@ -26,11 +26,37 @@ $$
 
 ## green's theorem
 special case of [[generalized stoke's theorem#stoke's theorem|stoke's theorem]] in 2d
-$\mathbf{F}=F_{x}\hat{i}+F_{y}\hat{j}$, curve is in the xy-plane
+$\mathbf{F}=F_{x}\hat{i}+F_{y}\hat{j}$, curve is in the xy-plane (additional conditions: $F_{x},F_{y}$ has continuous partials, so one must handle **singular points**)
 => $\nabla \times \mathbf{F}=d(F_xdx+F_{y}dy)=(\frac{\partial F_{y}}{\partial x}-\frac{\partial F_{x}}{\partial y})dxdy$
 $$
 \iint_{\Sigma} \left( \frac{\partial F_{y}}{\partial x} -\frac{\partial F_{x}}{\partial y}\right)dxdy=\oint _{\partial\Sigma} Fds=\oint_{\partial \Sigma} (F_{x}dx+F_{y}dy)
 $$
+> if $C=\partial D$, $D \subset \mathbb{R}^{2}$, then the **positive orientation** is the orientation with $D$ always on the left of $C$
+
+e.g. simple convex region => CCW
+e.g. simple convex region - sub convex region => CCW on out bounds, CW on in bounds
+
+"miền đơn liên": a region that could be collapsed into a point (i.e. no holes)
+
+e.g. $I=\int _{C} x^{2}ydx-xy^{2}dy$, $C: x^{2}+y^{2}=1$ CCW
+$D: x^{2}+y^{2}\leq 1$ is $\partial C$, so $I=-\iint_{D} (-y^{2}-x^{2})dxdy=\int _{0}^{1} \, rdr\int _{0}^{2\pi} \, d\phi(r^{2})=-\frac{2\pi}{4}=-\frac{\pi}{2}$
+
+e.g. $I=\int _{C} (x-2y)dx+(3x+y)dy, C: |x|+|y|=1$ CW
+wrong orientation so
+$I=\int _{\partial^{-1}C} (-2-3) \, dxdy=-5S_{\partial^{-1}C}=-10$
+
+e.g. $\int _{C} (x^{2}+y\cos xy)dx+\left( \frac{x^{3}}{3}+xy^{2}-x+x\cos xy \right)dy$, $C: x^{2}+y^{2}=2x, y\leq 0$ CCW
+consider the linear path $C'$ from $(2,0)$ to $(0,0)$
+=> $I+\int _{C'}\dots=I_{D} \left( \frac{\partial (y\cos xy)}{\partial y} - \frac{\partial \left( \frac{x^{3}}{3}+xy^{2}-x+x\cos xy \right)}{\partial x} \right)dxdy$
+the integrand evaluate to $\cos xy-xy\sin xy-x^{2}-y^{2}+1-\cos xy+xy\sin xy$$=1-x^{2}-y^{2}$
+and $D=\partial^{-1}(C+C')$
+also $\int _{C'}\dots=\int _{2}^{0} x^{2} \, dx=-\frac{8}{3}$ (because $y=dy=0$)
+to calc the [[multiint]], we have $I=\frac{4}{3}+\iint_{D}(1-r^{2})dxdy$, and $D: r^{2}\leq 2r\cos \phi$ => $r\leq 2\cos \phi, \phi\in \left[ 0, \frac{\pi}{2} \right]$
+=> $I=\frac{8}{3}+\int _{0}^{\pi/2} \, d\phi \int _{0}^{2\cos \phi} \, rdr(1-r^{2})$$=\frac{8}{3}+\int _{0}^{\pi/2} \, d\phi\left( \frac{t^{2}}{2}-\frac{t^{4}}{4} \right)_{t=2\cos \phi}$$=\frac{4}{3}+\int _{0}^{\pi/2} (2\cos ^{2}\phi-4\cos ^{4}\phi) \, d\phi=\frac{8}{3}+2B\left( \frac{1}{2}, \frac{5}{2} \right)-4B\left( \frac{1}{2}, \frac{9}{2} \right)=\frac{\pi}{4}+\frac{8}{3}$
+e.g. $P=\frac{-y}{r^{2}},Q=\frac{x}{r^{2}}$ => $P'_{y}=Q'_{x}$, calc $\int _{C} Pdx+Qdy$ with $C: x^{2}+y^{2}=R^{2}$
+we can't use green here because (0,0)
+but we can use green like so:
+$I=\frac{1}{R^{2}}\int _{C} -ydx+xdy=\frac{1}{R^{2}}\iint_{D} 2dxdy=2\pi$
 
 ## divergence theorem
 $$

@@ -144,3 +144,7 @@ e.g. $\int _{0}^{1} \frac{x^{b}-x^{a}}{\ln x}dx$ ($0<a<b$)
 - take y-space to be $[a,b]$ => qed
 
 anti-e.g. $f(x,y)=\frac{y^{2}-x^{2}}{(x^{2}+y^{2})^{2}}$ on $[0,1]\times[0,1]$
+
+e.g. $f(y)=\int _{0}^{\pi/4} \sqrt{ \cos(2x)^{2}+y^{2}\sin(2x)^{2} } \, dx$, find $f'(1)$
+- consider $a(x,y)=\sqrt{ \cos(2x)^{2}+y^{2}\sin(2x)^{2} }$ cont on $\left[ 0, \frac{\pi}{4} \right]\times (\frac{1}{2}, \frac{3}{2})$ (avoid the point $y=0,x=\frac{\pi}{4}$), and $a'_{y}=\frac{y\sin(2x)^{2}}{a}$ is also cont on that region
+- => $f'(y)=\int _{0}^{\pi/4} \frac{y\sin(2x)^{2}}{a(x,y)} \, dx$, and $f'(1)=\int _{0}^{\pi/4} \sin(2x)^{2} \, dx=\frac{\pi}{8}$

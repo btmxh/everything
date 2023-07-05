@@ -34,5 +34,14 @@ $$
 \Delta x = -\frac{y'(1+y'^2)}{y''}, \Delta y = \frac{1+y'^2}{y''}
 $$
 
+e.g. $x^{3}+y^{4}=2$ at $(1,1)$
+let $y=(2-x^{3})^{1/4}$ then $\Delta\mathbf{r}=\frac{(1+y'^{2})(-y', 1)}{y''}$
+with $y'(1)=-\frac{3}{4}, y''(1)=-\frac{51}{16}$... => $\mathbf{r}=\frac{25\left( \frac{3}{4},1 \right)}{-51}+(1,1)$ => ...
+
+
+
 
 ## evolute
+
+e.g. $y=x^{2}$
+$\mathbf{\Delta r}=\frac{(1+4x^{2})(-2x,1)}{2}$ => $\mathbf{C}(x)=(x,x^{2})+\frac{1+4x^{2}}{2}(-2x,1)=\left( -4x^{3},3x^{2}+\frac{1}{2} \right)$

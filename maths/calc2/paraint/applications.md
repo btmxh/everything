@@ -53,4 +53,16 @@ to differentiate the thing, one would need $f(x,a)=\frac{\ln(1-a^{2}x^{2})}{x^{2
 => $I'(a)=\int _{0}^{1} -\frac{2a}{(1-a^{2}x^{2})\sqrt{ 1-x^{2} }} \, dx=-2a\int _{0}^{\pi/2} \frac{1}{1-a^{2}\sin ^{2}t} \, dt$$=-2a\int _{0}^{\infty} \frac{1}{\frac{1}{\sin ^{2}t}-a^{2}} \, d(\cot t)=-2a\int _{0}^{\infty} \frac{1}{u^{2}-a^{2}+1}\, du=-\frac{2a}{\sqrt{ 1-a^{2} }}$
 => $I(a)=2\sqrt{ 1-a^{2} }$
 
-- for $a=\pm 1$
+- for $a=\pm 1$: $\int _{0}^{1} \frac{\ln(1-x^{2})}{x^{2}\sqrt{ 1-x^{2} }} \, dx$
+	- let $x=\sin t$ => $\int _{0}^{\pi/2} \frac{\ln \cos x}{\sin(x)^{2}} \, dx$
+	- let $u = \ln\cos x$ => $du=-\tan xdx$ => ...t hiểu r
+
+$I(a)=\int _{0}^{\infty} \frac{\ln(a^{2}+x^{2})}{b^{2}+x^{2}} \, dx$
+- we have $f(x,a)=\frac{\ln(x^{2}+a^{2})}{x^{2}+b^{2}}$, $f'_{a}(x,a)=\frac{2a}{(x^{2}+a^{2})(x^{2}+b^{2})}$
+	- with $f,f'_{a}$ cont/ $[0,+\infty)\times(\varepsilon, M)$
+	- $\int f(x,a) \, dx$ conv because $\frac{\ln(a^{2}+x^{2})}{b^{2}+x^{2}}< \frac{1}{x^{3/2}}$ for large $x$
+	- $\int _{0}^{\infty} \frac{2a}{(x^{2}+a^{2})(x^{2}+b^{2})} \, dx$ because integrand < $\frac{2M}{\varepsilon^{2}(x^{2}+b^{2})}$ conv
+- then $I'(a)=\int _{0}^{\infty} \frac{2a}{(x^{2}+a^{2})(x^{2}+b^{2})} \, dx=\frac{2a}{b^{2}-a^{2}}\int _{0}^{\infty} \left(\frac{1}{x^{2}+a^{2}}-\frac{1}{x^{2}+b^{2}}\right) \, dx$$=\frac{2a}{b^{2}-a^{2}}\cdot \frac{\pi}{2}\left( \frac{1}{a}-\frac{1}{b} \right)=\frac{\pi}{b(a+b)}$ => $I(a)=\frac{\pi \ln(a+b)}{b}-C(b)$
+- with $a=b$, we have $\frac{\pi \ln 2b}{b}-C(b)=\int _{0}^{\infty} \frac{\ln(x^{2}+b^{2})}{x^{2}+b^{2}} \, dx$
+	- sub $x=b\tan t$, $x^{2}+b^{2}=b\sec(t)^{2}$ and $dx=b \sec(t)^{2}dt$, then RHS is $\int _{0}^{\pi/2} \ln(b\sec(t)^{2}) \, dt=\frac{\pi \ln b}{2}-2\int _{0}^{\infty} \ln \cos t \, dt=\frac{\pi \ln b}{2}-\pi \ln 2$
+- => $C(b)=\pi \ln  2$ for all $b>0$

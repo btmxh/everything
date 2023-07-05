@@ -33,3 +33,9 @@ $$
 - let $u=st$, $v=s(1-t)$ => $RHS=\int _{s=0}^{\infty} \int _{t=0}^{1} e^{ -s } s^{z_{1}+z_{2}-1}t^{z_{1}-1}(1-t)^{z_{2}-1} \, dt \, ds$$=\Gamma(z_{1}+z_{2})B(z_{1},z_{2})$
 - [[uniconv]] because [[weierstrass m-test]] with the $e^{ -\dots }$ things bla bla
 - using this, we can derive properties of the beta fn like $B(x+1,y)=\frac{x}{x+y}B(x,y)$, $B(x,1-x)=\frac{\pi}{\sin \pi x}$, ...
+
+e.g. $\lim_{ n \to \infty } \int _{0}^{\infty} \frac{1}{1+x^{n}} \, dx$
+- good luck using [[uniconv]] lmfao
+- let $t=x^{n}$ => $dt=nx^{n-1}dx$ => int=$\int _{0}^{\infty} \frac{1}{(1+t)nt^{1-1/n}} \, dt=\frac{1}{n}\int _{0}^{\infty} \frac{t^{1/n-1}}{1+t}\, dt$ => $z_{1}=\frac{1}{n}, z_{2}=1-\frac{1}{n}$ => value: $\frac{B\left( \frac{1}{n},1-\frac{1}{n} \right)}{n}=\frac{\pi}{n\sin \frac{\pi}{n}}\to 1$ as $n\to \infty$
+
+

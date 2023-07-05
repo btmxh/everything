@@ -30,3 +30,10 @@ $F(x,y,z)=G(x,y,z)=0 \Rightarrow A\Delta x + B\Delta y + C\Delta z = 0$, where $
 a tangent to a $n$-manifold has $n$ dimensions => this tangent is a plane, which is the span of two vectors $\frac{\partial \mathbf{r}}{\partial u}$ and $\frac{\partial \mathbf{r}}{\partial v}$, with the origin placed at $\mathbf{r}$ ([[surface#parametric surfaces|p-surface]] case)
 
 in the other case ([[surface#implicit surfaces|i-surface]]), the plane is defined using the [[normal]] vector $\nabla F$
+
+e.g. [[tangent]] and [[normal]] at $(-2,1,6)$ wrt [[curve]] $2x^{2}+3y^{2}+z^{2}-47=x^2+2y^{2}-z=0$
+- let lhs be $F(x,y,z)$, mhs be $G(x,y,z)$
+- normal wrt $F=0$ is $\nabla F(-2,1,6) \parallel(-4,3,6)$
+- normal wrt $G=0$ is $\nabla G(-2,1,6) \parallel (-4, 4, 1)$
+- => tangent vector $(-4,3,6)\times(-4,4,1)=\dots$
+- 

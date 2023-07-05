@@ -9,6 +9,8 @@ the torque is a pseudovector, with
 - c-dir: $(\mathbf{r}, \mathbf{F}, \mu)$ is positively-oriented
 - $|\mu|=rF\sin\alpha=rF_{t}$
 
+> one can also define the [[torque]] wrt an axis $\Delta$, then one must remove the parallel component $\mathbf{F_{n}}$ from $\mathbf{F}$: $\mu_{/\Delta}(\mathbf{F})=\mathbf{r}\times(\mathbf{F}-\mathbf{F_{n}})$
+
 ## geometric algebra approach
 
 - one can define [[torque]] as [[work]] per unit angle, i.e. $\frac{dW}{d\theta}$

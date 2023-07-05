@@ -95,3 +95,38 @@ e.g. $\int _{0}^{\infty} \frac{e^{ -ax }-e^{ -bx }}{x}\sin mx \, dx$
 - use the above trick, integrand = $\int _{a}^{b} e^{ -yx }\sin mx \, dy$
 - to change order, we need $\int _{0}^{\infty} e^{ -yx }\sin mx \, dx$ uniconv as $y\in[a,b]$, true by [[weierstrass m-test]]: $\left|\int _{0}^{\infty} e^{ -yx }\sin mx \, dx\right|\leq \int _{0}^{\infty} e^{ -ax } \, dx=\frac{1}{a}$
 - then $I=\int _{a}^{b} \int _{0}^{\infty} e^{ -yx }\sin mx \, dx \, dy=\int _{a}^{b} \frac{m}{y^{2}+m^{2}} \, dy$$=\ln \sqrt{ y^{2}+m^{2} }$
+
+e.g. $\lim_{ y \to 0 } \int _{0}^{1} \frac{x}{y^{2}}e^{ -x^{2}/y^{2} } \, dx$, can one switch lim and int?
+- let $f(x,y)=\frac{x}{y^{2}}e^{ -x^{2}/y^{2} }$, then:
+	- if $y=0$, then either $x=0$ => $f=0$ or $x\neq 0$ => $f=\frac{x}{y^{2}e^{ x^{2}/y^{2} }}\to 0$ as $y \to \infty$, so we will simply let $f(x,0)=0$ for all $x \in[0,1]$
+	- now we will prove $f$ is cont
+		- $f$ cont is trivial for all points $(x_{0},y_{0})$ with $y_{0}\neq 0$
+		- $f$ is cont for point $(x_{0},0)$
+
+e.g. $\int _{0}^{1} \sin \ln \frac{1}{x}\frac{x^{b}-x^{a}}{\ln x} \, dx$
+- we have $\frac{x^{b}-x^{a}}{\ln x}=\int _{a}^{b} x^{t} \, dt$ => int = $-\int _{0}^{1} \int_{a}^{b} x^{t}\sin \ln x \, dt \, dx$
+- swap int => $\int _{a}^{b} \int _{0}^{1} x^{t}\sin \ln x \, dx \, dt$
+	- calc the inner int by let $u = \ln x$ => integrand $e^{ (t+1)u }\sin u$ => integral: $\int _{-\infty}^{0} e^{ (t+1)u }\sin u \, du=-\frac{1}{t^{2}+2t+2}$
+	- => integral is $\arctan(a+1)-\arctan(b+1)$ (note the minus sign)
+	- this is in fact a [[paraint]], not [[paraim]], so one can change the limit without any problems (u need to introduce a new function tho)
+
+e.g. $\int _{0}^{1} \frac{dx}{\sqrt[n]{ 1-x^{n} }} \, dx$
+- let $t=x^{n}$, then $I=\int _{0}^{1} \frac{1}{(1-t)^{1/n}} \, \frac{dt}{nx^{n-1}}=\frac{1}{n}\int _{0}^{1} t^{1/n-1}(1-t)^{-1/n} dt$ => $I=B\left( \frac{1}{n}, 1-\frac{1}{n} \right)=\frac{\pi}{\sin \frac{\pi}{n}}$
+
+e.g. $\int _{0}^{\infty} \frac{\arctan x}{x(1+x^{2})} \, dx$
+- we have $\arctan x=\int _{t=0}^{1} d(\arctan tx)=\int _{0}^{1} \frac{x}{1+(tx)^{2}} \, dt$
+=> int = $\int _{0}^{\infty} \int _{0}^{1} \frac{1}{(1+x^{2})(1+t^{2}x^{2})} \, dt \, dx$
+- swap int => inner int = $\left( \frac{t\arctan tx-\arctan x}{y^{2}-1} \right)|_{0}^{\infty}=\frac{\pi}{2(t+1)}$ => outer int is $\frac{\pi}{2}\ln 2$
+- to swap int, we need
+	- continuity => ez
+	- [[uniconv]]: $\int _{0}^{\infty} \frac{1}{(1+x^{2})(1+t^{2}x^{2})} \, dx$ uniconv as  $t\in[0,1]$: true because [[weierstrass m-test]] with $\frac{1}{1+x^{2}}$
+
+e.g. $\int _{0}^{\infty} \frac{\sin\beta x}{x} \, dx$
+- $\beta=0$ trivial, we will only consider $\beta=1$
+- we calc $I(a)=\int _{0}^{\infty} \frac{e^{ -ax }\sin x}{x} \, dx$ with $a\in[0,\varepsilon]$ by differentiating
+	- $f(a,x)=\frac{e^{ -ax }\sin x}{x}$ cont on $[0,\infty)$, and $f'_{a}=-e^{ -ax }\sin x$ also cont
+	- $\int _{0}^{\infty} \frac{e^{ -ax }\sin x}{x} \, dx$ conv because it's less than (we change bounds here) $\int _{\varepsilon}^{\infty} \frac{\sin x}{x} \, dx=\int _{x=\varepsilon}^{\infty} \sin x \, d\left( -\frac{1}{x^{2}} \right)=\dots$ conv
+	- $\int _{0}^{\infty} e^{ -ax }\sin x \, dx$ uniconv? (only true with $a>[\varepsilon',\varepsilon]$ sadge)
+- then we can differentiate, but with a cost: we need to prove that it's cont at $t=0^{+}$
+	- $\int _{0}^{\infty} e^{ -ax }\sin x \, dx=\frac{1}{a^{2}+1}$ =>int = $\frac{\pi}{2}$
+	- to prove $I(a)$ cont as $t\to 0^{+}$, we actually just apply the theorem to get $\frac{e^{ -ax }\sin x}{x}$ [[uniconv]], which is trivial because [[weierstrass m-test]] and $\frac{\sin x}{x}$ conv

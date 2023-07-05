@@ -102,3 +102,16 @@ taking the derv. of two sides => $g(x)=f'(x)$ => qed
 	- $\sum_{n=1}^\infty f'_{n}(x)$ [[uniconv]] yet again due to [[leibnitz test]]
 	- => $f'(x)=\sum_{n=1}^\infty \frac{(-1)^{n-1}}{n+1+x^{2}}$
 
+
+e.g. $\int _{0}^{\infty} \frac{\cos xt}{\sqrt{ t }} \, dt$ uniconv? on $x\in\mathbb{R}$
+$\lim_{ b \to \infty } \sup_{x\in\mathbb{R}} \left| \int _{b}^{\infty} \frac{\cos xt}{\sqrt{ t }} \, dt \right|\geq \lim_{ b \to \infty } \int _{b}^{\infty} \frac{1}{\sqrt{ t }} \, dt$$=\lim_{ b \to \infty } (2\sqrt{ t })|^{\infty}_{b}=\infty$ => not uniconv
+
+e.g. $\int _{0}^{\infty} ye^{ -yx } \, dx$, $y\in[y_{0}, +\infty)$, using the [[weierstrass m-test]]
+- we can trivially prove that $ye^{ -yx } \leq y_{0}e^{ -y_{0}x }$ if $y_{0}\geq \frac{1}{x}$
+- then, we have $\int _{0}^{\infty} ye^{ -yx } \, dx=\int _{0}^{1/y_{0}} ye^{ -yx } \, dx+\int_{1/y_{0}}^{\infty} ye^{ -yx } \, dx$
+	- in the def of [[uniconv]], the hidden variable ($b$) is on the upper bound ($b\to \infty$), so the first integral is [[uniconv]] (it's a constant seq: $I_{1}(b, y)=\int _{0}^{1/y_{0}} ye^{ -yx } \, dx$ wrt $b$)
+	- the second integral is [[uniconv]] because of [[weierstrass m-test]]: $\int _{\frac{1}{y_{0}}}^{\infty} y_{0}e^{ -y_{0}x } \, dx=\frac{1}{e}$ conv and the first statement
+- => in [[uniconv]] problems, it's crucial to realize which bound is const, which bound has the hidden variable, instead of trying to prove a [[paraint]] is [[uniconv]]
+- however, this does not mean that all [[paraint]] is [[uniconv]], because one can still inject $b$ to the bounds, with example: $I(b,y)=\int _{0}^{b} y \, dx$, $y \in [0, \infty)$, $\lim_{ b \to 1^{-} } \sup_{y \geq 0} |I(b,y)-I(1,y)|=\lim_{ b \to 1^{-} } \sup_{y\geq 0} \int_{b}^{1} y \, dx$$=\lim_{ b \to 1^{-} }\sup_{y\geq 0}y(1-b)=\lim_{ b \to 1^{-} } (\infty)=\infty$
+- but if one let $I(b,y)=\int _{0}^{1} y \, dx$, it's trivially [[uniconv]] as $y\in [0, \infty), b\to 1$: $\lim_{ b \to 1^{-} } \sup_{y\geq 0} |I(b,y)-I(1,y)|=\lim_{ b \to 1^{-} } 0=0$
+

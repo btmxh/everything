@@ -1,4 +1,5 @@
 rigid bodies are objects that does not change shape
+> alternatively, rb are systems of [[point mass]] with constant relative position among them
 
 in a rigid body, there are multiple [[field]]s
 - mass density field: basically the mass density, what do you expect? this is a [[field#scalar field|scalar field]]

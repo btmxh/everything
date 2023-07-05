@@ -54,4 +54,12 @@ e.g. $\int _{0}^{1} x^{n-1}\ln(x)^{m} \, dx$
 - let $u=nt$, then the integral evals to $\int _{0}^{\infty} \left( \frac{u}{n} \right)^{m} e^{ -u } \, \frac{du}{n}$
 - => end result is $\frac{(-1)^{m}}{n^{m+1}}\Gamma(m+1)=\frac{(-1)^{m}m!}{n^{m+1}}$
 
+e.g. $\int _{0}^{\infty} \sqrt{ x }e^{ -x^{2} } \, dx$
+we have $t=x^{2}$, then $dx=\frac{dt}{2\sqrt{ t }}$ and int = $\int _{0}^{\infty} t^{1/4}e^{ -x } \, \frac{dt}{2\sqrt{ t }}=\frac{1}{2}\int _{0}^{\infty} t^{-1/4}e^{ -t } \, dx=\frac{1}{2}\Gamma\left( \frac{3}{4} \right)$
 
+e.g. $\int _{0}^{\infty} t^{x-1}e^{ -\lambda t\cos\alpha }\cos(t\lambda \sin \alpha) \, dt$
+- if complex analysis is available:
+	- $\cos(t\lambda \sin\alpha)=\mathrm{Re}\{ e^{ it\lambda \sin\alpha } \}$ => integrand: $\mathrm{Re}\{ t^{x-1}e^{ \lambda t(-\cos\alpha+i\sin\alpha) } \}=\mathrm{Re}\{ t^{x-1}e^{ -\lambda te^{ -i\alpha } } \}$
+	- now let $u=\lambda te^{ -i\alpha }$, $du=dt \lambda e^{ -i\alpha }$ => int =$\frac{1}{\lambda e^{ -i\alpha }} \int _{0}^{\infty} \left( \frac{u}{\lambda e^{ -i\alpha }} \right)^{x-1}e^{ -u } \, dx=\frac{\Gamma(x)}{(\lambda e^{ -i\alpha })^{x}}=\frac{\Gamma(x)e^{ ix\alpha }}{\lambda^{x}}$
+	- taking the real part: $\frac{\Gamma(x)\cos\alpha x}{\lambda^{x}}$
+- if it's not available: kys

@@ -43,3 +43,4 @@ $b(t)=\sin xt$ => $\int _{0}^\beta b(t)dt=\frac{1-\cos\beta x}{x}$ uniformly bou
 $a(t)=\frac{1}{\sqrt{ t }}$ monotonic dec lim = 0 as $t\to\infty$
 => [[uniconv]] using [[dirichlet test]]
 
+

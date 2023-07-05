@@ -70,3 +70,11 @@ subs => $x''-y''+z''=1+2y''-2x''+z''=0$
 => $z''=-\frac13, x''=\frac13+t, y''=t$
 => $r'\times r''=r' \times (r''-t\sqrt2 r')=\frac1{3\sqrt2} (1, 1, 0) \times (1, 0, -1) = \frac1{3\sqrt2}(-1, 1, -1)$
 => $\kappa=\|r'\times r''\| = \frac1{\sqrt6}$
+
+e.g. $\mathbf{r}=(e^{ -t }\sin t,e^{ -t }\cos t,e^{ t })$ at $t=1$
+we have $\mathbf{r'}=(e^{ -t }(\cos t-\sin t), -e^{ -t }(\sin t+\cos t),e^{ t })$, $\mathbf{r''}=(-2e^{ -t }\cos t, 2e^{ -t }\sin t, e^{ t })$
+=> $\mathbf{r'}\times \mathbf{r''}$ is $(-3\sin t-\cos t,\sin t-3\cos t,-2e^{ -t })$
+=> $|\mathbf{r'}\times \mathbf{r''}|^{2}=4e^{ -2t }+10$ and $|\mathbf{r'}|^{2}=2e^{ -2t }+e^{ 2t }$ => $\kappa=\frac{\sqrt{ 4e^{ -2t }+10 }}{(2e^{ -2t }+e^{ 2t })^{3/2}}$, at $t=1$: $\kappa=\frac{\sqrt{ 4e^{ -2 }+10 }}{(2e^{ -2 }+e^{2})^{3/2}}$
+
+
+

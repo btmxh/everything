@@ -38,8 +38,9 @@ basically $Q=0$
 - now consider this $dE=nC_{V}dT=-pdV=dW$
 - we have $pV=kNT$ => $p=\frac{kNT}{V}$ => $nC_{V}dT=-\frac{kNT}{V}dV$, which is equiv to $nC_{V}d\ln T+kNd\ln V=0$ => $C_{V}d\ln T+Rd\ln V=0$
 - we have $\gamma=\frac{C_{p}}{C_{V}}=1+\frac{R}{C_{V}}$ => $d\ln T+(\gamma-1)d\ln V=0$ => $d(TV^{\gamma-1})=0$ => $TV^{\gamma-1}$ const
-- subbing $V$, $T$ we have this $\boxed{TV^{\gamma-1}=Tp^{-1+\gamma^{-1}}=pV^{\gamma}=\text{const}}$
+- subbing $V$, $T$ we have this $\boxed{TV^{\gamma-1},Tp^{-1+\gamma^{-1}},pV^{\gamma}=\text{const}}$
 - or equivalently, $V\propto T^{(1-\gamma)^{-1}}\propto p^{-\gamma^{-1}}$
+- or even better, $V^{-1/C_{V}}\propto p^{1/C_{p}}\propto T^{1/R}$
 - using this, one can derive this formula for $W$ (i hate this stop shoving formulas after formulas please this goddamn university please actually teach good information instead of testing the ability to memorize shit fuck this bullcrap) (they're the same thing btw) $W=\frac{(pV=nRT)_{s_{1}}}{\gamma-1}\left(-1+\left(\delta T=\delta V^{1-\gamma}=\delta p^{1-\gamma^{-1}}\right)\right)$
 
 ## reversible

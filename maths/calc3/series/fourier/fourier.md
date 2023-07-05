@@ -66,3 +66,15 @@ the [[fourier]] series of an arbitary fn (must satisfy dirichlet cond, so $f$ pi
 
 e.g. $f(x)=x$ has fourier series $F(x)$ wrt $[1.5, 3.5]$, calc $F(-0.5)$
 we have $g(x)=x$ on $[1.5, 3.5]$ => $g(-0.5^{+})=g(1.5^{+})=1.5$ and $g(-0.5^{-})=g(1.5^{-})=g(3.5^{-})=3.5$ => $F(-0.5)=\frac{1}{2}(1.5+3.5)=2.5$
+
+e.g. fourier series of $f(x)$, with $f(x)$ being the distance between $x$ and the nearest integer, i.e. $f(x)=\left|\{ x \}-\frac{1}{2}\right|$, with $b_{n}=0$ for all n's (cos only fourier series)
+- $f$'s period is $T=1$, and it's indeed an even fn, $l=\frac{1}{2}$
+- $a_{n}=\frac{1}{l}\int _{0}^{l} f(x)\cos \frac{n\pi x}{l} \, dx=2\int _{0}^{1/2} f(x) \cos \tau nx\, dx$$2\int _{0}^{1/2} x\cos \tau nx \, dx$
+	- $a_{0}=1$
+	- for $n>0$, $a_{n}=\frac{(-1)^{n}-1}{4\pi^{2}n^{2}}$
+
+e.g. $f(x)=x\sin x$ on $(-\pi,\pi)$
+- this thing is even, so $b_{n}=0$ for all $n>0$
+- $a_{n}=\frac{1}{\pi}\int _{0}^{\pi} x\sin x\cos nx \, dx=$$\frac{1}{2\pi}\int _{0}^{\pi} x(\sin(n+1)x-\sin(n-1)x)\, dx$$=-\frac{\pi(-1)^{n}}{n^{2}-1}$ for $n\neq 1$
+- $a_{1}=\frac{1}{\pi}\int_{0}^{\pi} x\sin x\cos x \, dx=-\frac{\pi}{4}$
+

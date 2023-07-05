@@ -31,4 +31,24 @@ e.g. $\frac{x^{2}}{c^{2}}+\frac{y^{2}}{(5-c)^{2}}=1$
 - then $E':$ $x^{2}=\frac{c^{3}}{5}, y^{2}=\frac{(5-c)^{3}}{5}$
 - $S = \{ (0,0) \}$ and $(0,0) \not\in E'$
 - => $E=E'$ => $E$ does not touch the curve when $c<0$ or $c>5$ => no [[envelope]]
-- if the conds $0 < c < 5$ is given, then the [[envelope]] is $x^{2/3}+y^{2/3}=5^{2/3}$
+- if the conds $0 < c < 5$ is given (which is not), then the [[envelope]] is $x^{2/3}+y^{2/3}=5^{2/3}$
+
+e.g. [[envelope]] of circles with diameter being chords//Oy of $x^{2}+\frac{y^{2}}{4}=1$
+- parameterize $x=\cos t,y=2\sin t$, then the chord line is $x=\cos t$, with length $4\sin t$ => radius $2\sin t$ => circle $F(x,y,t)=(x-\cos t)^{2}+y^{2}-4\sin(t)^{2}=0$, and $t$ goes from $0$ to $\pi$
+- consider $F'_{t}=2(x-\cos t)\sin t-8\sin t\cos t=0$ when either $\sin t=0$ or $x=5\cos t$ => $y^{2}=4\sin(t)^{2}-16\cos (t)^{2}=4-20\cos(t)^{2}=4-20\left( \frac{x^{2}}{25} \right)$ => $y^{2}=4-\frac{4}{5}x^{2}$=> $E: 4x^{2}+5y^{2}=20$ should be the envelope
+	- **singularities**: $(\cos t,0)$, which only lies on the circle if $\sin t=0$ (not really a circle, so we may as well ignore this)
+- however, when $4\sin(t)^{2}<16\cos(t)^{2}$ (e.g. $t=\frac{\pi}{2}$), there is no tangent point, so $E$ is not the envelope of the whole family
+
+e.g. $y=mx+\frac{a}{m}$
+-  singularities: none
+- $F'_{m}=x-\frac{a}{m^{2}}=0$ => $x=\frac{a}{m^{2}}$, $y=\frac{2a}{m}$ => envelope: $y^{2}=4ax$
+
+e.g. $(1+y)(x-c)^{2}=y^{2}(y-1)$
+- $F(x,y,c)=LHS-RHS$, then
+	- $F'_{x}=2(1+y)(x-c)$
+	- $F'_{y}=(x-c)^{2}-3y^{2}$
+	- $F'_{c}=2(1+y)(c-x)$
+- $F'_{c}=0$ => $y=-1$ or $x=c$ => $F'_{x}=0$
+	- if $y=-1$ => no $x$ s.t. $F=0$ => elimination
+	- if $x=c$ => $y^{2}(y-1)=0$, but since $F'_{y}\neq 0$ => $y\neq 0$ => $y=1$ => envelope: $y=1$
+

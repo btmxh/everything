@@ -49,5 +49,5 @@ some famous taylor things
 - $\sin x=\sum_{n=1, n \text{ odd}}^{\infty} \frac{(-1)^{(n-1)/2}}{n!}x^{n}$, conv/$\mathbb{R}$
 - $\cos x=\sum_{n=0, n\text{ even}}^{\infty} \frac{(-1)^{n/2}}{n!}x^{n}$, conv/$\mathbb{R}$
 - $(1+x)^{\alpha}=\sum_{n=0}^{\infty} \frac{\alpha^{(n)}}{n!}x^{n}$, conv/$(-1,1)$
-- $\arctan x=\sum_{n=1, n\text{ odd}} \frac{(-1)^{(n-1)/2}}{n!}x^{n}$, conv/$[-1,1]$
+- $\arctan x=\sum_{n=1, n\text{ odd}} \frac{(-1)^{(n-1)/2}}{n}x^{n}$, conv/$[-1,1]$
 - 

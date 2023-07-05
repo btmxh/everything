@@ -4,323 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "b3156373cb6e602e",
+        "id": "a9fcd3bda353dd5b",
         "type": "tabs",
         "children": [
           {
-            "id": "8c81b825808b92c0",
+            "id": "7e253b984fd1cf6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ssh/ktct/kttt.md",
+                "file": "ssh/pldc/new/law/law src.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6050ce13af2609f8",
+            "id": "2023d3747750f2f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/calc3/de/ode/1st order.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d0d049ff345f5ce8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "it/dsai/supervised/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24b61030a79f3730",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/stats/prob/prob.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "edf7af8c3efad9d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/stats/prob/bayes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8b8bfbbd94aa7da3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/stats/dist/discrete/discrete.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c7b3bfb05d64b7c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/stats/dist/discrete/discrete.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "98023aca6d53fa4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/stats/dist/chebyshev.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1f2046c5493dfff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/stats/dist/discrete/bernoulli.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32bb78fbced7d514",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/stats/dist/discrete/binomial.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b2230ea6a825916",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/stats/dist/dist.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e45ed73e6cf06a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/stats/joint/meanvar.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d58390777c9da22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/stats/joint/independent.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b84fb4d46b211757",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/stats/joint/meanvar.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61886008e1c20d4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/stats/dist/discrete/neg binomial.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "efe1d4460d4a1ce6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/stats/joint/meanvar.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8b6884a1e70dc383",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "physics/thermal/maxwell dist..md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ead7dc5d8b1eb2b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "physics/harmonic/harmonic motion.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8869efc12a4febc8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/stats/dist/discrete/poisson.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "68ef904fab6b224f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/stats/dist/discrete/hypergeom.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c571fbcdc4f22816",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/stats/dist/discrete/neg binomial.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e73a81d85a9a985",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/stats/gf/mgf.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d6ec4ae1b5742388",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/stats/dist/cont/cont.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "178152ddd82521b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/stats/dist/cont/uniform.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61d17570d892e4b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/stats/dist/cont/exp.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bee9d0a84bd0f925",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/stats/dist/cont/gamma.md",
+                "file": "ssh/ktct/new/compete/thi.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 25
+        ]
       }
     ],
     "direction": "vertical"
@@ -349,13 +60,21 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"moment of inertia\"",
+                "query": "agricul",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "71e116857e17feb4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ]
@@ -378,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "maths/stats/dist/cont/gamma.md",
+                "file": "ssh/pldc/new/law/law src.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -388,8 +107,17 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "a2dcb799075d9e5a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -408,54 +136,54 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "bee9d0a84bd0f925",
+  "active": "7e253b984fd1cf6e",
   "lastOpenFiles": [
-    "maths/stats/dist/cont/exp.md",
-    "maths/stats/dist/cont/gamma.md",
-    "maths/stats/dist/cont/uniform.md",
-    "maths/stats/dist/cont/cont.md",
-    "maths/stats/dist/dist.md",
-    "maths/stats/dist/chebyshev.md",
-    "maths/stats/dist/discrete/poisson.md",
-    "maths/stats/dist/cont",
-    "maths/stats/gf/mgf.md",
-    "maths/stats/dist/discrete/geom.md",
-    "maths/stats/dist/discrete/neg binomial.md",
-    "maths/stats/dist/discrete/hypergeom.md",
-    "maths/stats/dist/discrete/bernoulli.md",
-    "maths/stats/joint/meanvar.md",
-    "maths/stats/gf",
-    "maths/stats/dist/discrete",
-    "physics/harmonic/harmonic motion.md",
-    "maths/stats/dist/discrete/binomial.md",
-    "maths/stats/joint/independent.md",
-    "maths/stats/joint/pdfcdf.md",
-    "maths/stats/joint",
-    "maths/stats/dist/discrete/discrete.md",
-    "physics/thermal/maxwell dist..md",
-    "maths/stats/prob/prob.md",
-    "maths/stats/prob/bayes.md",
-    "maths/stats/dist",
-    "maths/stats/Untitled.md",
-    "it/dsai/supervised/Untitled.md",
-    "maths/stats/prob",
-    "maths/stats",
-    "maths/calc3/de/ode/1st order.md",
-    "it/dsai/supervised",
-    "it/dsai",
-    "maths/calc3/Limits.md",
-    "physics/classical_mech/gravity/newton grav.md",
-    "maths/calc3/de/ode",
+    "ssh/ktct/new/compete/thi.md",
+    "ssh/pldc/new/law/law src.md",
+    "ssh/pldc/new/law/law form.md",
+    "ssh/pldc/new/law/law norms.md",
+    "ssh/ktct/new/compete/monopoly.md",
+    "ssh/pldc/new/law/law.md",
+    "ssh/pldc/new/law/law execution.md",
+    "ssh/pldc/new/state/state forms.md",
+    "ssh/pldc/new/state/state.md",
+    "ssh/pldc/new/state/primitive communism.md",
+    "ssh/pldc/new/state/marxian state src.md",
+    "ssh/pldc/new/state/idealist state src.md",
+    "maths/calc2/integrals/surfaceint.md",
+    "maths/calc2/fields/scalar potential.md",
+    "maths/calc2/integrals/lineint.md",
+    "maths/calc2/fields/field.md",
+    "maths/calc2/fields/ext derv.md",
+    "maths/calc2/fields/directional.md",
+    "maths/calc2/fields/circulation.md",
+    "maths/calc2/gstoke/generalized stoke's theorem.md",
+    "ssh/pldc/vppl & tnpl.md",
+    "maths/calc3/laplace/laplace.md",
+    "ssh/pldc/new/state/src.md",
+    "ssh/pldc/state/type.md",
+    "ssh/pldc/state/source.md",
+    "ssh/pldc/state/nature.md",
+    "assets/Pasted image 20230703181018.png",
+    "assets/Pasted image 20230703181004.png",
+    "assets/Pasted image 20230703180926.png",
+    "ssh/pldc/new/law",
+    "ssh/ktct/new/compete",
+    "ssh/ktct/new/surplus",
+    "assets/Pasted image 20230614145248.png",
+    "assets/Pasted image 20230614144323.png",
+    "ssh/ktct/new/market",
+    "ssh/ktct/new/money",
+    "ssh/ktct/new/intro",
+    "ssh/ktct/new/commodity",
+    "ssh/ktct/new",
+    "maths/calc3/laplace",
+    "ssh/ktct/surplus",
+    "assets/Pasted image 20230515162702.png",
     "assets/Pasted image 20230425133208.png",
     "assets/Pasted image 20230425130043.png",
     "assets/Pasted image 20230425124522.png",
     "assets/Pasted image 20230425124314.png",
-    "assets/Pasted image 20230425123705.png",
-    "assets/Pasted image 20230424145644.png",
-    "assets/Pasted image 20230424145421.png",
-    "assets/Pasted image 20230424145331.png",
-    "assets/Pasted image 20230424142742.png",
-    "assets/Pasted image 20230424131503.png",
     "Untitled.canvas"
   ]
 }

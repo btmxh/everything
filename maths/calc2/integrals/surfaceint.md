@@ -1,5 +1,21 @@
 ## first kind
 bla bla bla
+- independent wrt orientation
+- additive
+- integrand odd + surface reflective => 0, ...
+
+calc
+$S: z=z(x,y), (x,y)\in D$, then $\iiint_{S} f(x,y,z)ds=\iint_{D} f(x,y,z(x,y))\sqrt{ 1+z_{x}'^{2} +z_{y}'^{2} }dxdy$
+(parameterized surface is similar, with $ds= |\mathbf{r'}_{u}\times \mathbf{r'}_{v}|dudv$)
+
+e.g. $\iint_{S} \sqrt{ x^{2}+y^{2} }ds$, $S=\partial \Omega, \Omega: \sqrt{ x^{2}+y^{2} }\leq z\leq 1$
+$S_{1}: \sqrt{ x^{2}+y^{2} }\leq z=1$ => $\iint_{x^{2}+y^{2}\leq 1} r^{2} dxdy=\dots$
+$S_{2}: \sqrt{ x^{2}+y^{2} }=z\leq 1$ => $\iint_{x^{2}+y^{2}\leq 1} r^{2}\sqrt{ 1+\left( \frac{x}{r} \right)^{2}+\left( \frac{y}{r} \right)^{2} }dxdy=\dots$
+
+e.g. $\iiint zds$, $S: z=3-x-y$ bounded by $x+y=3,3x+2y=6,z=0$
+e.g. area of $2z=x^{2}$ on $x-2y=0,y-2x=0,x=2\sqrt{ 2 }$
+e.g. area of $z=\sqrt{ x^{2}+y^{2} }$ bounded by $x^{2}+y^{2}+z^{2}=2$
+e.g. $x^{2}+y^{2}+z^{2}=4$ bounded by $x=z,z=\sqrt{ 3 }x,x\geq 0$
 
 ## second kind
 ### vector-bivector wedge product
