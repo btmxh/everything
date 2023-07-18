@@ -42,4 +42,7 @@ then one can also write the integral in the form $\iint_{\Sigma} F_{x}dydz+\dots
 >q: why don't we use the wedge product with the [[lineint]] thing?
 >a: then the result will be a bivector => L bozo mindset can't find a use for that
 
-
+### Orientated surface
+A surface $z=f(x,y)$ is orientable and have two orientations (because bivectors have "two" duals)
+For weird surfaces, the two orientations can coincide as one (one calls it non-orientable) (mobius, etc.), close surfaces have one orientation pointing outside and one pointing inside
+The positive orientation

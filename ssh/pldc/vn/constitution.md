@@ -1,0 +1,2 @@
+- quy định chế độ chính trị
+- điều chỉnh mqh quan trọng nhất

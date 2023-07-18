@@ -2,10 +2,10 @@
 The [[law]]s are:
 - A system of behavioral rules (quy tắc xử sự) with common mandatory (tính bắt buộc chung)
 - Enacted/Recognized + Assured execution (đảm bảo thực hiện) by the [[state]]
-- Represent the ideals (ý chí) of the **ruling classes**, moderating (điều chỉnh) **social relationships** (quan hệ xã hội) in a way that directly benefit the ruling classes themselves.
+- Represent the ideals (ý chí) of the **ruling classes** + moderating (điều chỉnh) **social relationships** (quan hệ xã hội).
 
 ## Purposes
-**Main purpose**: moderate society in a way that benefits the ruling classes, which comes in three parts
+**Main purpose**: moderate society in a way that benefits the ruling classes, which comes in three parts:
 - Moderation purposes (Chức năng điều chỉnh)
 	- Moderate society, put society in order.
 	- Make social relationships evolve in a predetermined direction (the direction that benefits the ruling classes).
@@ -15,6 +15,11 @@ The [[law]]s are:
 	- Shapes the thought of people in order to make them conform to the laws (i.e. killing people is bad, etc.).
 
 ## Properties
+- Tính quy định chặt chẽ về hình thức
+- Tính quy phạm phổ biến, bắt buộc chung
+- Được bảo đảm băngf biện pháp cưỡng chế
+
+
 - Popularly specified (tính quy phạm phổ biến) + Strict-definiteness (xác định chặt chẽ) form-wise (về mặt hình thức) + enacted/recognized by the [[state]] (i.e. have state power)
 	- i.e. laws must be clearly specified in specific forms and clear language, etc. etc.
 > These are not included in the slides:
@@ -26,33 +31,30 @@ The [[law]]s are:
 - Representing the classy nature + social role
 - Emergence + Existence + Development conditions in certain economic/social form (hình thái)
 
-### Slave
-- Publicly protect the rights to own slaves.
-- Protect the slavery regime.
-- Legalize slaves' lack of human rights.
-- Is religious as fuck.
-
-### Feudalism
-- Protect the feudal lords' ownership.
-- Protect the "class society" => legalize the absolute power of lords/kings
-- Strict punishment, religious as fuck, form not clear.
-
-### Capitalism
-- Protect capitalist ownership.
-- Give people basic human rights => laborers are free (first condition to make [[labor]] a [[comod]])
-- Law documents were written carefully and in great detail, featuring many new forms and methods to ensure fairness.
-
-### Vietnamese Socialism
-- Publicness (tính nhân dân)
-- Create the environment for multi-sector economic growth.
-- New content for oppressiveness?
-- Have deep relationships with other social specifications (quy phạm xã hội)?
+> examples
+> **slave**
+	- Publicly protect the rights to own slaves.
+	- Protect the slavery regime.
+	- Legalize slaves' lack of human rights.
+	- Is religious as fuck.
+> **feudal**
+> - Protect the feudal lords' ownership.
+> - Protect the "class society" => legalize the absolute power of lords/kings
+> - Strict punishment, religious as fuck, form not clear.
+> **capitalism**
+> - Protect capitalist ownership.
+> - Give people basic human rights => laborers are free (first condition to make [[labor]] a [[comod]])
+> - Law documents were written carefully and in great detail, featuring many new forms and methods to ensure fairness.
+> **socialism** (e.g. vietnam)
+> - Publicness (tính nhân dân)
+> - Create the environment for multi-sector economic growth.
+> - New content for oppressiveness?
+> - Have deep relationships with other social specifications (quy phạm xã hội)?
 
 ## Nature
 ### Class-y
-- Represent the ideals of the ruling class
-- Enforced via the economic power of the ruling class
-- Moderate, in a class-y way (về mặt giai cấp), social relationships => represent the ruling power of the ruling classes.
+- Represent the ideals of the ruling class + Backed by the economic power of the ruling class
+- "nhân tố điều chỉnh về mặt giai cấp" social relationships => represent "sự thống trị giai cấp" + protect, maintain the status of the ruling classes.
 
 ### Social
 - Law is an objective rule (quy luật khách quan) of society.
@@ -65,7 +67,8 @@ The [[law]]s are:
 ### Openness
 - Is an open system, in the sense of "always ready to adopt new changes to furthermore suit the economic and social conditions of the [[state]]".
 
-## structural props
+
+## Structural props
 ### form
 **hình thức pl**: the existence of law in society
 

@@ -14,23 +14,37 @@ The [[state]] selects parts of these habits and religions that could be useful t
 	- **Under law documents** (ULD, văn bản dưới luật): enacted by smaller authorities.
 
 ## Ordering of LDs and ULDs
-> NQ: nghị quyết, QĐ: quyết định
-- NA => Constitution + Luật (Bộ luật => Đạo luật) + NQ
-	- Standing Committee (UB thường vụ) of the NA => Pháp lệnh + NQ
-	- President => Lệnh + QĐ
-		- Government => NQ + nghị định
-		- Prime Minister => QĐ + chỉ thị
-			- Cabinets (bộ trưởng) + Thủ trưởng CQ ngang bộ + cơ quan chính phủ => QĐ + chỉ thị + thông tư
-			- HĐ thẩm phán TANDTC => NQ
-			- Viện trưởng VKSNDTC => QĐ + chỉ thị + thông tư
-			- Văn bản liên tịch => Thông tư liên bộ + Nghị quyết liên tịch
-				- HĐND các cấp => NQ
-				- UBND các cấp => QĐ + chỉ thị
 
-To make it easy to remember this crap, we have these routes:
-- Constitution + Luật => only in NA (legislature body)
-- Lệnh: President, Pháp lệnh: SCNA, Nghị định: CP
-- NQ (legislature): NA => SCNA => CP => HĐ Thẩm phán TANDTC => UBND
-- QĐ (execution): everywhere without NQ
-- chỉ thị (execution): PM + Cabinets + UBND
-- Thông tư
+| State agencies/authorities                                 | LD/ULD kinds      |
+| ---------------------------------------------------------- | ----------------- |
+| National Assembly (NA)                                     | NQ + Luật + HP    |
+| SCNA (UB Thường vụ QH)                                     | NQ + Pháp lệnh    |
+| President (CT nước)                                        | QĐ + Lệnh         |
+| Gov. (CP)                                                  | NĐ + NQ liên tịch |
+| PM (Thủ tướng CP)                                          | QĐ                |
+| Bộ trưởng + Thủ trưởng ngang bộ                            | TT                |
+| Tổng kiểm toán NN                                          | QĐ                |
+| Chánh án TANDTC + Viện trưởng VKSNDTC                      | TT                |
+| Among competent authorities and with political-social orgs | TT liên tịch      |
+| HĐND                                                       | NQ                |
+| UBND                                                       | QĐ                |
+
+- Constitution: most basic assumptions and foundation of national laws
+- Luật (bộ luật + đạo luật): basic and important laws based on the cons.
+- NQ
+	- QH => decides current focus of development etc. etc.
+	- UBTVQH => explain, help with the implementation of the constitution, luật, etc.
+	- CP => detailed description of how the laws would be executed
+	- 
+	- TANDTC + VKSNDTC => manual of judiciary
+	- HĐND => detailed desc. of the current focus within the scope of the HDND
+- QĐ
+	- CTN => solve exclusive problems like ditch sbd, give sbd money, etc. (with no generality)
+	- PM => moderate & orchestrate the work of the gov.
+	- TKTNN => instruct other kiểm toáns
+	- UBND => how stuff can be done...
+- Pháp lệnh => solve tasks given by the NA, may become luật under the permission of the NA
+- Lệnh => official announcement of important matters
+- TT
+	- Cabinets and equivalent: decides how stuff should be done to satisfy the needs of the NA
+	- TANDTC + VKSNDTC

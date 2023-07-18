@@ -139,3 +139,88 @@ $F(s)=\frac{13s+14}{(s+2)^{2}(s-1)}=\frac{9}{(s+2)(s-1)}+\frac{4}{(s+2)^{2}}$$=\
 => $F=3(T^{-1}-T^{2})\left( s\to \frac{1}{s} \right)+4T^{2}\left( s\to \frac{1}{s^{2}} \right)$
 => $F=3(T^{-1}-T^{2})L(1)+4T^{2}L(t\to t)$
 => $L^{-1}F=3(t\to e^{ t }-e^{ -2t })+4(t\to te^{ -2t })$$=t\to 3e^{ t }+(4t-3)e^{ -2t }$
+
+e.g. $x'''-2x''+16x=0, x(0)=x'(0)=x''(0)-20=0$
+we have $L(D^{3}-2D^{2}+16)x(s)=0$
+=> $(s^{3}-2s^{2}+16)Lx(s)=20$ => $x=s\to \frac{20}{(s+2)((s-2)^{2}+4)}=\frac{A}{s+2}+\frac{Bx+C}{(s-2)^{2}+4}$, with $A=1,B=-1,C=6$
+=> $Lx=s\to \frac{1}{s+2}-\frac{(s-2)}{(s-2)^{2}+4}+\frac{4}{(s-2)^{2}+4}$$=T^{2}L(1)-T^{-2}\left( s\to \frac{s}{s^{2}+4} - \frac{4}{s^{2}+4} \right)$$=L(S_{-2}\exp \times 1) -L(S_{2}\times \exp (t\to\cos 2t + 2\sin 2t))$
+=> $x=e^{ -2t }-e^{ 2t }(\cos 2t-2\sin 2t )$
+
+## Operations on Laplace
+
+### Convolution
+we have $L(f \ast g)=Lf\times Lg$, with $\ast$ denoting convolution, i.e. $(f\ast g)(\tau)=\int _{0}^{\tau} f(t)g(\tau-t) \, dt$ (actually the bounds are wrong but whatever), so:
+e.g. prove $L^{-1}\left( F=s\to \frac{s}{(s^{2}+k^{2})^{2}} \right)=\frac{1}{2k}t\sin kt$
+we have $s\to \frac{s}{(s^{2}+1)^{2}}=L\cos \times L\sin=L(\sin \ast \cos)$, which is
+
+$(\sin \ast \cos)(\tau)=\int _{0}^{\tau} \sin(t)\cos(\tau-t) \, dt=\int _{0}^{\tau} \frac{\sin(\tau)+\sin(2t-\tau)}{2} \, dt$$=\frac{1}{2}\tau \sin \tau$(the other term cancels)
+
+letting $s=\frac{s'}{k}$, we have $\frac{s}{(s^{2}+1)^{2}}=\frac{k^{3}s'}{(s'^{2}+k^{2})^{2}}=k^{3}F(ks)=k^{3}S_{k}F(s)$ => $L\left( t\to\frac{1}{2}t\sin t \right)=k^{3}S_{k}F(s)$ and $L^{-1}(k^{3}S_{k}F)=k^{3}L^{-1}S_{k}F$
+
+we have $S_{a}^{-1}L=aLS_{a}$ => $L^{-1}S_{\frac{1}{a}}L=aS_{a}$ => $L^{-1}S_{a}=\frac{1}{a}S_{a}^{-1}L^{-1}$, or $L^{-1}S_{a}^{-1}=aS_{a}L^{-1}$
+=> $RHS=k^{2}S_{\frac{1}{k}}L^{-1}F=t\to \frac{1}{2}t\sin t$
+=> $S_{\frac{1}{k}}L^{-1}F=t\to\frac{1}{2k^{2}}t\sin t$ => $L^{-1}F=t\to \frac{1}{2k^{2}}(kt)\sin kt=\frac{1}{2k}t\sin kt$, qed
+
+e.g. prove $L^{-1}\left( s\to \frac{1}{(s^{2}+k^{2})^{2}} \right)=\frac{1}{2k^{3}}(\sin kt-kt\cos kt)$
+similarly, we directly calculate:
+$s\to \frac{1}{(s^{2}+k^{2})^{2}}=\frac{1}{k^{2}}LS_{k}\sin \times LS_{k}\sin=\frac{1}{k^{2}}L(S_{k}\sin \ast S_{k}\sin)$
+with $(S_{k}\sin\ast S_{k}\sin)(t)=\int _{0}^{t} \sin(k\tau)\sin(k(t-\tau)) \, d\tau=\int _{0}^{t} \frac{\cos k(2\tau-t)-\cos(kt)}{2} \, d\tau$$=\dots=\frac{1}{2k}\sin kt-\frac{1}{2k}t\cos kt$ => qed
+
+### Derivative
+- (piecewise cont
+- exp bounded)
+$Lf(s)=\int _{0}^{\infty} e^{ -st }f(t) \, dt$
+=> $\frac{d}{ds}Lf(s)=\int _{0}^{\infty} -e^{ -st }tf(t) \, dx=-L(X \times f)$ (assuming one can take the integral like this, blabla [[uniconv]])
+=> $DLf+L(X\times f)=0$
+=> $D^{n}Lf=L((-X)^{\times n}\times f)$
+=> $L^{-1}D^{n}F=(-X)^{\times n}\times L^{-1}F$
+=> $L^{-1}D^{n}Lf=(-X)^{\times n}f$ => $L^{-1}D^{n}F=(-X)^{\times n}\times L^{-1}F$
+=> $L^{-1}F=\frac{L^{-1}D^{n}F}{(-X)^{\times n}}$
+e.g. we have $L\sin =s\to \frac{1}{s^{2}+1}$
+=> $\frac{d}{ds} \frac{1}{s^{2}+1}+L(t\sin t)=0$ => $L(t\sin t)=\frac{2s}{(s^{2}+1)^{2}}$
+
+e.g. $L^{-1} \arctan \frac{1}{X}=\frac{L^{-1} \frac{d}{ds} \arctan \frac{1}{s}}{-t}=\frac{1}{t}L^{-1} \frac{1}{s^{2}+1}=\frac{\sin t}{t}$
+### Integral
+Similarly, we have $L\left( \frac{f}{X} \right)=s\to\int _{s}^{\infty} Lf(\sigma) \, d\sigma$
+(needs additional condition: $\lim_{ t \to 0^{+} } \frac{f(t)}{t}$ finite and exists)
+
+=> $L^{-1}F(t)=tL^{-1}\left( \int _{s}^{\infty}F(s_{1}) \, ds_{1} \right)(t)$
+
+$Lf?, f(t)=\int _{0}^{t} \sin(t-x)\cos 2x \, dx$
+$a=\sin,b=S_{2}\cos$ => $f=a \ast b$
+=> $L(a\ast b)=LaLb= \frac{1}{s^{2}+1}\cdot \frac{s}{s^{2}+4}=\frac{s}{(s^{2}+1)(s^{2}+4)}$
+
+e.g. $L^{-1}\left( s \to \arctan \frac{3}{s+2} \right)=-\frac{1}{t}L\left( s\to -\frac{3}{(s+2)^{2}+9} \right)=-\frac{1}{t}e^{ -2t }\sin 3t$
+e.g. $tx''+(t-3)x'+2x=0$, $x(0)=0$
+we have:
+- $L(tx'')=-\frac{d}{ds}L(x'')=-\frac{d}{ds}(s^{2}Lx-sx(0)-x'(0))$$=-2sLx-s^{2}(Lx)'=-2sX-s^{2}X'$
+- $L(tx')=-\frac{d}{ds}L(x')=-\frac{d}{ds}(sX)$$=-X-sX'$
+- $L(-3x')=-3sX$
+- $L(2x)=2X$
+
+=> $-2sX-s^{2}X'-X-sX'-3sX+2X=0$
+=> $(1-5s)X=(s^{2}+s)X'$
+=> $\frac{1-5s}{s^{2}+s}ds=\frac{dX}{X}$
+=> $\ln|X|=\ln|s|-6\ln|s+1|+C$
+=> $|X|(s+1)^{6}=C|s|$
+remove the abs signs
+=> $\frac{X}{C}=\frac{s}{(s+1)^{6}}=\frac{1}{(s+1)^{5}}-\frac{1}{(s+1)^{6}}=T\left( \frac{1}{s^{5}}-\frac{1}{s^{6}} \right)$
+=> $x = Ce^{ -t }\left( \frac{t^{4}}{24}-\frac{t^{5}}{120} \right)$
+
+$L\left( t \to \frac{\sinh t}{t} \right)$
+**limit $\frac{\sinh t}{t}=1$ as $t\to 0^{+}$**
+$L = \int _{s}^{\infty} \frac{1}{x^{2}-1} \, dx=\frac{1}{2}\ln \left| \frac{1-x}{1+x} \right||_{s}^{\infty}=\frac{1}{2}\ln \left| \frac{1+s}{1-s} \right|$
+
+e.g. $L^{-1}\left( \frac{2s}{(s^{2}-1)^{2}} \right)$
+int8 the thing:
+$\int _{s}^{\infty} \frac{2s}{(s^{2}-1)^{2}} \, ds=\frac{1}{1-s^{2}}|_{s}^{\infty}=\frac{1}{s^{2}-1}=L\sinh t$
+=> answer: $t\sinh t$
+
+## piecewise
+
+- piecewise can always be turn into sum of functions like $u(t-a)f(t)$, so we just need to calc laplace of that
+- using this formula: $LT^{a}(f\times u)=S_{a}\exp \times Lf$ ($a<0$)
+
+e.g. $L(2tu(t-2))$
+$F=L(T^{-2}(u\times (t\to 2t+4)))=S_{-2}\exp \times L(t \to 2t+4)$$=e^{ -2s }\left( \frac{2}{s^{2}}+\frac{4}{s} \right)$
+

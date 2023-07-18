@@ -23,6 +23,10 @@ $$
 \iint _{\Sigma} \nabla \times F\, d\Sigma=\int _{\Sigma} d\omega = \int _{\partial \Sigma} \omega = \oint _{\partial \Sigma} F\,ds
 $$
 ($\omega$ is the 2-form that repr $F$)
+**orientation conditions:**
+- $\partial\Sigma$ is positive-orientated ($\Sigma$ on the left)
+- $\Sigma$ is positive-orientated wrt (paper oriented outwards)
+- $(\nabla \times F)d\Sigma=\left( \frac{\partial F_{z}}{\partial y}-\frac{\partial F_{y}}{\partial z} \right)dydz+\dots$
 
 ## green's theorem
 special case of [[generalized stoke's theorem#stoke's theorem|stoke's theorem]] in 2d
@@ -59,6 +63,8 @@ but we can use green like so:
 $I=\frac{1}{R^{2}}\int _{C} -ydx+xdy=\frac{1}{R^{2}}\iint_{D} 2dxdy=2\pi$
 
 ## divergence theorem
+vi: ostrogradsky theorem
+(assuming pointing outwards)
 $$
 \iiint _{\Sigma} \nabla\cdot \mathbf{F}\, d\Sigma = \iint_{\partial \Sigma} \mathbf{F}\cdot d\mathbf{S} 
 $$

@@ -4,28 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "a9fcd3bda353dd5b",
+        "id": "99a552aacb422b33",
         "type": "tabs",
         "children": [
           {
-            "id": "7e253b984fd1cf6e",
+            "id": "6e90362414bf23e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ssh/pldc/new/law/law src.md",
+                "file": "maths/calc2/paraint/paraim.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2023d3747750f2f8",
+            "id": "13ff1a2b4d2a9380",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ssh/ktct/new/compete/thi.md",
+                "file": "gt2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "d95c751500997ddd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db05adf88d4a5dcf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/calc2/fields/field.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "agricul",
+                "query": "responsible",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f1fb825814246907",
@@ -97,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ssh/pldc/new/law/law src.md",
+                "file": "gt2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,34 +156,38 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "7e253b984fd1cf6e",
+  "active": "13ff1a2b4d2a9380",
   "lastOpenFiles": [
-    "ssh/ktct/new/compete/thi.md",
-    "ssh/pldc/new/law/law src.md",
+    "maths/calc2/paraint/paraim.md",
+    "gt2.md",
+    "maths/calc2/fields/field.md",
+    "maths/calc3/laplace/laplace.md",
+    "ssh/pldc/new/law/violation.md",
+    "maths/calc2/paraint/paraint.md",
+    "maths/calc2/paraint/uniconv.md",
+    "ssh/ktct/new/vn/sombe.md",
+    "ssh/pldc/vppl & tnpl.md",
+    "ssh/pldc/vn/hinh su.md",
+    "ssh/pldc/vn/administrative.md",
+    "ssh/pldc/vn/constitution.md",
+    "ssh/pldc/new/world/world law.md",
+    "ssh/pldc/new/world",
+    "maths/calc2/fields/flux.md",
+    "maths/calc2/integrals/surfaceint.md",
+    "physics/thermal/tprocess.md",
+    "ssh/pldc/new/law/law.md",
+    "maths/calc2/gstoke/generalized stoke's theorem.md",
+    "ssh/ktct/new/vn",
+    "Untitled 12.md",
     "ssh/pldc/new/law/law form.md",
     "ssh/pldc/new/law/law norms.md",
-    "ssh/ktct/new/compete/monopoly.md",
-    "ssh/pldc/new/law/law.md",
-    "ssh/pldc/new/law/law execution.md",
+    "ssh/pldc/new/law/law src.md",
+    "ssh/ktct/new/market/market.md",
+    "ssh/pldc/new/vn/vn state.md",
     "ssh/pldc/new/state/state forms.md",
-    "ssh/pldc/new/state/state.md",
-    "ssh/pldc/new/state/primitive communism.md",
-    "ssh/pldc/new/state/marxian state src.md",
-    "ssh/pldc/new/state/idealist state src.md",
-    "maths/calc2/integrals/surfaceint.md",
-    "maths/calc2/fields/scalar potential.md",
-    "maths/calc2/integrals/lineint.md",
-    "maths/calc2/fields/field.md",
-    "maths/calc2/fields/ext derv.md",
-    "maths/calc2/fields/directional.md",
-    "maths/calc2/fields/circulation.md",
-    "maths/calc2/gstoke/generalized stoke's theorem.md",
-    "ssh/pldc/vppl & tnpl.md",
-    "maths/calc3/laplace/laplace.md",
-    "ssh/pldc/new/state/src.md",
-    "ssh/pldc/state/type.md",
-    "ssh/pldc/state/source.md",
-    "ssh/pldc/state/nature.md",
+    "ssh/pldc/new/vn/vn constitution.md",
+    "assets/Pasted image 20230708120140.png",
+    "ssh/pldc/new/vn",
     "assets/Pasted image 20230703181018.png",
     "assets/Pasted image 20230703181004.png",
     "assets/Pasted image 20230703180926.png",
@@ -176,14 +200,10 @@
     "ssh/ktct/new/money",
     "ssh/ktct/new/intro",
     "ssh/ktct/new/commodity",
-    "ssh/ktct/new",
-    "maths/calc3/laplace",
-    "ssh/ktct/surplus",
     "assets/Pasted image 20230515162702.png",
     "assets/Pasted image 20230425133208.png",
     "assets/Pasted image 20230425130043.png",
     "assets/Pasted image 20230425124522.png",
-    "assets/Pasted image 20230425124314.png",
     "Untitled.canvas"
   ]
 }
