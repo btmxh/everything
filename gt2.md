@@ -339,4 +339,129 @@ normal: $(\mathbf{r}-(1,\sqrt{ 2 },3)) \cdot(1,0,2)=0$
 second term odd wrt y and $S$ reflective wrt $y=0$
 calc first term via letting $x=\sqrt{ 2 }r\cos t,y=\sqrt{ 3 }r\sin t$
 
-1. 
+9. $\int _{0}^{\infty}e^{ -x }(x-y)x^{y-1}\ln x^{2} \, dx$
+gamma fn: $\Gamma(z)=\int _{0}^{\infty} x^{z-1}e^{ -x } \, dx$
+=> derivative: $\Gamma'(z)=\int _{0}^{\infty} x^{z-1}e^{ -x }\ln x \, dx$
+orig integral is:
+$I=2\int _{0}^{\infty} (x^{y}e^{ -x }\ln x-yx^{y-1}e^{ -x }\ln x) \, dx$
+=> $I=2(\Gamma'(y+1)-y\Gamma'(y))$
+since $\Gamma(z+1)=z\Gamma(z)$
+=> $\Gamma'(z+1)=z\Gamma'(z)+\Gamma(z)$
+=> $I=2\Gamma(y)$
+
+10. $\int _{C} e^{ x^{3}y^{2} }xy\left(\left( 3xy\ln(1+x^{2}y^{3})+\frac{2y^{2}}{1+x^{2}y^{3}} \right)dx+\left( 2x^{2}y\ln(1+x^{2}y^{3})+\frac{3xy}{1+x^{2}y^{3}} \right)dy\right)$
+- $xy\frac{2y^{2}dx+3xydy}{1+x^{2}y^{3}}=\frac{y^{3}d(x^{2})+x^{2}d(y^{3})}{1+x^{2}y^{3}}=\frac{d(x^{2}y^{3})}{1+x^{2}y^{3}}=d\ln(1+x^{2}y^{3})$ (note that $y>0$)
+- let $z=\ln(1+x^{2}y^{3})$, then integrand is $e^{ x^{3}y^{2} }(3x^{2}y^{2}zdx+2x^{3}y^{2}zdy+dz)$
+- assuming it's (otherwise dell tinh dc) $e^{ x^{3}y^{2} }(3x^{2}y^{2}zdx+2x^{3}yzdy+dz)=e^{x^{3}y^{2}}(zd(x^{3}y^{2})+dz)=zd(e^{ x^{3}y^{2} })+e^{ x^{3}y^{2} }dz$$=d(ze^{ x^{3}y^{2} })$...
+
+8. osculating circle of $y=\frac{2}{x}$ at $(2,1)$
+$y'=-\frac{2}{x^{2}}=-\frac{1}{2},y''=\frac{4}{x^{3}}=4$
+=> $\kappa=\frac{4}{\left( 1+\left( \frac{1}{2} \right)^{2} \right)^{3/2}}=\frac{4}{\frac{5}{8}\sqrt{ 5 }}$ => $R=\frac{5\sqrt{ 5 }}{32}$
+$\Delta \mathbf{r}=\frac{(1+y'^{2})(-y',1)}{y''}$
+=> $\Delta\mathbf{r}=\frac{\left( 1+\frac{1}{4} \right)\left( \frac{1}{2},1 \right)}{4}=\frac{5}{16}\left( \frac{1}{2},1 \right)=\left( \frac{5}{32}, \frac{5}{16} \right)$
+=> center $C=(2,1)+\Delta \mathbf{r}=\left( \frac{69}{32}, \frac{21}{16} \right)$, radius $R=\frac{5\sqrt{ 5 }}{32}$
+
+10. is $\vec{F}=\frac{6(x,y.z)}{\sqrt{ x^{2}+y^{2}+z^{2} }}$
+using $\nabla r^{n}=nr^{n-2}\mathbf{r}$, we have $\nabla r= r^{-1}\mathbf{r}=\frac{\vec{F}}{6}$
+=> $\vec{F}=\nabla(6r)=\nabla (6\sqrt{ x^{2}+y^{2}+z^{2} })$
+=> $\vec{F}$ is a potential field with scalar potential $u=6r=6\sqrt{ x^{2}+y^{2}+z^{2} }$
+
+1. evolute $y^{2}=4x$
+parameterize: $y=2t,x=t^{2}$ => $\mathbf{r}=(2t,t^{2}),\mathbf{r'}=(2,2t),\mathbf{r''}=(0,2)$
+$\Delta\mathbf{r}=\frac{|\mathbf{r}'|^{2}(-r'_{y},r'_{x})}{|\mathbf{r'}\times \mathbf{r''}|}$$=\frac{4(1+t^{2})(-2t,2)}{4}=2(1+t^{2})(-t,1)=(-2t^{3}-2t, 2t^{2}+2)$
+=> center $C(t)=\mathbf{r}+\Delta \mathbf{r}=(2t,t^{2})+(-2t^{3}-2t,2t^{2}+2)=(-2t^{3},3t^{2}+2)$
+
+2. $\int _{0}^{\sqrt{ \pi }} \int _{y}^{\sqrt{ \pi }} \sin(x^{2}) \, dx \, dy$
+region of integration: $0\leq y\leq x\leq \sqrt{ \pi }$
+=> switch order to $\int _{0}^{\sqrt{ \pi }} \, dx \int _{0}^{x} \, dy \sin(x^{2})=\int _{0}^{\sqrt{ \pi }} x\sin(x^{2}) \, dx=\frac{1}{2}\cos(x^{2})|_{\sqrt{ \pi }}^{0}=1$
+
+3. $\iint_{D} (x^{3}-y^{2}+e^{ x^{2} }\sin(y^{5}))dxdy$, $D: \frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}\leq 1$
+$x^{3}$ odd wrt x, $e^{ x^{2} }\sin y^{5}$ odd wrt y
+$I=-\iint_{D} y^{2}dxdy=-\int_{0}^{2\pi} dt \int _{0}^{1} dr \, b^{2}r^{3}=-\frac{\pi b^{2}}{2}$
+
+4. $\iiint_{B} \sqrt{ x^{2}+y^{2}+z^{2} }dxdydz$, $x^{2}+y^{2}+z^{2}\leq y$
+$x=r\sin u\cos v,z=r\sin u\sin v,y=r\cos u$
+=> needs $r\leq \cos u$, $u\in [0, \frac{\pi}{2}]$
+=> $I=\int _{0}^{2\pi} \, dv\int _{0}^{\pi/2} \sin u\, du\int _{0}^{\cos u} r^{3} \, dr=\dots$
+
+5. $\mathbf{F}=\frac{-2\mathbf{r}}{r^{3}}$
+$\nabla r^{n}=nr^{n-2}\mathbf{r}$ => $\mathbf{F}=\nabla \frac{2}{r}$ not well defined at $r=0$, so idk if this is potential field or not
+
+6. [[circulation]] $\vec{F}=(y,z,x)$ along $C: x-y+z=x^{2}+y^{2}+z^{2}-a^{2}=0$ CCW (if one looks along $-\hat{j}$)
+$\int _{C} ydx+zdy+xdz$
+stoke's theorem => $\iint_{S=\partial^{-1}C} -dxdy-dzdx$
+normal of $S$ is the normal of $x-y=z=0$ => $\frac{1}{\sqrt{ 3 }}(1,-1,1)$
+=> $I=\iint_{S} (-1,-1,0)\cdot \frac{1}{\sqrt{ 3 }}(1,-1,1)dS=0$
+
+7. $I(y)=\int _{y^{2}+1}^{y^{2}+2} \frac{e^{ yx^{2} }}{x} \, dx, y>0$, check and calc $I'(y)$
+$I(y)$ differentiable since
+- $\alpha(y)=y^{2}+1, \beta(y)=y^{2}+2$ are both differentiable
+- $\frac{e^{ yx^{2} }}{x}$ cont, have cont partials on $[y^{2}+1,y^{2}+2]$ for all $y>0$
+=> $I'(y)=2y\left( \frac{e^{ y(y^{2}+2)^{2} }}{y^{2}+2}-\frac{e^{ y(y^{2}+1)^{2} }}{y^{2}+1} \right)+\int _{y^{2}+1}^{y^{2}+2} 2xe^{ yx^{2} } \, dx$
+the last integral is $\int _{(y^{2}+1)^{2}}^{(y^{2}+2)^{2}} e^{ yt } \, d(t=x^{2})=\frac{1}{y}e^{ yt }|_{t=(y^{2}+1)^{2}}^{(y^{2}+2)^{2}}$...
+
+8. uniconv? $\int _{0}^{\infty} e^{ -t\sqrt{ x } } \frac{\sin x^{2}}{\sqrt{ x }} \, dx$, $t\geq 0$
+we have $u=x^{2}$, then $dx=\frac{du}{2\sqrt{ u }}$ => $I=\int _{0}^{\infty} e^{ -t\sqrt[4]{ u } } \frac{\sin u}{2u^{3/4}} \, du$
+=> use dirichlet
+- $f(t,u)=\frac{e^{ -tu^{1/4} }}{2u^{3/4}}$ monotonic dec conv to 0
+- $g(t,u)=\sin u$ has $\int _{0}^{b} \sin u \, dx$ is bounded
+=> uniconv
+
+9. $\int _{0}^{\infty} e^{ -x^{2}-t^{3}/x^{2} } \, dx, t\geq 0$
+first, we have
+$\int _{0}^{\infty} e^{ -x^{2} } \, dx= \frac{\sqrt{ \pi }}{2}$
+=> $\int _{0}^{\infty} a^{-x^{2}} \, dx=\int _{0}^{\infty} e^{ -x^{2}\ln a } \, dx$$=\int _{0}^{\infty} e^{ -(x\sqrt{ \ln a })^{2} } \, dx=\int _{0}^{\infty} e^{ -t^{2} } \, d\left( \frac{t}{\sqrt{ \ln a }} \right)$$=\frac{\sqrt{ \pi }}{2\sqrt{ \ln a }}$
+=> $\int _{0}^{\infty} e^{ -x^{2}- \frac{a^{4}}{x^{2}} } \, dx$, $y=\frac{x}{a}$, then $I=\int _{0}^{\infty} e^{ -a^{2}(y^{2}+1/y^{2}) } \, \frac{dy}{a}$$=\frac{1}{a} \int _{0}^{\infty} (e^{ a^{2} })^{-y^{2}-1/y^{2}} \, dy$
+let $b=e^{ a^{2} }$, then
+$aI=\int _{0}^{\infty} b^{-y^{2}-1/y^{2}} \, dy$$=\int _{0}^{\infty} b^{ -(y-1/y)^{2}-2 } \, dy=b^{ -2 }\int _{0}^{\infty} b^{ -(y-1/y)^{2} } \, dy$
+$ab^{2}I=\int _{0}^{\infty} b^{-(y-1/y)^{2}} \, dy$
+let $z=\frac{1}{y}$ => $ab^{2}I=\int _{0}^{\infty} b^{-(z-1/z)^{2}} \, \frac{dz}{z^{2}}$
+=> $2ab^{2}I=\int _{0}^{\infty} \left( 1+\frac{1}{y^{2}} \right) e^{ -(y-1/y)^{2} } \, dy=\int _{-\infty}^{\infty} e^{ -(y-1/y)^{2} } \, d\left( y-\frac{1}{y} \right)$
+=> $ab^{2}I=\int _{0}^{\infty} b^{ -t^{2} } \, dt=\frac{\sqrt{ \pi }}{2\sqrt{ \ln b }}$
+=> $I=\frac{\sqrt{ \pi }}{2ab^{2}\sqrt{ \ln b }}$
+since $b=e^{ a^{2} }$ => $I=\frac{\sqrt{ \pi }}{2a^{2}e^{ a^{2} }}$, and sub $a^{4}=t^{3}$ => ...
+
+10. $\int _{C} e^{ xy^{3} }\left( \left( y^{3}\sqrt[3]{ x^{2}+\arctan y }+\frac{2x}{3\sqrt[3]{ (x^{2}+\arctan y)^{2} }} \right) dx+\left( 3xy^{2}\sqrt[3]{ x^{2}+\arctan y }+\frac{1}{3(1+y^{2})\sqrt[3]{ (x^{2}+\arctan y)^{2} }} \right)dy\right)$
+from $(0,1)$ to $(1,0)$
+we have $\frac{2xdx+\frac{dy}{1+y^{2}}}{3\sqrt[3]{ (x^{2}+\arctan y)^{2} }}=\frac{d(x^{2}+\arctan y)}{3\sqrt[3]{ (x^{2}+\arctan y)^{2} }}=d(z=\sqrt[3]{ x^{2}+\arctan y })$
+=> $e^{ xy^{3} }(y^{3}zdx+dz+3xy^{2}zdy)$$=e^{ xy^{3} }(zd(xy^{3})+dz)=d(ze^{ xy^{3} })=d(\sqrt[3]{ x^{2}+\arctan y }e^{ xy^{3} })$
+=> $I=1-\sqrt[3]{ \frac{\pi}{4} }$
+
+7b. $\nabla \times(u\mathbf{F})=u \nabla \times \mathbf{F}+\nabla u \times \mathbf{F}$
+we have
+$(\nabla \times(u\mathbf{F}))_{x}=\frac{\partial (uF_{y})}{\partial z}-\frac{\partial (uF_{z})}{\partial z}$$=u \frac{\partial F_{y}}{\partial z}+u'_{z}F_{y}-u \frac{\partial F_{z}}{\partial y}-u'_{y}F_{z}$$=(u\nabla \times \mathbf{F}+\nabla u \times \mathbf{F})_{x}$ => qed
+
+9.
+$I(m)=\int _{0}^{\infty} e^{ -ax^{2} }\cos mx \, dx$
+$I'(m)=-\int xe^{ -ax^{2} }\sin mx \, dx$$=-\frac{1}{2a}(-e^{ -ax^{2} }\sin mx|_{0}^{\infty}+\int _{0}^{\infty} e^{ -ax^{2} } m\cos mx \, dx)$
+$=-\frac{m}{2a}I(m)$
+=> $d \ln I(m)=-\frac{m}{2a}dm=d\left( -\frac{m^{2}}{4a} \right)$
+=> $\ln I(m)=-\frac{m^{2}}{4a}+C$
+let $m=0$ => $\ln I(0)=C=\ln\int _{0}^{\infty} e^{ -ax^{2} } \, dx=\ln\frac{\sqrt{ \pi }}{2\sqrt{ a }}$
+=> $I(m)=\frac{\sqrt{ \pi }}{2\sqrt{ a }}e^{ -m^{2}/4a }$
+
+
+$x^{2}+y^{2}=2az$ => $dz=\frac{x}{a}dx+\frac{y}{a}dy$ => $z'_{x}=\frac{x}{a}, z'_{y}=\frac{y}{a}$
+=> diện tích $I=\iint_{S} dS=\iint_{D} \sqrt{ 1+\left( \frac{x}{a} \right)^{2}+\left( \frac{y}{a} \right)^{2} }dxdy$, $D: (x^{2}+y^{2})^{2}=2a^{2}xy$
+$x=ar\cos t,y=ar\sin t, t\in\left[ 0, \frac{\pi}{2} \right] \cup [\pi, \frac{3\pi}{2}]$
+(tính 1 đoạn r nhân đôi) => $r^{2}\leq \sin 2t$
+$I=2\int _{0}^{\pi/2} \int _{0}^{\sqrt{ \sin 2t }} ar\sqrt{ 1+r^{2} }\, dr \, dt$
+$=a\int _{0}^{\pi/2} \, dt \int _{1}^{1+\sin 2t} \sqrt{ u } \, d(u=1+r^{2})$
+$=\frac{2a}{3}\int _{0}^{\pi/2} ((1+\sin 2t)^{3/2}-1) \, dt$
+
+có $1+\sin 2t=\sin ^{2}t+\cos ^{2}t+2\sin t\cos t=(\sin t+\cos t)^{2}$
+=> $I=\frac{2a}{3} \int _{0}^{\pi/2} ((\sin t+\cos t)^{3}-1) \, dt$$=\frac{a}{3}(-\pi+2F(3,0)+6F(2,1))$
+với $F(u,v)=2\int _{0}^{\pi/2} \sin ^{u}t\cos ^{v}t \, dt=B\left( \frac{u+1}{2}, \frac{v+1}{2} \right)$ => $F(3,0)=B\left( 2, \frac{1}{2} \right)=\frac{4}{3}$
+$F(2,1)=B\left( \frac{3}{2}, 1 \right)=\frac{2}{3}$
+=> ...
+
+10. $\int _{C} \frac{e^{ x^{2}y }}{\sqrt{ (1+x^{2}y^{4})^{3} }}(xy(2(1+x^{2}y^{4})-y^{3})dx+x^{2}(e^{ -x^{2}y }\sqrt{ (1+x^{2}y^{4})^{3} }+1+x^{2}y^{4}-2y^{3})dy)$
+we have $-xy^{4}dx-2x^{2}y^{3}dy=-\frac{1}{2}(y^{4}d(x^{2})+x^{2}d(y^{4}))=-\frac{1}{2}d(x^{2}y^{4}+1)$
+let $z=\sqrt{ 1+x^{2}y^{4} }$ => $=-\frac{1}{2}d(z^{2})=-zdz$
+$2xy(1+x^{2}y^{4})dx=2xyz^{2}dx$
+$x^{2}(e^{ -x^{2}y }z^{3}+z^{2})dy$
+=> $2xyz^{2}dx+x^{2}z^{2}dy=z^{2}(yd(x^{2})+x^{2}dy)=z^{2}d(x^{2}y)$
+let $t=x^{2}y$
+=> $\dots = \frac{e^{ t }}{z^{3}}(-zdz+z^{2}dt)=-\frac{e^{ t }dz}{z^{2}}+\frac{e^{ t }dt}{z}$$=e^{ t }d\left( \frac{1}{z} \right)+\frac{d(e^{ t })}{z}=d\left( \frac{e^{ t }}{z} \right)=d\left( \frac{e^{ x^{2}y }}{\sqrt{ 1+x^{2}y^{4} }} \right)$
+=> ...
+

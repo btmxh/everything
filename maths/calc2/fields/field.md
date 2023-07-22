@@ -16,7 +16,7 @@ divergence: độ phân hoạch/phân tán
 - trường ống => div = 0 for all pts
 hoàn lưu/lưu số: type 2 [[lineint]]
 curl: vecto xoáy
-- $\vec{Rot}\mathbf{F}=\left( \frac{\partial F_{z}}{\partial y}-\frac{\partial F_{y}}{\partial z},\frac{\partial F_{x}}{\partial z}-\frac{\partial F_{z}}{\partial x},\frac{\partial F_{y}}{\partial x}-\frac{\partial F_{x}}{\partial y} \right)$
+- $\vec{rot}\mathbf{F}=\left( \frac{\partial F_{z}}{\partial y}-\frac{\partial F_{y}}{\partial z},\frac{\partial F_{x}}{\partial z}-\frac{\partial F_{z}}{\partial x},\frac{\partial F_{y}}{\partial x}-\frac{\partial F_{x}}{\partial y} \right)$
 - điểm xoáy => rot != 0
 
 ### conservative vector field

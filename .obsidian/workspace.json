@@ -4,47 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "99a552aacb422b33",
+        "id": "3580f84dfd40eb39",
         "type": "tabs",
         "children": [
           {
-            "id": "6e90362414bf23e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/calc2/paraint/paraim.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "13ff1a2b4d2a9380",
+            "id": "a33aa37c33ac2b5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "gt2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "d95c751500997ddd",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "db05adf88d4a5dcf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maths/calc2/fields/field.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f1fb825814246907",
@@ -156,23 +124,27 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "13ff1a2b4d2a9380",
+  "active": "a33aa37c33ac2b5c",
   "lastOpenFiles": [
-    "maths/calc2/paraint/paraim.md",
+    "ssh/ktct/new/vn/industrialization.md",
+    "ssh/ktct/new/vn/economic interests.md",
     "gt2.md",
+    "maths/calc2/fields/circulation.md",
+    "ssh/ktct/new/vn/sombe.md",
+    "maths/calc3/series/dirichlet test.md",
+    "maths/calc2/paraint/paraim.md",
+    "maths/calc2/fields/flux.md",
     "maths/calc2/fields/field.md",
     "maths/calc3/laplace/laplace.md",
     "ssh/pldc/new/law/violation.md",
     "maths/calc2/paraint/paraint.md",
     "maths/calc2/paraint/uniconv.md",
-    "ssh/ktct/new/vn/sombe.md",
     "ssh/pldc/vppl & tnpl.md",
     "ssh/pldc/vn/hinh su.md",
     "ssh/pldc/vn/administrative.md",
     "ssh/pldc/vn/constitution.md",
     "ssh/pldc/new/world/world law.md",
     "ssh/pldc/new/world",
-    "maths/calc2/fields/flux.md",
     "maths/calc2/integrals/surfaceint.md",
     "physics/thermal/tprocess.md",
     "ssh/pldc/new/law/law.md",
@@ -182,10 +154,6 @@
     "ssh/pldc/new/law/law form.md",
     "ssh/pldc/new/law/law norms.md",
     "ssh/pldc/new/law/law src.md",
-    "ssh/ktct/new/market/market.md",
-    "ssh/pldc/new/vn/vn state.md",
-    "ssh/pldc/new/state/state forms.md",
-    "ssh/pldc/new/vn/vn constitution.md",
     "assets/Pasted image 20230708120140.png",
     "ssh/pldc/new/vn",
     "assets/Pasted image 20230703181018.png",
