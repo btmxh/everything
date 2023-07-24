@@ -403,14 +403,16 @@ the last integral is $\int _{(y^{2}+1)^{2}}^{(y^{2}+2)^{2}} e^{ yt } \, d(t=x^{2
 8. uniconv? $\int _{0}^{\infty} e^{ -t\sqrt{ x } } \frac{\sin x^{2}}{\sqrt{ x }} \, dx$, $t\geq 0$
 we have $u=x^{2}$, then $dx=\frac{du}{2\sqrt{ u }}$ => $I=\int _{0}^{\infty} e^{ -t\sqrt[4]{ u } } \frac{\sin u}{2u^{3/4}} \, du$
 => use dirichlet
-- $f(t,u)=\frac{e^{ -tu^{1/4} }}{2u^{3/4}}$ monotonic dec conv to 0
+- $f(t,u)=\frac{e^{ -tu^{1/4} }}{2u^{3/4}}$ đơn điệu giảm
+- $f(t,u)\leq \frac{1}{2u^{ 3/4 }}$ hội tụ đều về 0 khi $u\to \infty$
 - $g(t,u)=\sin u$ has $\int _{0}^{b} \sin u \, dx$ is bounded
 => uniconv
 
 9. $\int _{0}^{\infty} e^{ -x^{2}-t^{3}/x^{2} } \, dx, t\geq 0$
-first, we have
+first, we ha/ve
 $\int _{0}^{\infty} e^{ -x^{2} } \, dx= \frac{\sqrt{ \pi }}{2}$
 => $\int _{0}^{\infty} a^{-x^{2}} \, dx=\int _{0}^{\infty} e^{ -x^{2}\ln a } \, dx$$=\int _{0}^{\infty} e^{ -(x\sqrt{ \ln a })^{2} } \, dx=\int _{0}^{\infty} e^{ -t^{2} } \, d\left( \frac{t}{\sqrt{ \ln a }} \right)$$=\frac{\sqrt{ \pi }}{2\sqrt{ \ln a }}$
+
 => $\int _{0}^{\infty} e^{ -x^{2}- \frac{a^{4}}{x^{2}} } \, dx$, $y=\frac{x}{a}$, then $I=\int _{0}^{\infty} e^{ -a^{2}(y^{2}+1/y^{2}) } \, \frac{dy}{a}$$=\frac{1}{a} \int _{0}^{\infty} (e^{ a^{2} })^{-y^{2}-1/y^{2}} \, dy$
 let $b=e^{ a^{2} }$, then
 $aI=\int _{0}^{\infty} b^{-y^{2}-1/y^{2}} \, dy$$=\int _{0}^{\infty} b^{ -(y-1/y)^{2}-2 } \, dy=b^{ -2 }\int _{0}^{\infty} b^{ -(y-1/y)^{2} } \, dy$
@@ -464,4 +466,66 @@ $x^{2}(e^{ -x^{2}y }z^{3}+z^{2})dy$
 let $t=x^{2}y$
 => $\dots = \frac{e^{ t }}{z^{3}}(-zdz+z^{2}dt)=-\frac{e^{ t }dz}{z^{2}}+\frac{e^{ t }dt}{z}$$=e^{ t }d\left( \frac{1}{z} \right)+\frac{d(e^{ t })}{z}=d\left( \frac{e^{ t }}{z} \right)=d\left( \frac{e^{ x^{2}y }}{\sqrt{ 1+x^{2}y^{4} }} \right)$
 => ...
+
+1. $9x^{2}-18x+4y^{2}+8y=23,x+y-z=1$ curvature at $A(1,2,2)$
+$(3x-3)^{2}+(2y+2)^{2}=6^{2}$ => $x=1+2\cos t, y=3\sin t-1$ => $z=2\cos t+3\sin t-1$
+$t=\frac{\pi}{2}$
+=> $\mathbf{r'}=(-2\sin t,3\cos t,-2\sin t+3\cos t)=(-2,0,-2)$
+=> $\mathbf{r''}=(-2\cos t,-3\sin t,2\cos t-3\sin t)=(0, -3,-3)$
+
+=> $\kappa=\frac{6\sqrt{ 2 }}{(2\sqrt{ 2 })^{3}}=\frac{3}{8}$
+
+2. $\iint_{D} \sqrt{ x^{2}+y^{2} }dxdy, D: -y\leq x^{2}+y^{2}\leq x$
+
+=> $x=r\cos t,y=r\sin t$ => $-\sin t\leq r\leq \cos t$
+=> $t\in\left[ -\frac{\pi}{2}, 0 \right]$
+
+=> $I=\int _{-\frac{\pi}{2}}^{0} \, dt \int _{0}^{\cos t} r \, dr=\int _{-\frac{\pi}{2}}^{0} \frac{\cos ^{2}t}{2} \, dt= \int _{0}^{\pi/2} \frac{1+\cos 2t}{4} \, dt$$=\frac{\pi}{8}$
+
+3. $\iiint_{V} (\sqrt{ x^{2}+y^{2}+z^{2} }+2xy^{2}z^{2})dxdydz$
+$x^{2}+y^{2}+z^{2}\leq 4, z\geq \sqrt{ x^{2}+y^{2} }$
+
+$\iiint_{V} 2xy^{2}z^{2}dxdydz=0$ because odd wrt x
+$x=r\sin t\cos u,y=r\sin t\sin u,z=r\cos t$
+=> $0\leq r\leq 2$, $\cos t\geq \sin t$ => $t\in\left[ 0,\frac{\pi}{4} \right]$
+=> $I=2\pi \int _{0}^{\pi/4} \sin t\, dt\int _{0}^{2} r^{3} \, dr=2\pi\left( 1-\frac{\sqrt{ 2 }}{2} \right)\cdot \frac{32}{5}=\dots$
+
+4.
+a. $\int _{0}^{\infty} \frac{x}{(1+x^{3})^{2}} \, dx$
+$t=x^{3}$ => $x=t^{1/3}$ => $dx=\frac{1}{3}t^{-2/3}dt$ => $\int _{0}^{\infty} \frac{t^{1/3}}{(1+t)^{2}} \cdot \frac{1}{3}t^{-2/3}dt=\frac{1}{3}\int _{0}^{\infty} \frac{t^{-1/3}}{(1+t)^{2}} \, dt=\frac{1}{3}B\left( \frac{2}{3}, \frac{4}{3} \right)=\dots$
+
+b. $\lim_{ n \to \infty } \int _{0}^{\infty} e^{ -3x^{n} } \, dx$
+$y=3x^{n}$ => $x=\left( \frac{y}{3} \right)^{1/n}$ => $dx=\frac{1}{3n}\left( \frac{y}{3} \right)^{1/n-1}dy$ => $I(n)=\int _{0}^{\infty} e^{ -y } \frac{1}{3n} (\frac{y}{3})^{1/n-1} dy$$=\frac{1}{3^{1/n}n}\int _{0}^{\infty} y^{1/n-1}e^{ -y } \, dx=\frac{\Gamma\left( \frac{1}{n} \right)}{3^{1/n}n}=\frac{\Gamma\left( \frac{1}{n}+1 \right)}{3^{1/n}}$
+=> $\lim_{ n \to \infty } I(n)=\frac{\lim_{ n \to \infty } \Gamma\left( \frac{1}{n}+1 \right)}{1}=\Gamma(1)=1$
+
+5. $\int _{C} yz \, dl$, $C: x^{2}+y^{2}+z^{2}=8,z^{2}=x^{2}+y^{2}$, $y,z\geq 0$
+=> $x^{2}+y^{2}=z^{2}=4$
+=> $z=2, x=2\cos t,y=2\sin t$, $t\in[0, \pi]$
+=> $I=\int _{0}^{\pi} 4\sin t \sqrt{ 4 } \, dt=8\int _{0}^{\pi} \sin t \, dt=16$
+
+6. $\iint_{S} \frac{x^{2}dydz+\dots}{x^{3}+y^{3}+z^{3}}$, $S: x^{2}+y^{2}+z^{2}=3$ points outwards
+$\vec{F}=\frac{x^{2}\hat{i}+y^{2}\hat{j}+z^{2}\hat{k}}{x^{3}+y^{3}+z^{3}}$
+$\hat{n}=\frac{1}{\sqrt{ 3 }}(x,y,z)$
+=> $\vec{F}\cdot \hat{n}=\frac{x^{3}+y^{3}+z^{3}}{x^{3}+y^{3}+z^{3}}=1$
+=> $I=\iint_{S} \frac{1}{\sqrt{ 3 }}dS=S(S)=4\sqrt{ 3 }\pi$
+
+7. $\iiint_{V} (10x+3y^{2}+5z)dxdydz$, $V: |x-y|\leq 1,|y+z|\leq 1, |z-x|\leq 1$
+$a=x-y,b=y+z,c=z-x$
+=> $x=\frac{a+b-c}{2},y=\frac{b-a-c}{2},z=\frac{a+b+c}{2}$
+$V':-1\leq a,b,c,\leq 1$
+=> $I=\iiint_{V'} 5(a+b-c)+\frac{5}{2}(a+b+c)+\frac{3}{4}(a+c-b)^{2}dadbdc$
+odd => $I=\int _{V'} \frac{3}{4}(a^{2}+b^{2}+c^{2}) \, dadbdc=\frac{9}{4}\iiint_{V'} a^{2}dadbdc=6$
+
+8. circulation of $\vec{F}=(x+3y)\hat{i}+(y+3z)\hat{j}+(z+3x)\hat{k}$ along $L: x^{2}+y^{2}+(z-1)^{2}=9, x+y+z=1$, CCW wrt $-\hat{j}$
+$I=\oint_{L} \vec{F}\cdot d\vec{l}=\iint_{S} \nabla \times \vec{F}d\vec{S}$
+$\nabla \times \vec{F}=-3(\hat{i}+\hat{j}+\hat{k})$
+$\hat{n}=\frac{(1,1,1)}{\sqrt{ 3 }}$ => $(\nabla \times \vec{F}) \cdot \hat{n}=-3\sqrt{ 3 }$
+=> $I=-3\sqrt{ 3 } S(S)=-27\sqrt{ 3 }\pi$
+
+9. $\int _{C} \frac{3}{x^{2}+y^{2}}(ydx-xdy)$, $C: x^{8/3}+y^{8/3}=1$ CCW
+Let $C'$ to be the path $x^{2}+y^{2}=R^{2}$, clockwise ($R>1$), $L$ to be the union of two paths $C$ and $C'$ => $L$ is negatively-orientated, is the boundary of the region $D$.
+$P=\frac{y}{x^{2}+y^{2}},Q=-\frac{x}{x^{2}+y^{2}}$ then $P'_{y}=Q'_{x}=\frac{x^{2}-y^{2}}{(x^{2}+y^{2})^{2}}$, which is continuous on the region $D$ (does not contain $(0,0)$). => the integral $\int _{L} \frac{3}{x^{2}+y^{2}}(ydx-xdy)$ is 0
+=> the original integral is equal to $-\int _{C'} \frac{3}{x^{2}+y^{2}}(ydx-xdy)$, which can be calculated as $-\frac{3}{R}\int _{C'}(ydx-xdy)=\frac{3}{R^{2}}\iint_{S}(-2)=-6\pi$
+
+
 
