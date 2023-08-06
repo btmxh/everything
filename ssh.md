@@ -1,0 +1,327 @@
+## sxhh
+- **def of cp**
+	- eco. prod sys
+	- comod produced to be traded
+- **2 conditions**
+	- dol specific lvl
+		- **def**
+			- div of work forces into sectors
+			- towards specialization
+			- obey objective laws
+		- dol => spec. => efficiency => variety dec, num inc => trade
+	- ribm/ribp
+		- **def**: indep btwn producers itst
+			- tu chu
+			- tu quan li
+			- tu chiuj tn
+		- ensure fairness => motivation
+- **basic mth**
+	- 4x
+		- production separated, la viec rieng moi nsx
+		- nsx decide products attrs => influence econ., econ. bi chi phoi boi y chi chu quan
+	- social
+		- product dap ung nhu cau xh
+		- frequent collab in production
+	- => mth la nguyen do cho khung hoang kt va dong luc thuc day su ptr comodprod
+	- => kill conservative
+- **advs**
+	- accelerate dol => ptr llsx
+	- competitive => use of human creativity
+	- global coorporating => globalization, giao luu vh
+
+## hh
+- dn hh
+	- hh is
+		- result of human labor
+		- may st human needs
+		- produced to be traded otm
+- gtsd hh
+	- all usages of the hh st human spiritual + mtrl needs
+	- spiritual > mtrl as society progresses
+	- e.g. brands
+	- props
+		- infty
+		- the hien l vuc tieu dung
+		- co trong minh gia tri trao doi
+- co so gtkt hh
+	- 2 problems
+		- how to convert between gtsds
+		- air huge gtsd low value
+	- => ltv
+		- gt: hao phi lao dong ket tinh cua nsx trong sp
+		- solved 2 above problems
+		- props
+			- only present in cpe
+			- the hien lv luu thong, mua ban, trao doi
+			- duoc do bang tien price
+- luong gthh & nhan to
+	- la luong hao phi ldxh can thiet sx ra sp
+	- duoc do bang tgldxh can thiet
+		- la luong thoi gian lao dong can thiet de sx ra 1 don vi sp trong dk binh thuong xh
+			- trinh do, ky nang, kinh nghiem nguoi ld tb
+			- trinh do khcn, cong cu lao dong trung binh
+			- dieu kien ngoai canh ko co loi ko co hai
+		- tgldcb la tgld can thiet sx ra 1 don vi sp cua 1 nsx nao do
+	- xac dinh lgthh thong qua dn kho kha thi => xd qua nsx cung cap dai bo phan hh tren market
+	- nhan to
+		- productivity
+			- la p tru pa kha nang hieu suat cua ld
+			- ko a hg tong gtsp
+			- tl nghich voi gt 1 sp
+		- cuong do
+			- la p tru pa mat do lao dong
+			- ti le thuan tong gtsp
+			- ko anh hg gt 1sp
+		- muc do phuc tap
+			- ld gian don: ld ko can trai qua dao tao cm
+			- ld p tap: can tich luy exp
+			- => cung 1 time p tap nhieu lan gian don
+
+## currency
+- mtv
+	- dol + ribp => more more less less => trade => want more for less => est. ratios => measure value of hh
+- 4 types
+	- simple/rng
+		- la htdlgt trong do gt cua 1 hh duoc xd thong qua 1 hh khac: vng
+		- props
+			- based on dh2h
+			- each hh has one vng
+			- rng in frequency, ratio
+	- expanded/total
+		- multiple vngs
+		- props
+			- dh2h
+			- multiple vng complex
+	- common
+		- each community has unique vng
+		- props
+			- h-vng-h
+			- each community
+	- cur
+		- def: cur is a special type of hh, is the only type of hh that's sued to measure value of other hhs
+		- ban chat
+			- la hh db
+			- chi co 1
+			- measureee value of the
+		- props
+			- h-t-h
+			- united
+- gold silver
+	- histroy showed solgd,, silver pog
+		- good useval + value
+		- compact cuttable
+		- durable and stable finite
+- 5 purposes
+	- dlgt
+		- original, src of cur
+		- t/h o ...
+	- luu tru
+		- la dua tien ra ngoai luu thong de bao toan gia tri cua tien
+	- luu thong
+		- tien la phuong tien luu thong tron gnen kt: h-t-h
+	- thanh toan
+		- tien tro thanh phuong tien thanh toan pho bien
+		- thanh toan tra cham, mua ban chiu
+	- tien te tg
+		- phuong tien thanh toan quoc te
+		- tra bang vang bac => bretton woods => ti gia hoi doai qt
+- tien cc
+	- bat loi tien te
+		- khi chia cat can dong dem ky cang
+		- nang khi phai cam mot luong lon
+	- => ban vi vang: nha nuoc phat ngan phieu de tuong trung cho 1 luong vang nha nuoc vay tu nguoi nay
+		- gap van de khi tong tien > tong vang
+		- nha nuoc ko can thiep vao nen kt
+	- => tien chung chi ko gan lien voi hang hoa, don vi ten tuy thich
+		- => lam phat mat gia, ko nen dung de luu tru hoac dlgt trong mot khoang tg dai
+
+## cur hhdb
+- ban chat
+	- la hhdb
+	- dc xh thong nhat
+	- lam vng cho moi hh khac
+- tien la hh
+	- do ld con ng lam ra
+	- thoa man nhu cau cua con ng
+	- dc luu thong tren thi truong
+- tien la hhdb
+	- 5p
+	- src
+
+## valuelaw
+- nd
+	- both sx + lt are based on the foundation being the SNL of that specific hh, i.e. value
+	- sx
+		- nsx want SpNL < SNL => gia tri < gia ca
+	- lt
+		- gia ca van dong xq gia tri
+		- trade theo nguyen tac ngang gia
+			- 2 hang hoa trade vs nhau phai cung ket tinh hpld nhu nhau
+- cung cau vs vl
+	- cung cau
+		- cung: luong hh nsx cung ung ra wrtprice
+		- cau: luong hh thi truong ss tieu thu wrtprice
+		- diem can bang of mrkt: giao 2 duong cung cau
+	- vs vl
+		- cung<cau=>gia ca>gia tri=>loi nhuan inc=>thu hut dau tu=>cung inc=>canh tranh inc=>price dec, can bang value
+		- etc.
+	- vs vl
+		- cc xd price dk ngan han, vl xd trong tien trinh dai han
+		- tong the => gia tri qd gia ca
+- y nghia
+	- moderate pbo sx giua cac nganh
+		- thieu nguon luc => khan hiem hh => loi cao thu hut
+		- thua nguon luc => ton kho, loi thap, roi bo, etc.
+	- moderate hhcirc from low price place -> high
+	- phan hoa gc sxkd
+		- nguoi gioi ngay cang ptr => gioi chu
+		- nguoi ngu => gioi bi chen ep
+- kl: la ql co ban cua sx va trao doi hh
+
+## cctt
+- def tt, cctt, kttt
+	- tt
+		- narrow
+			- noi dien ra hanh vi mua ban
+			- su ket noi ben mua vs ben ban
+		- rong
+			- tong hoa cac mqh lq den lv trao doi
+			- dc hinh thanh in dk ls, kt, ctrixh nhat dinh
+			- bao ham cac qhe: cc, gcgt, hh-tt, etc.
+	- cctt
+		- sys of tu dieu tiet mqhkt + can doi kt
+		- thong qua cac qlkq cua tt
+		- features
+			- mod price
+			- mod phan bo nguon luc dau4
+			- mod san luong + he thong dieu phoi sp
+	- kttt
+		- kthh hoat dong theo cctt, ptr trinh do cao
+		- moi qh trao doi deu thong qua tt => chiu su dieu tiet cua cac qlkqtt
+- 4 subjects
+	- nsx
+		- sx, cung cap hh, dv cho thi truong, dap ung nhu cau tieu dung cua xh
+		- quan tam den loi nhuan => luon co xu huong toi uu qua trinh sx de dat max profit
+	- n tieu dung
+		- mua hh, dv tren tt de thoa man nhu cau tieu dung
+		- la dich den cua qtr sx nen co anh huong lon den nen sx
+		- phan biet nsx ntd rel do doanh nghiep vua sx vua tieu dung 
+	- chu the trung gian
+		- lam vai tro cau noi giua nsx va ntd
+		- xh do qtr sx cua xh ngay cang p tap => vai tro ngay cang qtrong
+	- nha nuoc
+		- thuc hien quan ly nn ve mat kinh te + kf han che cua thi truong
+		- kien tao moi truong vi mo kinh te ptr lanh manh
+			- thu thue nhung nganh nay no
+			- dua cac hanh vi co hai cho nen kt ra ngoai vong pl
+			- => ko truc tiep sxkd
+- state
+	- neu nn chiem sxhh => nha nc == nsx
+	- neu nn chiem sxhh + tieu dung => ...
+	- => bao cap triet tieu kg kinh te tu dien etc.
+
+## sld
+- def
+	- la toan bo tri tue va the luc cua laborer
+	- can be used in prod
+- conds
+	- nld duoc tu do ve than the
+	- nld bi chiem doat tlsx
+- values
+	- uval
+		- khi buy and use hhsld, ko lost value but co them: gt moi > gt cu
+		- do sld chua dung tri tue, suc luc, expr, etc. cua nld
+	- eval
+		- hpldxh can thiet de tai sx sld
+			- t/m nhu cau mtrl + sprit
+			- nuoi gd
+		- can dap ung ve mat vc, tinh than => phuc tap, bien doi ko ngung
+- tien cong = gia ca
+	- luong gia tri dung de tai sx sld la luong cua nld
+	- tien cong cua nld la gia ca cua sld
+
+## gttd
+- t-h-t'
+	- 2 cong thuc luu thong tht', hth'
+		- hth'
+			- muc dich tieu dung, ko phai la loi nhuan, thang du
+			- xu the van dong bi gioi han
+		- => t-h-t'
+	- nhin vao kttbcn => cac nsx su dung tien thue nhan cong, mua tlld, ccld tao ra sp roi dem di ban
+	- neu t'< t thi qua trinh ko co loi nhuan => ko maintainable
+	- neu t'=t thi qtr ko co ich loi gi cho nha tb
+	- => t'>t
+	- khi do @dt=t'-t lay o dau
+- t/c sld
+	- egt
+		- la luong hpldxh can thiet de tai san xuat lai sld, dap ung nhu cau tinh than, vat chat, dao tao, nuoi gd nld, co tinh phuc tap cao va bien doi theo time
+		- dc tra cho nld thong qua tien luong
+	- gtsd
+		- dac biet
+		- tao ra lg gtri lon hon gia tri von co de tai tao sld
+		- doi ra la gttd, ko dc tra cho nld ma bi ntb chiem doat
+- gttd = tlsx >< sld
+	- gttd dc tao ra tu gtsd cua sld, bi chiem doat boi ntb
+		- ntb so huu tlsx
+		- nld ban quyen su dung sld cua minh cho ntb
+		- => ntb co toan quyen chiem doat gttd cua nld
+	- => tlsx va sld bi tach roi trong qtr sx gttd, chiu su so huu cua 2 giai cap khac nhau, la dk de co the t/h sx gttd
+- 3kl
+	- m do nld tao ra, ntb chiem doat
+	- m ve chat la qhxh t/h q he boc lot of ntb vs nld
+	- time ld in day gom 2 phan t: tat yeu, t': thang du
+
+## absrel gttd
+- m', M
+	- ty suat gttd m'=t'/t=v/m pa trinhdo boc lot cua ntb
+	- khoi luong gttd M=m'V pa quy mo ... => loi nhuan cua ntb
+	- => muc tieu la nang cao M
+- absrel
+	- abs
+		- keo them tglv 1 ngay, ko tra luong tg xung
+		- => t+t' inc, vconst => t const => t' inc => m' inc and M inc
+		- pho bien gd dau cmtb
+		- de gap phan khang cua cn
+		- co gioi han
+	- rel
+		- ap dung thanh tuu khcn, tang nsld xh, giam hao phi sld tao ra sp
+		- v dec, t+t' const => t dec, t' inc => m inc => M inc
+		- ap dung trong cntb hien dai
+		- phu thuoc vao su ptr cua khcn - cmcn
+		- xoa diu mau thuan
+		- ko co gioi han
+- giong: inc t', m', M
+- khac
+	- abs inc t+t', rel const
+	- abs t const, rel t dec
+	- abs deps on inc I, rel deps on inc P
+	- abs limited, rel unlimited
+	- abs old, rel new
+	- => rel better than abs
+
+## concen
+- def
+	- (tich luy)
+		- tang $M$ co 2 cach la lam tang $m'$ va $V$
+		- tang $m'$ cham, bi gioi han (abs) hoac can phu thuoc vao khcn (rel)
+		- => tang V => can co tu ban
+	- tich tu
+		- la su tubanhoa tro lai gttd (M): lay 1 phan M tai dau tu, lam tu ban dau tu sau lon hon truoc
+		- props
+			- tang quy mo tu ban ca biet + xh
+			- t/h qhe boc lot ntb voi nld
+	- tap trung
+		- la su lien ket nhieu tu ban nho tro thanh mot tu ban lon
+		- 2 hinh thuc
+			- sat nhap doanh nghiep
+			- tap trung tb cur: tin dung
+		- props
+			- tang qmtbcb, xh const
+			- t/h qhe giua cac nha tu ban
+- same: inc qmtbcb
+- diff
+	- tich tu pa ntbvsnld, ttsfsfsdfsd
+	- xh const sxh ko const
+- new
+	- doc quyen => toan cau hoa hoi nhap etc.
+

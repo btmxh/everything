@@ -35,7 +35,9 @@ $\frac{\partial f}{\partial t}=x^{t}e^{ -tx }\ln x-x\cdot x^{t}e^{ -tx }=x^{t}e^
 => $\frac{x^{b}e^{ -bx }-x^{a}e^{ -ax }}{-x+\ln x}=\frac{f(x,b)-f(x,a)}{-x+\ln x}=\int _{a}^{b} x^{t}e^{ -tx } \, dt$
 then $I=\int _{0}^{e^{ -1 }} \int _{a}^{b} \, x^{t}e^{ x(1-t) }(1-x) \, dtdx$
 we can swap the integral because it's continuous on $[0,e^{ -1 }]\times[a,b]$, which results in
-$I=\int _{a}^{b} \int _{0}^{e^{ -1 }} (x^{t}-x^{t+1})e^{ 1-tx } \, dx \, dt$
+$I=\int _{a}^{b} \int _{0}^{e^{ -1 }} (x^{t}-x^{t+1})e^{ x(1-t) } \, dx \, dt$
+
+
 we have $\int _{0}^{e^{ -1 }} x^{t+1}e^{ 1-tx } \, dx=\int _{x=0}^{e^{ -1 }} x^{t+1} d\left( \frac{e^{ 1-tx }}{-t} \right)$$=\frac{x^{t+1}e^{ 1-tx }}{t}|_{0}^{e^{ -1 }}+\int _{x=0}^{e^{ -1 }} \frac{t+1}{t}x^{t}e^{ 1-tx } \, dx=$
 => $I=\int _{a}^{b}  \, dx$
 sai de
@@ -528,4 +530,5 @@ $P=\frac{y}{x^{2}+y^{2}},Q=-\frac{x}{x^{2}+y^{2}}$ then $P'_{y}=Q'_{x}=\frac{x^{
 => the original integral is equal to $-\int _{C'} \frac{3}{x^{2}+y^{2}}(ydx-xdy)$, which can be calculated as $-\frac{3}{R}\int _{C'}(ydx-xdy)=\frac{3}{R^{2}}\iint_{S}(-2)=-6\pi$
 
 
-
+$x^{2}+y^{2}\leq 2x, 2y$ => $r\leq 2 \max\{ \cos t,\sin t \}$, $t\in\left[ 0, \frac{\pi}{2} \right]$
+=> $V=\int _{0}^{\pi/2} \int _{0}^{2 \max \set{\sin t, \cos t}} r^{2}(\cos t+2\sin t) \, dr \, dt$

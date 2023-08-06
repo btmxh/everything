@@ -34,3 +34,7 @@ e.g. trộm chưa húp đc gì thì bị bắt và bị hành
 
 e.g. mẹ của bạn X (ko phải chị 7) bị trộm đột nhập dọa giết con đòi cunny => give in và "đi nấu mì ăn trước khi cunny???" (cái clgt gì v)
 => TTCT cc do chị này tự nguyện
+
+
+- ý nghĩa của động lượng
+- 

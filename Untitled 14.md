@@ -1,0 +1,145 @@
+kys chat
+- **def**
+	- sxhh la mo hinh sx kinh te ma trong do hh dc sx ra nham trao doi tren thi truong
+- **conds**
+	- phan cong lao dong xh
+		- def
+			- la su phan bo nguon luc xa hoi cho cac nganh kinh te khac nhau,
+			- theo huong c mon hoa
+			- theo nhung quy tac khach quan
+		- dol => specialization => efficient hon => variety dec, so lg inc => nhu cau trao doi
+	- su tach biet tuong doi cac nsx
+		- **def**
+			- la su doc lap tuong doi trong cac lvuc tu chu, tu quan li, tu chiu tn giua cac nsx
+		- => tao ra su cong bang
+- **2 mat**
+	- tinh tu nhan
+		- cac nsx doc lap tu quyet dinh san xuat ntn
+		- => nen kt bi chi phoi boi y chi cua cac nsx
+	- tinh xa hoi
+		- sp duoc sx nham ban ra thi truong cho xh
+		- trong sx thuong xuyen cac nsx phai hop tac voi nhau
+	- => mth la nguon goc khkt + dong luc cho su ptr
+	- xoa bo tu tuong bao thu
+- **uu the**
+	- tiep tuc dol => ptr llsx
+	- canh tranh => sd sang tao cua con ng
+	- hoi nhap kt + giao thoa vh
+
+- nd
+	- trong sx + lt deu dua tren co so hao phi lao dong xh san xuat hang hoa (dua tren gia tri)
+	- sx: nsx lam cho spnl < snl
+	- lt:
+		- price van dong xq value
+		- 2 hang hoa trao doi dc voi nhau dua tren ng tac ngang gia, gnhjia la co gia tri tuong duong nhau
+- vs cc
+	- cung cau
+		- cung: luong sp nsx ss cung ung ra mrkt wrtprice
+		- cau: luong sp mrkt consume wrtprice
+		- diem can bang: giao 2 duong cung cau
+		- => cc xd gia ca
+	- lap luan
+		- cung<cau=>gia ca> gia tri=>loi cao => thu hut ng von => cung tang, canh tranh => gia ca tang tro ve gia tri
+		- ...
+	- vs lv
+		- duong cung, cau ko ngung bien doi
+		- cc quyet dinh gia ca trong 1 khoang tg ngan han
+		- vl qd gia ca trong ca tien trinh cua lich su la xq gia tri
+		- tong the => gia tri qd gia ca
+- y nghia
+	- dieu chinh phan phoi nguon luc giua sector
+	- dieu tiet luu thong tu noi gia cao ve gia thap
+	- phan hoa giua nhung nguoi sx
+		- nguoi gioi => cang ptr => gioi chu
+		- nguoi ko co nl => dao thai => gioi bi chen ep
+- kl: qlgt la guy luat co ban trong sx la trao doi hh
+
+- nd
+	- qlgt: sx va luu thong hh deu dua tren co so la hpldxh cua sxhh (gia tri)
+	- sx: nsx lam spnl < snl
+	- luu thong
+		- gia ca vdxq gia tri
+		- trao doi theo ntac ng
+			- hh trade vs nhau phai co gia tri tg dg
+- cc
+	- cc
+		- c: luon sp cung ung nsx ung gia
+		- c: lsp tt ss tieu thu ung gia
+		- diem cb giao
+	- lap luan
+		- c<c=>gc>gt=>loi cao=>thu hutdau4 => cung tang =>canh tranh tang=>gia ca giam=>can bang gia tri
+		- ...
+	- mqh
+		- cc dung trong 1 khoang tg ngan han
+		- vl dung trong ca tien trinh lich su
+		- => tong the gia tri qd gia ca
+- y nghia
+	- dieu chih phan bo nguon luc cac sector
+	- dieu tiet hh tu noi gia thap den noi gia cao
+	- phan hoa, lam gia tang kcach giai taang giua cac nsx
+		- hieu qua nang suat => ptr => gioi chu
+		- ko thi bi dao thai => gioi bi chen ep
+- kl: la qlcb trong sx va trao doi hh
+
+- dn
+	- tt
+		- hep: la noi dien ra cac quan he trao doi mua ban, la su ket noi giua ng mua va ng ban
+		- rong: la tong hoa cac mqh lq den trao doi, trong dieu kien ktlsctxh cu the, bao gom cac mqh cc,gtgc,tt-hh, etc.
+	- cctt
+		- la he thong tu dieu chinh cac mqhkt va can doi kinh te thong qua qlkqtt
+		- mod price, sectors, ioprod
+	- kttt
+		- la bac ptr cao hon cua kthh
+		- van hanh theo cctt
+		- tuan theo cac qlkqtt
+- chu the
+	- nsx
+		- thuc hien sx, cung cap hh cho thi truong dap ung nhu cau tieu dung
+		- profit driven, tend to optimize production pipeline san luong etc to maximize profit
+		- => may harm env
+	- ntd
+		- mua hhdv tu market nham dap ung nhu cau cua minh
+		- co vai tro quan trong do ho la dau ra cua sx
+		- pb nsxntd rel vi doanh nghiep vua sx vua td
+	- 3rdp
+		- cau noi nsx ntd
+		- vai tro ngay cang quan trong do qtr sx ngay cang phuc tap hon, san luong ngay cang lon hon
+	- nn
+		- thuc hien quan li nn ve nhieu mat
+		- => kien tao moi truong kinh te vi mo thong qua (luat phap, an ninh xh, etc.) tao dieu kien cho nen kt ptr
+- state
+	- tu dien bla bla bla
+
+
+- tht'
+	- hth' kodc
+		- tieu dung chu ko phai la loi nhuan, thang du
+- gttd can tach sld vs tlsx
+- thuco tinh sld
+- kl
+	- gttd do nld tao ra bi ntb chiem doat
+	- gttd ve chat pa mqh boc lot ntb vs nld
+	- tg ld trong ngay chia thanh tat yeu t, thang du t'
+
+**Sức lao động (một hàng hóa đặc biệt) và tiền công trong CNTB**
+- sld
+	- la toan bo tri tue va the luc co the sd trong qtr ldsx
+	- khac vs nld
+- 2conds
+	- nld tu do than the
+	- bi tuoc doat toan bo tlsx
+	- nld bat buoc phai ban sld cho ntb chiem doat tlsx
+- props
+	- eval
+	- uval
+- tien cong la gia ca sld
+
+Hai phương pháp sản xuất giá trị thặng dư tuyệt đối & Sản xuất giá trị thặng dư tương đối
+- m', M
+	- m': ty suat gttd pa trinh do boc lot cua ntb=t'/t=m/v
+	- M: khoi luong gttd pa quy mo boc lot ntb=m'V
+	- muc tieu ntb: inc M
+- absrel
+	- 
+- same
+- dfif
