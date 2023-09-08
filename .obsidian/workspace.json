@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9db23dac2de83d1e",
+        "id": "99b25ae0f4d459c9",
         "type": "tabs",
         "children": [
           {
-            "id": "654abaad027e1af7",
+            "id": "9e2399b9b380b821",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vldc1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2eb7ccdcefeb6c2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "fuck.md",
+                "file": "maths/discrete/graph/graph.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nghiêm",
+                "query": "\"moment of inertia\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +58,7 @@
             }
           },
           {
-            "id": "71e116857e17feb4",
+            "id": "e0d666934218be7d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f1fb825814246907",
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vldc1.md",
+                "file": "maths/discrete/graph/graph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,17 +95,8 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "a2dcb799075d9e5a",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -137,54 +115,54 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "654abaad027e1af7",
+  "active": "9e2399b9b380b821",
   "lastOpenFiles": [
-    "fuck.md",
-    "vldc1.md",
-    "ssh.md",
-    "ssh/pldc/new/law/law execution.md",
-    "ssh/pldc/new/law/law.md",
-    "ssh/pldc/vn/hinh su.md",
-    "ssh/pldc/new/vn/civil law.md",
-    "ssh/pldc/new/vn/vn state.md",
-    "ssh/pldc/new/world/world law.md",
-    "ssh/pldc/state/birth.md",
-    "ssh/pldc/state/cond.md",
-    "ssh/pldc/state/đ trưng.md",
-    "ssh/pldc/state/hinhthuc.md",
-    "ssh/pldc/state/source.md",
-    "ssh/pldc/state/nature.md",
-    "ssh/pldc/state/machine.md",
-    "ssh/pldc/state/type.md",
-    "ssh/pldc/vn/administrative.md",
-    "ssh/pldc/vn/constitution.md",
-    "ssh/pldc/vn/vn.md",
-    "ssh/pldc/legal relationship.md",
-    "ssh/pldc/vppl & tnpl.md",
-    "ssh/historical materialism.md",
-    "ssh/pldc/new/law/violation.md",
-    "ssh/pldc/new/law/law norms.md",
-    "ssh/pldc/new/law/law form.md",
+    "gt2.md",
+    "maths/discrete/graph/graph.md",
+    "maths/discrete/optimize/tsp.md",
+    "maths/discrete/graph",
+    "assets/Pasted image 20230906100501.png",
+    "assets/Pasted image 20230906100321.png",
+    "assets/Pasted image 20230906095749.png",
+    "maths/discrete/optimize/bnb.md",
+    "maths/discrete/optimize/knapsack.md",
+    "maths/discrete/enum/algo.md",
+    "maths/discrete/existence/dirichlet.md",
+    "maths/discrete/optimize",
+    "maths/discrete/existence/ramsey.md",
+    "maths/discrete/enum",
+    "maths/discrete/count/problems.md",
+    "maths/discrete/existence",
+    "maths/discrete/count/recursive.md",
+    "maths/discrete/count/fns.md",
+    "maths/stats/dist/cont/exp.md",
+    "maths/stats/dist/cont/uniform.md",
+    "maths/stats/dist/cont/cont.md",
+    "maths/stats/gf/mgf.md",
+    "maths/stats/dist/discrete/neg binomial.md",
+    "maths/stats/dist/discrete/hypergeom.md",
+    "maths/stats/dist/discrete/poisson.md",
+    "physics/harmonic/harmonic motion.md",
+    "physics/thermal/maxwell dist..md",
+    "maths/stats/joint/meanvar.md",
+    "maths/stats/joint/independent.md",
+    "maths/stats/dist/dist.md",
+    "maths/stats/dist/discrete/binomial.md",
+    "maths/stats/dist/discrete/bernoulli.md",
+    "maths/stats/dist/chebyshev.md",
+    "maths/discrete/count",
+    "ssh/ktct/surplus",
+    "it/intro/algo",
+    "maths/discrete",
+    "maths/Untitled",
     "ssh/pldc/new/world",
-    "ssh/ktct/new/vn",
     "assets/Pasted image 20230708120140.png",
-    "ssh/pldc/new/vn",
     "assets/Pasted image 20230703181018.png",
     "assets/Pasted image 20230703181004.png",
     "assets/Pasted image 20230703180926.png",
-    "ssh/pldc/new/law",
-    "ssh/ktct/new/compete",
-    "ssh/ktct/new/surplus",
     "assets/Pasted image 20230614145248.png",
     "assets/Pasted image 20230614144323.png",
-    "ssh/ktct/new/market",
-    "ssh/ktct/new/money",
-    "ssh/ktct/new/intro",
-    "ssh/ktct/new/commodity",
     "assets/Pasted image 20230515162702.png",
-    "assets/Pasted image 20230425133208.png",
-    "assets/Pasted image 20230425130043.png",
-    "assets/Pasted image 20230425124522.png",
     "Untitled.canvas"
   ]
 }

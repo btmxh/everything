@@ -5,7 +5,7 @@
 		- B: objective, aim, etc. -> output
 		- $\to$: the thing we need to find/do -> program
 	- to solve a problem, one is given the input and output, tasked to determine how to transform A in a finite amt of steps into B
-	- one uses [[computer]]s to solve [[algo#problems|problems]] via [[program]]s
+	- one uses [[computer]]s to solve [[it/intro/algo/algo#problems|problems]] via [[program]]s
 => [[program]]: encoded algorithm as macine lang
 
 > computers: can't think, not intelligent, sentient, etc.
