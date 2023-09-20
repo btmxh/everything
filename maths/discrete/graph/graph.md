@@ -113,4 +113,74 @@ then $V_{1}=\{ v', 2|d(v') \}$, $V_{2}=\{ v', 2\not{|} d(v') \}$
 
 **theorem**: $G$ planar iff it does not have $K_{3,3}$ or $K_{5}$ homomorphic subgraph
 
+**proof**
+from https://math.uchicago.edu/~may/REU2017/REUPapers/Xu,Yifan.pdf
+1. planar embeddings and duals
+- a planar embedding/plane graph of $G$ is a diagram of $G$, so it not only has the same vertices and edges (up to isomorphism), but also defined faces: regions of the plane that was split by edges (in the set $F(G^{p})$)
+- the dual of the plane graph $G$ is a graph $G^{*}$ with
+	- vertices $V(G^{*})=F(G)$
+	- $v_{1}v_{2}\in E(G^{*})$ if faces $v_{1}$ and $v_{2}$ shares edge on $G$
+- let $\deg(f)$ be the num of edges (bridges are counted twice because they touched at two sides) of $f$, then
+	- $\deg_{G}(f)=\deg_{G^{*}}(f))$
+		- if $e$ is a bridge, than $e$ is counted twice in LHS (definition) and twice in RHS ($e=ff$ is a "self-edge" or sth)
+		- otherwise, it's trivial to see things are counted once in both LHS and RHS
+	- $\sum_{f\in F(G)}\deg(f)=\sum_{f\in V(G^{*})} \deg(f)=2e(G^{*})=2e(G)$
+2. euler formula: $v-e+f=2$
+>corollary: $e\leq 3v-6$ for $v\geq 3$
+>consider face $f\in F(G)$, then either
+>- $f$ bounded by a cycle (and/or some other edges), then $\deg(f)\geq 3$
+>- $f$ does not touch any cycle, then
+>	- take 2 bridges of $f$, then $\deg(f)\geq 4$
+>	- if there is only $\leq 1$ bridges, then $f$ must touch a cycle => contradict
+>=> $\deg(f)\geq 3$ for all faces $f$, then we have $2e=\sum\deg(f)\geq 3f$, and $v-e+f=2\leq v-e+\frac{2e}{3}=v-\frac{e}{3}$ => $e\leq 3v-6$
+- using the formula for
+	- $K_{5}$ with $v=5$, $e=10 > 3\cdot 5 - 6=9$
+	- $K_{3,3}$ with $v=6,e=9=3\cdot 6 -6$
+		- $K_{3,3}$ bipartite, so it has no odd cycles, then $\deg(f)\geq 4$ for all faces $f$
+		- then applying the same logic, $2e\geq 4f$ and $v-e+f=2\geq v-e+\frac{e}{2}=v-\frac{e}{2}$
+		- => $9=e\leq 2(v-2)=8$, invalid
+		- we can generalize this result to $e\leq 2v-4$ on every bipartite planar graphs
+3.
+- it's trivial to see that every subgraph of a planar graph is another planar graph
+- define a subdivision along an edge $e$ of graph $G$ to be the replacing of $e$ as a path of length 2 (adding a vertex between the two endpoints), which make another graph $G'$, it's trivial to see that $G$ is planar iff $G'$ is planar (we are only putting a "dot" to mark a vertex while subdividing)
+4. theorem strats
+	1. prove if minimal nonplanar (have no nonplanar proper subgraph) graphs without subdivision of $K_{5}$ or $K_{3,3}$ as subgraphs did exist, then they'd be $3$-connected and simple
+	2. prove every $3$-connected graph with no subdiv of $K_{5}$ or $K_{3,3}$ is planar
+5. prove 4.1.
+- every min. nonplanar graph is 2-con
+	- 1-con: assuming not connected, then it will have multiple components, one of the components would be nonplanar so invalid
+	- 2-con: assuming $v\in V$ s.t. $H=G\setminus_{V}\{ v \}$ is disconnected, then let 2 of the components of $H$ be $H_{i}$'s, then $H_{i}\cup_{V}\{ v \}$'s are all planar, now one can "spread out" the $H$'ses to make sure stuff don't overlap
+- a graph with fewest edges possible among all nonplanars with no subdivs of $K_{5}$ or $K_{3,3}$ is 3-con
+	- $G$ is min.nonplanar, so it's 2-con
+	- 3-con:
+		- we cut the two vertices $u,v$ just like above
+		- let $M_{i}=H_{i} \cup_{V}\{ u,v \} \cup_{E}\{ uv \}$, where $H_{i}$ are the components of the cut graph
+		- assuming all $M_{i}$'s are planar, then one can "merge" the planar embeddings? and get $G\cup_{E}\{ uv \}$ as a planar, and since $G$ subgraph that, it's planar too, invalid
+		- if $M_{i}$ nonplanar, then it must contain subdivs of $K_{5}$ or $K_{3,3}$, and $uv\notin E(G)$ ($uv$ make that subdiv a reality)
+		- now consider another piece $K=M_{j}\setminus_{E}\{ uv \}$ and because it's connected, one can replace $uv$ in $M_{i}$ as the path from $u$ to $v$ in $K$ and create a planar for $K\cup M_{i} \subset G$, and now $G$ have a subdiv, invalid
+6. preparation for 4.2
+whitney: $G$ with $|V|\geq 3$ is 2con iff for all $u,v\in V$ there are two internally disjointed paths between them
+- if two path, then removing $w$
+- if 2con
+	- let $uPv$ be the shortest path without IDPs
+	- if $|P|=0$, then ez
+	- if $P=P_{1}w$, then $uP_{1}w$ is shorter than $uPv$, which means there is $P_{2}$ disjoint with $P_{1}$ s.t. $uP_{2}w$ is a path
+	- then remove $w$ one get another path $uQv$
+	- this means that $Q\cap (P_{1}\cup P_{2})$ and let $z$ be the closest to $v$ such intersection wrt $uQv$, wlog assuming $v\in P_{1}$, let $Q_{1}$ be the path from $z$ to $v$
+	- then there are two paths $uP_{1}zQ_{1}v$ and $uP_{2}wv$, one can trivially check whether the two paths are disjoint or not
+- if 2paths, removing one vertex can at most affect a path so qed
 
+lemma: $G$ 3con then $H=G\setminus_{E}\{ e \}$ is 2con
+let $a,b\in V$ we prove that there is a cycle containing $a$ and $b$ in $H$ (because above), also let $e=uv$
+- $a=u,b=v$ then
+	- $\deg(u),\deg(v)\geq 3$
+	- let $u_{1}',u_{2}'$ be neighbors of $u$, and $v_{1}',v_{2}'$... ($u_{i}'\neq v,v_{i}'\neq u$)
+	- remove $u,v$ => there exist paths $u_{i}'P_{i}v_{i}'$ => $uu_{1}'P_{1}v_{1}'vv_{2}'P_{2}u_{2}'u$ is a cycle
+- $a,b \neq u,v$ then
+	- remove $u,v$ then we have a path $aPb$
+	- remove $b,v$ then we have path $aP_{1}u$
+	- remove $a,v$ then we have path $uP_{2}b$
+	- => cycle: $aP_{1}uP_{2}bPa$
+- $a=u,b\neq v$
+	- cycle: $uP_{1}bP_{2}cP_{3}u$
+todo...

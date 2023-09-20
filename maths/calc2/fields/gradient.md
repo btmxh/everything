@@ -1,4 +1,4 @@
-for [[field#^55c459|scalar fields]], the [[jacobian]] is a row vector => one can take its transpose to get the column (which is standard) vector => it's called the [[gradient]]
+for [[field#^55c459|scalar fields]], the [[jacobian]] is a row vector => one can take its transpose to get the column (which is standard) vector => it's called the [[maths/calc2/fields/gradient]]
 $$
 	\boxed{\nabla f(x_{0})=f'(x_{0})^{T}}
 $$

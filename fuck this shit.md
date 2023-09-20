@@ -1,0 +1,60 @@
+- nn
+	- tu ban thua
+	- ht thuoc dia
+	- 
+- dn
+	- la dau tu 4b sang cac nc ngoai
+	- tren co so sx + th gttd o nn
+	- phuong tien boc lot gttd o nn
+	- != xkhh do chi th
+- ht
+	- cahc thuc dau tu
+		- truc tiep: ntb vua dau tu vua truc tiep th gttd fdi
+		- gian tiep
+			- tai tro oda
+			- cho vay tin dung luong lai suat
+			- dau tu ck nuoc ngoai
+	- ht hoat dong
+		- chi nhanh cty
+		- hoat dong tin dung tai chinh bank
+		- chuyen giao cn
+- bhm
+	- xh dong von dau tu giua cac nc lon
+		- khkt ptr
+		- vuot qua rao can c/s qua 3rd party
+	- ctri: nuoc lon chi phoi nen kt nuoc nho => chi phoi cac mat khac
+		- ap dat thuc dan bi thay bang hop tac song phg cung co loi
+		- chu the xktb ngay cang nhieu, vai tro cong ty xqg ngay cang lon, xh cac chu the moi o cac nc chau a ptr
+		- hinh thuc xktb da dang xen voi xkhh
+
+
+- nn
+	- mth
+		- tcdq tren tg => muon banh truong anh huong => muon bao ho tu nha nuoc
+		- tcdq vs cong nhan + xh: cang gay gat => can mot thiet che xh de dieu hoa mth: nn
+		- mth noi tai => khkt theo chu ky => can vai tro kt cua nn ve so huu va co che dieu tiet
+		- khkt ptr => nhieu nganh nghe moi tu nhan ko muon/ko the lam => nn phai tham gia vao kt
+- kn
+	- la su ket hop suc manh cua tcdq + nha nuoc tu san => tao thanh thiet che, the che thong nhat
+	- => can thiep sau vao cac qtr kt-xh nham phuc vu loi ich cac tcdq, dieu hoa mth xh cuu nguy cho cntb
+- ht
+	- ket hop ve nhan su
+		- ntb => chinh khach: tcdq thong qua dang phai tu san cu nguoi tham gia bmnn
+		- chinh khach => ntb
+	- ket hop ve so huu
+		- dau tu ngan sach vao tcdq
+			- ho tro tcdq gap kho khan
+			- tao hop dong, goi thau cho tcdq khai thac
+		- ban co phan trong tc, dn nn cho ntb
+			- chia se loi nhuan tu thanh qua dau tu cua nn
+			- chia se thanh tuu rnd
+		- su dung quyen luc nn: bao luc, cuong buc, sieu kt, danh thue, pl de dieu khien cac qhkt
+- cntb
+	- thanh tuu
+		- chuyen nen sx nho => nen sx lon, hien dai
+		- ptr llsx, xh hoa sx
+		- nen van minh cn => hau cn
+	- han che
+		- muc dich phuc vu loi ich thieu so gcts
+		- gay ctranh, xung dot tren tg
+		- phan hoa giau ngheo ngay cang sau sac

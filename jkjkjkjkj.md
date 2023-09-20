@@ -1,0 +1,27 @@
+- kl
+	- tt
+		- nen sx nho => lon hien dai: do ql tich luy cho phep tap trung 1 luong von lon...
+		- thuc day su ptr lls[]()x do canh tranh
+		- xh hoa sx, thuc day nen kttt, do nhu cau tim kiem thi truong moi + tinh ko bi gioi han cua tht'
+	- hc
+		- pvu loi ich cua thieu so gioi ts, gioi tai phiet
+		- an ninh ctranh do canh tranh
+		- van de xh bat binh dang phan biet..., moi truong do ko nam trong interests cua ntb
+- nn
+	- khkt12
+	- ldtg
+	- mthgc
+- kn
+	- su ket hop suc manh cua tcdq+nnts thiet che the che thong nhat
+	- moi mat pvli, dieu hanh
+- ht
+	- sh
+		- nn rot ngan sach cho tcdq
+			- ho tro tcdq gap kk
+			- hop dong, goi von
+		- nn co phan hoa dnnn cho tcdq an
+			- chia se p
+			- chia se thanh tuu rnd
+	- ns
+		- ckntb
+		- ntbck
