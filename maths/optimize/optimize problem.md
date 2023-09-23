@@ -3,7 +3,7 @@
 $f$: objective function (obj fn)
 $D$: feasible set/constrained set: set of all acceptable solutions
 
-global optimal sol:
+**global optimal sol** (GOS):
 - $x^{0}$ optimal iff $f(x^{0})\leq f(x)$ for all $x\in D$
 - $x^{0}$ strictly optimal iff above equality only hold iff $x=x^{0}$
 
@@ -11,7 +11,7 @@ if $D$ is a topological space, then one have the concepts of neighborhoods, open
 >we will only consider $D\subset \mathbb{R}^{n}$ in this subject
 
 then:
-locally optimal sol/local optimizer:
+**locally optimal sol** (LOS):
 - $x^{0}$ locally optimal iff $f(x^{0})\leq f(x)$ for all $x\in D \cap N$ for some neighborhood $N$ of $x^{0}$ (i.e. some open set containing $x^{0}$)
 - $x^{0}$ strictly locally optimal iff equality only holds iff $x^{0}=x$
 

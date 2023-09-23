@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/optimize/house pricing.md",
+                "file": "maths/optimize/fresher.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/stdstats/random/random event.md",
+                "file": "maths/optimize/optimize problem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0297105cb2edebc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/optimize/linear/linear programming.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5fe2c0416cfd2a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/optimize/linear/simplex method.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -61,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"moment of inertia\"",
+                "query": "conic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "maths/stdstats/random/random event.md",
+                "file": "maths/optimize/linear/simplex method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,22 +152,36 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "e0f182dae53e3670",
+  "active": "f5fe2c0416cfd2a5",
   "lastOpenFiles": [
-    "maths/stdstats/random/random.md",
-    "maths/stdstats/random/random event.md",
-    "maths/stdstats/Untitled.md",
-    "maths/stdstats/random",
+    "assets/Pasted image 20230923072548.png",
     "maths/optimize/linear/simplex method.md",
-    "maths/stdstats",
-    "maths/optimize/fresher.md",
-    "maths/optimize/house pricing.md",
-    "maths/optimize/gradient descent.md",
-    "maths/optimize/optimize problem.md",
-    "maths/geometric algebra.md",
     "maths/optimize/linear/linear programming.md",
+    "Untitled 24.md",
+    "maths/optimize/optimize problem.md",
+    "maths/optimize/fresher.md",
+    "maths/optimize/convex/convex fn.md",
+    "electric field of circular wire.md",
+    "assets/Pasted image 20230921093755.png",
+    "maths/optimize/convex/convex.md",
+    "maths/optimize/convex/convex polytope.md",
+    "maths/optimize/convex/cone.md",
+    "maths/optimize/convex/sublinear.md",
+    "maths/optimize/convex/recession dir.md",
+    "maths/optimize/convex/linear.md",
+    "maths/optimize/convex/affine.md",
     "maths/optimize/linear/Fourier–Motzkin elimination.md",
     "maths/optimize/convex anal.md",
+    "maths/optimize/gradient descent.md",
+    "maths/optimize/house pricing.md",
+    "maths/stdstats/random/probability.md",
+    "maths/optimize/convex",
+    "maths/stdstats/random/random event.md",
+    "maths/stdstats/random/random.md",
+    "maths/stdstats/Untitled.md",
+    "maths/stdstats/random",
+    "maths/stdstats",
+    "maths/geometric algebra.md",
     "assets/Pasted image 20230919114439.png",
     "maths/optimize/linear",
     "physics/electrostatics/culong.md",
@@ -151,31 +189,17 @@
     "assets/Pasted image 20230917203514.png",
     "maths/discrete/graph/graph.md",
     "maths/optimize",
-    "gt2.md",
-    "maths/discrete/optimize/tsp.md",
     "maths/discrete/graph",
     "assets/Pasted image 20230906100501.png",
     "assets/Pasted image 20230906100321.png",
     "assets/Pasted image 20230906095749.png",
-    "maths/discrete/optimize/bnb.md",
-    "maths/discrete/optimize/knapsack.md",
-    "maths/discrete/enum/algo.md",
-    "maths/discrete/existence/dirichlet.md",
     "maths/discrete/optimize",
-    "maths/discrete/existence/ramsey.md",
     "maths/discrete/enum",
-    "maths/discrete/count/problems.md",
     "maths/discrete/existence",
-    "maths/discrete/count/recursive.md",
-    "maths/discrete/count/fns.md",
-    "maths/stats/dist/cont/exp.md",
-    "maths/stats/dist/cont/uniform.md",
-    "maths/discrete/count",
     "assets/Pasted image 20230708120140.png",
     "assets/Pasted image 20230703181018.png",
     "assets/Pasted image 20230703181004.png",
     "assets/Pasted image 20230703180926.png",
-    "assets/Pasted image 20230614145248.png",
     "Untitled.canvas"
   ]
 }
