@@ -152,7 +152,7 @@ Since $v_{k}\geq 0$, $x(t)\geq 0$ for all $t\geq 0$ and $Ax(t)=b$, $f(x(t))\to-\
 $\hspace{0pt}4$. The second case
 Similarly, we find the $t$ max $s$.$t$. $x(t)\geq 0$. This can be simply 
 $x(t)^{j}=x_{0}^{j}+tv_{k}^{j}=0$ t=
-calculated as $t=\min \left\{  \frac{x^{j}_{0}}{Z^{\sigma(j)}_{k}} ,j \in J',  Z^{\sigma(j)}_{k} > 0  \right\}$
+calculated as $t=\min \left\{  \frac{x^{j}_{0}}{Z^{\sigma(j)}_{k}} ,j \in J,  Z^{\sigma(j)}_{k} > 0  \right\}$
 Finally, we need to prove $x=x(t)$ is an extreme solution. This can be done via looking at $x$'s basic and non-basic components:
 $$
 x^{j}=\begin{cases}
@@ -183,7 +183,7 @@ t\delta(j-k),  & \text{otherwise}
 \end{cases}
 $$
 **Notes:** Which $k$ to choose in step $5$ when there are multiple $k$'s
-- We have $f(x(t))=f(x_{0})-t\Delta_{k}$, $t$ depends on $k$, so the most natural way to maximize the decreased amount $t\Delta_{k}$ is to let $\Delta_{k}$ minimizes, so one take $k=\operatorname{argmin}\{\Delta_{k}>0, k \in J'(x_{0})\}$
+- We have $f(x(t))=f(x_{0})-t\Delta_{k}$, $t$ depends on $k$, so the most natural way to maximize the decreased amount $t\Delta_{k}$ is to let $\Delta_{k}$ minimizes, so one take $k=\operatorname{argmax}\{\Delta_{k}>0, k \in J'(x_{0})\}$
 - We also may as well prioritize $k$-es that could terminate the algorithm ($Z_{k}\leq 0$)
 
 ### Caching
@@ -353,3 +353,27 @@ Now if the second assertion fails, or if $\lambda A\geq 0$ then $\lambda c\geq 0
 Its dual: max $0x, Ax= c, x\geq 0$ must either be unbounded (not true) or has some solutions, $\blacksquare$
 
 ## Simplex tableau
+Before computers, people need a tool to help them do simplex algorithm more efficiently: the simplex tableau.
+### One-phase
+Here's a reminder of what's the algorithm about:
+- Start at $x_{0}$, let $J=\{ j, x_{j} \neq 0 \}$, $Z=A_{J}^{-1}A, \Delta=c_{J}Z-c$
+	- Exit early or halt depending on $\Delta$ and $Z$
+- Prepare for next phase
+	- Find $k = \operatorname{argmax}\{ \Delta_{k}>0 \}$, $r=\text{argmin} \left\{  \frac{x^{j}_{0}}{Z^{\sigma(j)}_{k}}, Z^{\sigma(j)}_{k}>0  \right\}$
+	- Update 
+		- $t=\frac{x^{r}_{0}}{Z^{\sigma(r)}_{k}}$
+		- $v_{k}^{j \in J}=-Z^{\sigma(j)}_{k}$, $v_{k}^{j \in J'}=\delta(j-k)$
+		- $x:=x+tv_{k}$
+		- $J:=J\setminus \{ r \} \cup \{ k \}$
+		- $\Delta :=\Delta-\frac{Z^{\sigma(r)}}{Z^{\sigma(r)}_{k}}\Delta_{k}$
+		- $Z^{\sigma(j\neq k)}:=Z^{\sigma(j)}-\frac{Z^{\sigma(r)}}{Z^{\sigma(r)}_{k}}Z^{\sigma(j)}_{k}$, $Z^{\sigma(k)}:=\frac{Z^{\sigma(r)}}{Z_{k}^{\sigma(r)}}$
+	- Repeat from step 1.
+
+Here's the tableau form:
+![[Pasted image 20230923111509.png]]
+
+And here's it in action:
+![[Pasted image 20230923111538.png]]
+(for the problem
+![[Pasted image 20230923111610.png]])
+
