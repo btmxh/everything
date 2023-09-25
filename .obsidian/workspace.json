@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/optimize/linear/linear programming.md",
+                "file": "maths/optimize/nonlinear/descent.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,21 +54,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "854e26d76ed43a1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 25.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -114,11 +102,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f1fb825814246907",
@@ -134,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 25.md",
+                "file": "maths/optimize/nonlinear/descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,21 +154,25 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "854e26d76ed43a1b",
+  "active": "e0d666934218be7d",
   "lastOpenFiles": [
+    "maths/optimize/nonlinear/convrate.md",
+    "maths/optimize/nonlinear/descent.md",
+    "maths/optimize/nonlinear/noconstraints.md",
+    "maths/optimize/convex/linear.md",
+    "maths/optimize/linear/linear programming.md",
+    "maths/optimize/optimize problem.md",
+    "Untitled 26.md",
+    "Untitled 25.md",
     "assets/Pasted image 20230924193437.png",
     "assets/Pasted image 20230924193407.png",
-    "maths/optimize/nonlinear/noconstraints.md",
-    "Untitled 25.md",
     "maths/optimize/linear/simplex method.md",
     "maths/optimize/nonlinear",
     "assets/Pasted image 20230923111610.png",
     "assets/Pasted image 20230923111538.png",
     "assets/Pasted image 20230923111509.png",
     "assets/Pasted image 20230923072548.png",
-    "maths/optimize/linear/linear programming.md",
     "Untitled 24.md",
-    "maths/optimize/optimize problem.md",
     "maths/optimize/fresher.md",
     "maths/optimize/convex/convex fn.md",
     "electric field of circular wire.md",
@@ -188,7 +182,6 @@
     "maths/optimize/convex/cone.md",
     "maths/optimize/convex/sublinear.md",
     "maths/optimize/convex/recession dir.md",
-    "maths/optimize/convex/linear.md",
     "maths/optimize/convex/affine.md",
     "maths/optimize/linear/Fourier–Motzkin elimination.md",
     "maths/optimize/convex anal.md",
@@ -198,10 +191,8 @@
     "maths/optimize/convex",
     "maths/stdstats/random/random event.md",
     "maths/stdstats/random/random.md",
-    "maths/stdstats/Untitled.md",
     "maths/stdstats/random",
     "maths/stdstats",
-    "maths/geometric algebra.md",
     "assets/Pasted image 20230919114439.png",
     "maths/optimize/linear",
     "physics/electrostatics",
@@ -209,7 +200,6 @@
     "maths/optimize",
     "maths/discrete/graph",
     "assets/Pasted image 20230906100501.png",
-    "assets/Pasted image 20230906100321.png",
     "maths/discrete/optimize",
     "maths/discrete/enum",
     "Untitled.canvas"

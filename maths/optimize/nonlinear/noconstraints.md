@@ -24,7 +24,4 @@ $f(x_{0}+\Delta x)=f(x_{0})+f'(x_{0})\Delta x+\frac{\Delta x^{T}\nabla^{2}f(x_{0
 Or: $f(x_{0}+\Delta x)-f(x_{0})=\frac{1}{2}\Delta x^{T}\nabla^{2}f(x_{0}+t\Delta x)\Delta x$. 
 - If $x_{0}$ is LOS, then we can let $\Delta x=\theta\vec{d}$  and RHS is now $\frac{1}{2}\theta^{2}\vec{d}^{T}\nabla^{2}f(x_{0}+t\theta \vec{d})\vec{d}$
 	- This thing is non-negative for all $\theta$, hence $\vec{d}^{T}\nabla^{2}f(x_{0}+t\theta \vec{d})\vec{d}$ is non-negative for all $\theta\neq 0$. Because continuity, one can remove this condition and substitute $\theta=0$ and get $\vec{d}^{T}\nabla^{2}f(x_{0})\vec{d}$ is non-negative for all direction $d$, $\blacksquare$
-- If $\nabla^{2}f(x_{0})$ is positive-definite, then one can prove that rewrite RHS as $\frac{1}{2}\theta^{2}\vec{d}^{T}\nabla^{2}f(x_{0}+t\theta \vec{d})\vec{d}$
-	- 
-- If there is some $\Delta x$ $s$.$t$. the RHS is negative, consider the smooth function $g(t)=\Delta x^{T}\nabla^{2}f(x_{0}+t\Delta x)\Delta x$, with $g(t)<0$ and $g(0)\geq 0$ (or $g(0)>0$ in the positive definite case).
-	- If $g(0)>0$, then there is $\delta$ such that $g(t)>0$ for all $|t|<\varepsilon$. 
+- If $\nabla^{2}f(x_{0})$ is positive-definite and $f'(x_{0})=0$, then one can rewrite RHS as $\frac{1}{2}\theta^{2}\vec{d}^{T}\nabla^{2}f(x_{0}+t\theta \vec{d})\vec{d}$, which is positive for all non-zero $\theta$ and $\vec{d}$. Hence, $f(x_{0}+t\vec{d}) > f(x_{0})$, for all $t\neq 0$ and $\vec{d}\neq 0$, which means that $x_{0}$ is a SGOS.
